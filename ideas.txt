@@ -1,9 +1,8 @@
 O player ser o computador:
 
 - como vc dorme?
-- o jeito que eu durmo é atraves do bota de desligar
+- o jeito que eu durmo é atraves do botao de desligar
 - oq é um botao de desligar?
-- é cu de curioso
 //////////////////
 - Crush: Eu vou dormir, vc vai também?
 - O que é dormir?
@@ -27,3 +26,23 @@ IDEIAS DE CENÁRIO GERAL
 * Praia
 
 * Caseiro
+
+Cada um dos quatro elementos físicos tem que ter um administrador, todos eles juntos são o sistema operacional.
+
+Os Quatro ADM são:
+- Sistema de Arquivos (Memória Secundaria -- entra a partir da 3/4 fase);
+- Escalonador de Processos (Processador);
+- Gerencia de Memória (RAM);
+- Software de Entrada e Saída; e
+- Sistema de Segurança (5 adm q nn é físico)
+
+As primeiras duas fases ignoram os administradores:
+A primeira Fase: Pois estão desligados (Podemos relacionar com nn haver amor nem interesse?)
+A segunda Fase: ????
+
+ANOTAÇÃO PRODUTIVA DE HOJE:
+
+CENA: O computador apitando, e o ser humano dormindo, o computador permanece apitando até vc acordar,
+e falar para ele parar de apitar e ver o que é. Após ver, o computador/ IA pergunta pq vc demorou, e
+vc explica que vc estava dormindo, o computador nn entende, e vc diz que é como se, se fosse um
+computador ele estivesse desligado.
