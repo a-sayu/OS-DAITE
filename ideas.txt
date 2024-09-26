@@ -19,14 +19,6 @@ IDEIAS DE CENÁRIO GERAL
 
 * Pós Apocalíptico
 
-* Faculdade
-
-* Espacial
-
-* Praia
-
-* Caseiro
-
 Cada um dos quatro elementos físicos tem que ter um administrador, todos eles juntos são o sistema operacional.
 
 Os Quatro ADM são:
