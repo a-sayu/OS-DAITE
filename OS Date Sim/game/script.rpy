@@ -3,31 +3,52 @@
 # Declare characters used by this game. The color argument colorizes the
 # name of the character.
 
-define e = Character("Eileen")
+define computer = Character("Computador")
 
+define player = Character("Jogador")
+
+define pensamento = Character("jogador", what_suffix='"', what_prefix='"')
 
 # The game starts here.
 
+# scene "name of the file without quotes and without .png"
+# show "name of the file without quotes and without .png"
+# char variable "String in quotes"
+
 label start:
 
-    # Show a background. This uses a placeholder by default, but you can
-    # add a file (named either "bg room.png" or "bg room.jpg") to the
-    # images directory to show it.
+    scene blackScreen
 
-    scene bg room
+    computer "BEEP BEEP BEEP BEEP... (* um bípe contínuo toca)"
 
-    # This shows a character sprite. A placeholder is used, but you can
-    # replace it by adding a file named "eileen happy.png" to the images
-    # directory.
+    scene computer room
 
-    show eileen happy
+    pensamento "Você sente seu estômago revirar com o último almoço que teve."
+    pensamento "Você apenas quer dormir mais um pouco."
 
-    # These display lines of dialogue.
+    computer "BEEP BEEP BEEP BEEP... (* um bípe contínuo toca)"
 
-    e "You've created a new Ren'Py game."
+    pensamento "Você se levanta, se deparando com o computador antigo que você tinha tentado ligar antes de dormir."
 
-    e "Once you add a story, pictures, and music, you can release it to the world!"
+    menu first_menu:
+        "O que eu devo fazer?"
+        "Ler o aviso.":
+            pensamento "Você vê diversos e-mails relacionados à empresa D.AI.TE"
 
-    # This ends the game.
+        "Forçadamente desligar o computador.":
+            jump forced_turn_off
+
+        "Proceder sem ler.":
+            "..."
+            jump first_menu
+
+    label forced_turn_off:
+    
+
+
+
+
+    
+
 
     return
