@@ -71,7 +71,6 @@ label start:
 
     label continuation1:
         "A tela rapidamente pisca e um circulo branco começa a carregar na tela preta, um som sai e o computador ganhava dois olhos e uma boca simples."
-
         
         $ computerName = renpy.input("Olá! Eu sou seu computador pessoal, como deseja me chamar?", length=32)
 
@@ -83,10 +82,35 @@ label start:
 
         "Você diz, se sentindo incomodado com lembranças não agradáveis."
 
+        computer "Acordar? Não compreendo o que quer dizer, minhas bases de observação estão defeituosas, poderia me dizer o que isso significa?"
 
-
-
+        thoughts "Eu devo realmente explicar isso para uma máquina?"
+        thoughts "Bem, não custa nada..."
     
+    menu second_menu:
+        "O que eu deveria dizer?"
+        "Acordar é como quando um computador precisa ser ligado para iniciar suas operações. Um computador carrega seu sistema operacional da memória secundária assim como uma pessoa acorda verificando seu funcionamento e ações do dia.":
+            "O computador mostra um rosto semelhante ao emoji: 😯"
+            jump continuation2
 
+        "Acordar é levantar da cama depois de uma longa noite de sono. Você dorme por um tempo, descansa e lida com mais um dia.":
+        "Acordar é lidar com um dia horrível como esse. Existiria realmente algum tipo de associação que você entenderia?":
+            "O computador não entendeu o que você quis dizer, novamente ele pergunta."
+            $interest -= 1
+            jump second_menu
 
-    return
+    label continuation2:
+        computer "Certo, vou inserir em minhas bases de observação esse conhecimento."
+
+        player "Tá, mas porque você me acordou?"
+
+        computer "Como novo usuário de [nome] preciso alertar sobre a sua segurança. A empresa D.AI.TE precisa que seus funcionários estejam em segurança junto de seus familiares."
+        computer "O ponto mais próximo de refugiados é em 15 km, usando seu login e senha você conseguiria usar o carro da-"
+
+        player "Funcionário? Acho que voce está confundindo."
+        player "Eu não tenho nada haver com essa empresa."
+
+        computer "Ainda assim, usuário de [nome] precisa estar em segurança!"
+        computer "Apesar de não haver conexão à internet ainda posso acessar a rede interna da D.AI.TE, e certamente ainda há sobreviventes no campo de refugiados à 15 km, caso possua um celular posso fornecer um aplicativo com minhas capacidades reduzidas para fornecer acesso ao campo."
+
+return
