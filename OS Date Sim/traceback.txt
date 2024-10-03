@@ -1,30 +1,28 @@
 ﻿I'm sorry, but an uncaught exception occurred.
 
 While running game code:
-  File "game/script.rpy", line 20, in script
-    scene black screen
-Exception: Image 'black' does not accept attributes 'screen'.
+  File "game/script.rpy", line 78, in script
+    $ computerName = renpy.input("Olá! Eu sou seu computador pessoal, como deseja me chamar?", length=32, screen="{computerName}")
+  File "game/script.rpy", line 78, in <module>
+    $ computerName = renpy.input("Olá! Eu sou seu computador pessoal, como deseja me chamar?", length=32, screen="{computerName}")
+Exception: The '{computerName}' screen does not exist.
 
 -- Full Traceback ------------------------------------------------------------
 
 Full traceback:
-  File "game/script.rpy", line 20, in script
-    scene black screen
-  File "C:\Users\MIGUEL CAMPOS\Downloads\renpy-8.3.2-sdk\renpy\ast.py", line 1245, in execute
-    show_imspec(self.imspec, atl=getattr(self, "atl", None))
-  File "C:\Users\MIGUEL CAMPOS\Downloads\renpy-8.3.2-sdk\renpy\ast.py", line 1074, in show_imspec
-    renpy.config.show(name,
-  File "C:\Users\MIGUEL CAMPOS\Downloads\renpy-8.3.2-sdk\renpy\exports\displayexports.py", line 477, in show
-    if not base.find_target() and renpy.config.missing_show:
-  File "C:\Users\MIGUEL CAMPOS\Downloads\renpy-8.3.2-sdk\renpy\display\image.py", line 421, in find_target
-    self.target = target._duplicate(a)
-  File "C:\Users\MIGUEL CAMPOS\Downloads\renpy-8.3.2-sdk\renpy\display\displayable.py", line 249, in _duplicate
-    args.extraneous()
-  File "C:\Users\MIGUEL CAMPOS\Downloads\renpy-8.3.2-sdk\renpy\display\displayable.py", line 109, in extraneous
-    raise Exception("Image '{}' does not accept attributes '{}'.".format(
-Exception: Image 'black' does not accept attributes 'screen'.
+  File "game/script.rpy", line 78, in script
+    $ computerName = renpy.input("Olá! Eu sou seu computador pessoal, como deseja me chamar?", length=32, screen="{computerName}")
+  File "C:\Users\MIGUEL CAMPOS\Downloads\renpy-8.3.2-sdk\renpy\ast.py", line 821, in execute
+    renpy.python.py_exec_bytecode(self.code.bytecode, self.hide, store=self.store)
+  File "C:\Users\MIGUEL CAMPOS\Downloads\renpy-8.3.2-sdk\renpy\python.py", line 1178, in py_exec_bytecode
+    exec(bytecode, globals, locals)
+  File "game/script.rpy", line 78, in <module>
+    $ computerName = renpy.input("Olá! Eu sou seu computador pessoal, como deseja me chamar?", length=32, screen="{computerName}")
+  File "C:\Users\MIGUEL CAMPOS\Downloads\renpy-8.3.2-sdk\renpy\exports\inputexports.py", line 153, in input
+    raise Exception("The '{}' screen does not exist.".format(screen))
+Exception: The '{computerName}' screen does not exist.
 
 Windows-10-10.0.19041 AMD64
 Ren'Py 8.3.2.24090902
 OS Date Sim 1.0
-Wed Oct  2 23:13:50 2024
+Thu Oct  3 12:23:39 2024
