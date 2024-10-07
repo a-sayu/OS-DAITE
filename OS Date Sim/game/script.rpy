@@ -25,34 +25,31 @@ label start:
 
     scene blackScreen
 
-    computer "BEEP BEEP BEEP BEEP... (* um bípe contínuo toca)"
+    "BEEP BEEP BEEP BEEP... (* um bípe contínuo toca)"
 
     scene computer room
 
     "Você sente seu estômago revirar com o último almoço que teve."
-    thoughts "Você apenas quer dormir mais um pouco."
+    "Você apenas quer dormir mais um pouco."
 
-    computer "BEEP BEEP BEEP BEEP... (* um bípe contínuo toca)"
+    "BEEP BEEP BEEP BEEP... (* um bípe contínuo toca)"
 
-    thoughts "Você se levanta, se deparando com um computador antigo, que esta no canto do quarto, apitando."
+    "Você se levanta, se deparando com um computador antigo, que esta no canto do quarto, apitando."
 
     menu first_menu:
         "O que eu devo fazer?"
         "Ler o aviso.":
             "Você vê diversos e-mails relacionados à empresa D.AI.TE"
-            "+1 ponto de Interesse."
             $ interest += 1
             jump warning
 
         "Forçadamente desligar o computador.":
             "Você remove o PC da tomada"
-            "-2 pontos de Interesse."
             $ interest -= 2
             jump forced_turn_off
 
         "Proceder sem ler.":
             "Você fecha o Pop-up"
-            "+1 ponto de Interesse."
             $ interest += 1
             jump pop_up_closed
 
@@ -63,10 +60,10 @@ label start:
 
     label forced_turn_off:
         "Você dorme por mais um dia"
+        "Na manhã do dia seguinte, você se depara com o computador ligado novamente"
         jump continuation1
 
     label pop_up_closed:
-        "Nada de mais acontece"
         jump continuation1
 
     label continuation1:
@@ -91,7 +88,7 @@ label start:
         
         "O que eu deveria dizer?"
         "Acordar é como quando um computador precisa ser ligado para iniciar suas operações. Um computador carrega seu sistema operacional da memória secundária assim como uma pessoa acorda verificando seu funcionamento e ações do dia.":
-            "O computador mostra um rosto semelhante ao emoji: 😯"
+            computer "😯"
             jump continuation2
 
         "Acordar é levantar da cama depois de uma longa noite de sono. Você dorme por um tempo, descansa e lida com mais um dia.":
