@@ -1,3 +1,5 @@
-OS Date Sim/log.txt
-OS Date Sim/errors.txt
-OS Date Sim/game/saves/*
+/OS Date Sim/log.txt
+/OS Date Sim/errors.txt
+/OS Date Sim/traceback.txt
+/OS Date Sim/game/saves/*
+/OS Date Sim/game/cache/*
