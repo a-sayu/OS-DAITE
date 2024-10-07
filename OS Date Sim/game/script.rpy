@@ -5,11 +5,12 @@
 
 
 default computerInterest = 0
-default playerName = "Jogador"
+default playerName = "?"
 default computerName = "Computador"
+image computer = "computer.png"
+image bg-blackscreen = "#000"
 
-
-define computer = Character("[computerName]")
+define computer = Character("[computerName]", image="computer")
 
 define player = Character("[playerName]")
 
@@ -22,6 +23,39 @@ define thoughts = Character("[playerName]", what_suffix='"', what_prefix='"')
 # char variable "String in quotes"
 
 label start:
+
+    scene exposition
+
+    "O silêncio das ruas era predominante"
+    "O vento corria por sua pele"
+    $ playerName = renpy.input("Você retira do bolso um chaveiro com seu nome: ", length=8)
+    "Um conjunto de chaves de uma casa distante"
+    "Você caminha para o prédio em silêncio, atento aos seus arredores"
+    "Abrindo calmamente a porta, você coloca sua mochila sobre uma mesa de escritório vazia"
+    player "Mais um dia sobre o olhar solitário do vigia"
+    player "O que vamos comer hoje?"
+    "Você diz, enquanto seleciona em sua mochila algum alimento"
+
+    menu food_choice:
+        "Para prosseguir escolha um alimento"
+        "Uma barra de cereal":
+            player "Não está tão ruim..."
+            jump continueExpo
+        "O resto de uma latinha de atum":
+            player "Poderia ser melhor..."
+            jump continueExpo
+        "Uma bolacha velha":
+            player "Pelo menos é doce..."
+            jump continueExpo
+
+    label continueExpo:
+        player "Bem, tenho que ir dormir..."
+        "Antes de ir dormir, você se senta em frente ao computador desligado"
+        player "Aqui tem energia então em algum lugar ainda estão funcionando os geradores de energia"
+        "Você liga o computador"
+        "Na esperança de que pudesse encontrar alguma forma de se comunicar com outros sobreviventes"
+        "O computador parece não ligar"
+        "Você apenas suspira e vai deitar-se no sofá do escritório"
 
     scene blackScreen
 
@@ -72,6 +106,7 @@ label start:
 
         "Você relutantemente dá um nome para o computador, digitando-o."
 
+        show computer
         computer "[computerName] é um bom nome! Prazer em te conhecer, estou equipado com a versão de Inteligência Artificial 8010.256.a2 entretanto não possuo acesso à nenhum conhecimento além das bases mínimas de observação, devido ao grande colapso da huma-"
 
         player "Tá bom tá bom, o que você quer pra me acordar do nada assim?"
