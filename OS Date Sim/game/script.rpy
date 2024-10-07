@@ -8,7 +8,8 @@ default computerInterest = 0
 default playerName = "?"
 default computerName = "Computador"
 image computer = "computer.png"
-image bg-blackscreen = "#000"
+image bg-blackScreen = "#000"
+image bg-compurterRoom = "computerroom.png"
 
 define computer = Character("[computerName]", image="computer")
 
@@ -40,15 +41,15 @@ label start:
         "Para prosseguir escolha um alimento"
         "Uma barra de cereal":
             player "Não está tão ruim..."
-            jump continueExpo
+            jump continue_expo
         "O resto de uma latinha de atum":
             player "Poderia ser melhor..."
-            jump continueExpo
+            jump continue_expo
         "Uma bolacha velha":
             player "Pelo menos é doce..."
-            jump continueExpo
+            jump continue_expo
 
-    label continueExpo:
+    label continue_expo:
         player "Bem, tenho que ir dormir..."
         "Antes de ir dormir, você se senta em frente ao computador desligado"
         player "Aqui tem energia então em algum lugar ainda estão funcionando os geradores de energia"
@@ -57,7 +58,7 @@ label start:
         "O computador parece não ligar"
         "Você apenas suspira e vai deitar-se no sofá do escritório"
 
-    scene blackScreen
+    scene bg-blackScreen
 
     "BEEP BEEP BEEP BEEP... (* um bípe contínuo toca)"
     "Você sente seu estômago revirar com o último almoço que teve."
@@ -67,7 +68,7 @@ label start:
 
     "Você se levanta, se deparando com um computador antigo, que esta no canto do quarto, apitando."
 
-    scene computerRoom
+    scene bg-computerRoom
 
     menu first_menu:
         "O que eu devo fazer?"
@@ -89,17 +90,17 @@ label start:
     label warning:
         "Lendo os e-mails, você encontra o vê um e-mail vermelho de alerta, em que é um alerta de que o mundo foi dominado por Inteligências Artificiais mortíferas e que foi possível através dos esforços de diversos cientistas da computação a correção do código globalmente."
         "Assim como as mais de 90\% de baixas humanas, e que está ocorrendo a busca por sobreviventes em cada continente, pedindo que busquem os pontos de socorro em posições estratégicas."
-        jump continuation1
+        jump continuation_1
 
     label forced_turn_off:
         "Você dorme por mais um dia"
         "Na manhã do dia seguinte, você se depara com o computador ligado novamente"
-        jump continuation1
+        jump continuation_1
 
     label pop_up_closed:
-        jump continuation1
+        jump continuation_1
 
-    label continuation1:
+    label continuation_1:
         "A tela rapidamente pisca e um circulo branco começa a carregar na tela preta, um som sai e o computador ganhava dois olhos e uma boca simples."
         
         $ computerName = renpy.input("Olá! Eu sou seu computador pessoal, como deseja me chamar?", length=32)
