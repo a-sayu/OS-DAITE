@@ -88,12 +88,15 @@ label start:
         thoughts "Bem, não custa nada..."
     
     menu second_menu:
+        
         "O que eu deveria dizer?"
         "Acordar é como quando um computador precisa ser ligado para iniciar suas operações. Um computador carrega seu sistema operacional da memória secundária assim como uma pessoa acorda verificando seu funcionamento e ações do dia.":
             "O computador mostra um rosto semelhante ao emoji: 😯"
             jump continuation2
 
         "Acordar é levantar da cama depois de uma longa noite de sono. Você dorme por um tempo, descansa e lida com mais um dia.":
+            $interest -= 1
+            jump second_menu
         "Acordar é lidar com um dia horrível como esse. Existiria realmente algum tipo de associação que você entenderia?":
             "O computador não entendeu o que você quis dizer, novamente ele pergunta."
             $interest -= 1
