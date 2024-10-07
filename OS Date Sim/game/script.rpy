@@ -3,19 +3,22 @@
 # Declare characters used by this game. The color argument colorizes the
 # name of the character.
 
-
+# Variáveis
 default computerInterest = 0
 default playerName = "?"
 default computerName = "Computador"
+define computer = Character("[computerName]", image="computer")
+define player = Character("[playerName]")
+define thoughts = Character("[playerName]", what_suffix='"', what_prefix='"')
+
+# Imagens
 image computer = "computer.png"
 image bg-blackScreen = "#000"
-image bg-compurterRoom = "computerroom.png"
+image bg-compurterRoom-day-off = "computerRoom-day-off.png"
+image bg-compurterRoom-day-on = "computerRoom-on-day.png"
+image bg-compurterRoom-night-off = "computerRoom-off-night.png"
+image bg-compurterRoom-night-on = "computerRoom-on-day.png"
 
-define computer = Character("[computerName]", image="computer")
-
-define player = Character("[playerName]")
-
-define thoughts = Character("[playerName]", what_suffix='"', what_prefix='"')
 
 # The game starts here.
 
@@ -25,17 +28,17 @@ define thoughts = Character("[playerName]", what_suffix='"', what_prefix='"')
 
 label start:
 
-    scene exposition
-
-    "O silêncio das ruas era predominante"
-    "O vento corria por sua pele"
+    scene bg-desolatedCity
+    "O silêncio das ruas era predominante, o vento corria por sua pele"
     $ playerName = renpy.input("Você retira do bolso um chaveiro com seu nome: ", length=8)
-    "Um conjunto de chaves de uma casa distante"
-    "Você caminha para o prédio em silêncio, atento aos seus arredores"
-    "Abrindo calmamente a porta, você coloca sua mochila sobre uma mesa de escritório vazia"
+    "Um conjunto de chaves de uma casa distante, você caminha para o prédio em silêncio, atento aos seus arredores.
+    \nAbrindo calmamente a porta, você se depara com a sua atual \'casa\'"
+
+    scene bg-computerRoom-night-off
+    "Colocando sua mochila sobre uma mesa de escritório vazia"
     player "Mais um dia sobre o olhar solitário do vigia"
     player "O que vamos comer hoje?"
-    "Você diz, enquanto seleciona em sua mochila algum alimento"
+    "Você se pergunta, enquanto seleciona em sua mochila algum alimento"
 
     menu food_choice:
         "Para prosseguir escolha um alimento"
@@ -61,14 +64,14 @@ label start:
     scene bg-blackScreen
 
     "BEEP BEEP BEEP BEEP... (* um bípe contínuo toca)"
-    "Você sente seu estômago revirar com o último almoço que teve."
+    "Você sente seu estômago roncar com a pequena última refeição que teve."
     "Você apenas quer dormir mais um pouco."
 
     "BEEP BEEP BEEP BEEP... (* um bípe contínuo toca)"
 
+    scene bg-computerRoom-day-on
+    "Você se levanta do sofá, limpando seus olhos"
     "Você se levanta, se deparando com um computador antigo, que esta no canto do quarto, apitando."
-
-    scene bg-computerRoom
 
     menu first_menu:
         "O que eu devo fazer?"
