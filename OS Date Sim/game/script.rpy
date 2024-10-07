@@ -4,7 +4,7 @@
 # name of the character.
 
 
-default interest = 0
+default computerInterest = 0
 default playerName = "Jogador"
 default computerName = "Computador"
 
@@ -26,9 +26,6 @@ label start:
     scene blackScreen
 
     "BEEP BEEP BEEP BEEP... (* um bípe contínuo toca)"
-
-    scene computer room
-
     "Você sente seu estômago revirar com o último almoço que teve."
     "Você apenas quer dormir mais um pouco."
 
@@ -36,21 +33,23 @@ label start:
 
     "Você se levanta, se deparando com um computador antigo, que esta no canto do quarto, apitando."
 
+    scene computerRoom
+
     menu first_menu:
         "O que eu devo fazer?"
         "Ler o aviso.":
             "Você vê diversos e-mails relacionados à empresa D.AI.TE"
-            $ interest += 1
+            $ computerInterest += 1
             jump warning
 
         "Forçadamente desligar o computador.":
             "Você remove o PC da tomada"
-            $ interest -= 2
+            $ computerInterest -= 2
             jump forced_turn_off
 
         "Proceder sem ler.":
             "Você fecha o Pop-up"
-            $ interest += 1
+            $ computerInterest += 1
             jump pop_up_closed
 
     label warning:
@@ -92,11 +91,11 @@ label start:
             jump continuation2
 
         "Acordar é levantar da cama depois de uma longa noite de sono. Você dorme por um tempo, descansa e lida com mais um dia.":
-            $interest -= 1
+            $computerInterest -= 1
             jump second_menu
         "Acordar é lidar com um dia horrível como esse. Existiria realmente algum tipo de associação que você entenderia?":
             "O computador não entendeu o que você quis dizer, novamente ele pergunta."
-            $interest -= 1
+            $computerInterest -= 1
             jump second_menu
 
     label continuation2:
@@ -104,13 +103,13 @@ label start:
 
         player "Tá, mas porque você me acordou?"
 
-        computer "Como novo usuário de [nome] preciso alertar sobre a sua segurança. A empresa D.AI.TE precisa que seus funcionários estejam em segurança junto de seus familiares."
+        computer "Como novo usuário de [computerName] preciso alertar sobre a sua segurança. A empresa D.AI.TE precisa que seus funcionários estejam em segurança junto de seus familiares."
         computer "O ponto mais próximo de refugiados é em 15 km, usando seu login e senha você conseguiria usar o carro da-"
 
         player "Funcionário? Acho que voce está confundindo."
         player "Eu não tenho nada haver com essa empresa."
 
-        computer "Ainda assim, usuário de [nome] precisa estar em segurança!"
+        computer "Ainda assim, usuário de [computerName] precisa estar em segurança!"
         computer "Apesar de não haver conexão à internet ainda posso acessar a rede interna da D.AI.TE, e certamente ainda há sobreviventes no campo de refugiados à 15 km, caso possua um celular posso fornecer um aplicativo com minhas capacidades reduzidas para fornecer acesso ao campo."
 
 return
