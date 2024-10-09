@@ -36,8 +36,8 @@ label start:
 
     scene bg-computerRoom-night-off
     "Colocando sua mochila sobre uma mesa de escritório vazia"
-    player "Mais um dia sobre o olhar solitário do vigia"
-    player "O que vamos comer hoje?"
+    player "Mais um dia sobre o olhar solitário do vigia
+    \nO que vamos comer hoje?"
     "Você se pergunta, enquanto seleciona em sua mochila algum alimento"
 
     menu food_choice:
