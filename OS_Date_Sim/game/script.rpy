@@ -104,6 +104,8 @@ label intro:
         "A tela rapidamente pisca e um circulo branco começa a carregar na tela preta,
         um som sai e o computador ganhava dois olhos e uma boca simples."
 
+        show computer
+
         $ computerName = renpy.input("Olá! Eu sou seu computador pessoal, como deseja me chamar?", length=32)
         
         "Você relutantemente dá um nome para o computador, digitando-o."
@@ -111,8 +113,7 @@ label intro:
         $ playerName = renpy.input("E como eu devo lhe chamar?", length=32)
 
         "Você relutantemente dá seu nome para o computador, digitando-o."
-
-        show computer 
+ 
         computer "[computerName] é um bom nome! Prazer em te conhecer, estou equipado com a
         versão de Inteligência Artificial 8010.256.a2 entretanto não possuo acesso à nenhum
         conhecimento além das bases mínimas de observação, devido ao grande colapso da huma-"
