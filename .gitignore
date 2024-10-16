@@ -2,3 +2,4 @@ OS_Date_Sim/game/saves/*
 OS_Date_Sim/errors.txt
 OS_Date_Sim/log.txt
 OS_Date_Sim/traceback.txt
+OS_Date_Sim/game/cache/shaders.txt

@@ -100,6 +100,10 @@ Computador: Ainda assim, usuário de (nome) precisa estar em segurança!
 
 Computador: Apesar de não haver conexão à internet ainda posso acessar a rede interna da D.AI.TE, e certamente ainda há sobreviventes no campo de refugiados à 15 km, caso possua um celular posso fornecer um aplicativo com minhas capacidades reduzidas para fornecer acesso ao campo.
 
-## Extras
+## Fase 2: Todas as Atividades que acontecem no computador, o responsável e onde ele fica
 
-O romance entre Pessoa x Pessoa.
+* Verifica o setup, faz o POST, descompacta dados, lê dispositivos de armazenamento e carrega o sistema operacional
+* BIOS
+* ROM
+
+## Fase 3: As duas últimas tarefas executadas pela BIOS
