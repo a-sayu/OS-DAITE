@@ -25,6 +25,8 @@ image bg-computerRoom-night-on = "computerRoom_night_on.png"
 
 label start:
 
+label intro:
+
     scene bg-desolatedCity
     "O silêncio das ruas era predominante, o vento frio passava em sentido contrário
     e você andava sorrateiramente até o prédio que fica sua atual \"casa\"."
@@ -162,5 +164,7 @@ label start:
         interna da D.AI.TE, e certamente ainda há sobreviventes no campo de refugiados
         à 15 km, caso possua um celular posso fornecer um aplicativo com minhas capacidades
         reduzidas para fornecer acesso ao campo."
+
+
 
 return
