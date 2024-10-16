@@ -8,11 +8,12 @@ default computerInterest = 0
 default playerName = "?"
 default computerName = "Computador"
 define computer = Character("[computerName]", image="computer")
-define player = Character("[playerName]")
+define player = Character("[playerName]", image="player")
 define thoughts = Character("[playerName]", what_suffix='"', what_prefix='"')
 
 # Imagens
 image side computer = "computer.png"
+image side player = "computer.png"
 image bg-blackScreen = "#000"
 image bg-desolatedCity = "desolatedCity.png"
 image bg-computerRoom-day-off = "computerRoom_day_off.png"
@@ -25,6 +26,15 @@ image bg-computerRoom-night-on = "computerRoom_night_on.png"
 
 label start:
 
+label mc_gender:
+    menu gender_choice:
+        "Escolha um corpo para seu personagem"
+        "corpo 1":
+            $ player = "male.png"
+            jump intro
+        "corpo 2":
+            $ player = "female.png"
+            jump intro
 label intro:
 
     scene bg-desolatedCity
@@ -103,8 +113,6 @@ label intro:
     label continuation_1:
         "A tela rapidamente pisca e um circulo branco começa a carregar na tela preta,
         um som sai e o computador ganhava dois olhos e uma boca simples."
-
-        show computer
 
         $ computerName = renpy.input("Olá! Eu sou seu computador pessoal, como deseja me chamar?", length=32)
         
