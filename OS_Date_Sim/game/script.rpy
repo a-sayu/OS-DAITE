@@ -53,7 +53,7 @@ label intro:
 
     scene bg-computerRoom-night-off
     "Colocando sua mochila sobre a mesa e se sentando na cadeira, você sente um pouco de fome"
-    show player
+    show side player
     player "O que vou comer hoje?"
     "Você se pergunta, enquanto seleciona em sua mochila algum alimento"
 
