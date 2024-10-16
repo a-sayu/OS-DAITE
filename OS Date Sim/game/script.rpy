@@ -24,6 +24,8 @@ image bg-compurterRoom-night-on = "computerRoom-on-day.png"
 
 label start:
 
+label intro:
+
     scene bg-desolatedCity
     "O silêncio das ruas era predominante, o vento corria por sua pele"
     $ playerName = renpy.input("Você retira do bolso um chaveiro com seu nome: ", length=8)
@@ -150,5 +152,7 @@ label start:
 
         computer "Ainda assim, usuário de [computerName] precisa estar em segurança!"
         computer "Apesar de não haver conexão à internet ainda posso acessar a rede interna da D.AI.TE, e certamente ainda há sobreviventes no campo de refugiados à 15 km, caso possua um celular posso fornecer um aplicativo com minhas capacidades reduzidas para fornecer acesso ao campo."
+
+
 
 return
