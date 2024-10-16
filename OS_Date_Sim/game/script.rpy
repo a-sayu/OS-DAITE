@@ -14,8 +14,7 @@ define thoughts = Character("[playerName]", what_suffix='"', what_prefix='"')
 
 # Imagens
 image side computer = "computer.png"
-image side femalePlayer = "female.png"
-image side malePlayer = "male.png"
+image side player = [playerImage]
 image female = "female.png"
 image male = "male.png"
 image bg-blackScreen = "#000"
@@ -37,10 +36,10 @@ label mc_gender:
     menu gender_choice:
         "Escolha um corpo para seu personagem"
         "corpo 1":
-            $ malePlayer = "male.png"
+            $ playerImage = "male.png"
             jump intro
         "corpo 2":
-            $ femalePlayer = "female.png"
+            $ playerImage = "female.png"
             jump intro
 label intro:
 
