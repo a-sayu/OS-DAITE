@@ -5,6 +5,7 @@
 
 # Variáveis
 default computerInterest = 0
+default playerImage = "computer.png"
 default playerName = "?"
 default computerName = "Computador"
 define computer = Character("[computerName]", image="computer")
@@ -13,7 +14,9 @@ define thoughts = Character("[playerName]", what_suffix='"', what_prefix='"')
 
 # Imagens
 image side computer = "computer.png"
-image side player = "computer.png"
+image side player = playerImage
+image female = "female.png"
+image male = "male.png"
 image bg-blackScreen = "#000"
 image bg-desolatedCity = "desolatedCity.png"
 image bg-computerRoom-day-off = "computerRoom_day_off.png"
@@ -27,13 +30,16 @@ image bg-computerRoom-night-on = "computerRoom_night_on.png"
 label start:
 
 label mc_gender:
+
+    show female at right
+    show male at left
     menu gender_choice:
         "Escolha um corpo para seu personagem"
         "corpo 1":
-            $ player = "male.png"
+            $ playerImage = "male.png"
             jump intro
         "corpo 2":
-            $ player = "female.png"
+            $ playerImage = "female.png"
             jump intro
 label intro:
 
