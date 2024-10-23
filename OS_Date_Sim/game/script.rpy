@@ -14,7 +14,7 @@ define thoughts = Character("[playerName]", what_suffix='"', what_prefix='"')
 
 # Imagens
 image side computer = "computer.png"
-image side player = [playerImage]
+image side player = "[playerImage]"
 image female = "female.png"
 image male = "male.png"
 image bg-blackScreen = "#000"
@@ -60,15 +60,15 @@ label intro:
     menu localizacao_SO:
         player "Hmm... Se eu fosse um computador, onde ficaria meu sistema operacional?"
 
-        "Na minha memória de longo prazo!"
+        "Na minha memória de longo prazo!":
             player "É... Um computador tem um disco rígido certo? Onde o sistema operacional fica guardado mesmo quando desligado, é que nem quando eu estou dormindo..."
             jump continue_local
 
-        "No meu... Estômago?"
+        "No meu... Estômago?":
             player "Parece que eu estou com muita fome, haha, achando a resposta talvez eu me distraia da fome..." 
             "Você vasculha as pilhas de papel que pareciam estar estranhamente muito relacionadas com um estudo de sistemas operacionais."
             jump localizacao_SO
-        "Eu não sei dizer..."
+        "Eu não sei dizer...":
             player "Bem, se eu não sei, eu tenho que estudar..."
             "Você vasculha as pilhas de papel que pareciam estar estranhamente muito relacionadas com um estudo de sistemas operacionais."
             jump localizacao_SO
@@ -76,6 +76,5 @@ label intro:
     
     label continue_local:
     "Você boceja, o cansaço de vasculhar por comida na área parecia que já estava te atingindo, você come uma barra de cereal, e vai se deitar no sofá, cobrindo-se com um fino lençol."
-
 
 return
