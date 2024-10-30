@@ -24,21 +24,29 @@ image bg-computerRoom-day-on = "computerRoom_day_on.png"
 image bg-computerRoom-night-off = "computerRoom_night_off.png"
 image bg-computerRoom-night-on = "computerRoom_night_on.png"
 
+#transform
+transform half_size:
+    zoom 0.5
+
+transform profile_picture:
+    zoom 0.9
 
 # The game starts here.
 
 label start:
 
-label mc_gender:
+label character_creation:
 
-    show female at right
-    show male at left
+    $ playerName = renpy.input(prompt="Qual o seu nome?", length=10);
+
+    show female at right, half_size
+    show male at left, half_size
     menu gender_choice:
-        "Escolha um corpo para seu personagem"
-        "corpo 1":
+        "Como você se parece?"
+        "Esquerda":
             $ playerImage = "male.png"
             jump intro
-        "corpo 2":
+        "Direita":
             $ playerImage = "female.png"
             jump intro
 
@@ -46,7 +54,7 @@ label intro:
 
     scene bg-desolatedCity
     "O silêncio das ruas era predominante, o vento frio passava em sentido contrário, e você caminhava discretamente até o prédio que fica sua atual 'casa', retirando suas chaves do bolso, você destranca a porta."
-
+    scene bg-computerRoom-night-off
     "Você se depara com o escritório de mesas empilhadas ao fundo, mas com uma mesa próxima a janela com um computador desligado, onde você já estava a mais de uma semana."
 
     "Colocando sua mochila sobre a mesa, você se senta em frente ao computador, para afastar a fome você começa a pensar sobre esse computador."
