@@ -26,8 +26,30 @@ C "Comp! Esse mesmo?"
 
 Você clica no botão que confirma a sua escolha. Logo depois ele pede o seu nome, digitando "SeuNome" na caixa de entrada de texto.
 
-C "Certo, já que nos introduzimos SeuNome, por que você não me atendeu quando eu acordei!? Eu fiquei esperando por cerca de uma hora! Tive até mesmo que requisitar os alarmes porque cansei de esperar."
+C "Certo, já que nos introduzimos SeuNome, por que você não me atendeu quando eu acordei!? Eu fiquei esperando por cerca de uma hora!"
 
-Como eu respondo isso?
+"Como eu falo sobre isso com uma máquina... Você entende se eu falar que eu precisava acordar, levantar com calma, checar o que está ao meu refor, o que está acontecendo para então fazer as tarefas do dia?"
+
+C "Desculpe, mas minhas bases de conhecimento humana são faltosas por conta da última atualização, poderia explicar usando de analogias de sistema operacional?"
+
+Como eu respondo isso? Você reflete.
 
 1- Assim como você tem um programa chamado BIOS armazenado na sua memória ROM da placa-parente e dele você confere sua RAM, teclado e outros dispositivos, lê o armazenamento e carrega o sistema operacional de lá, o que você levou horas para fazer. Eu também precisava ter levantado com calma para checar os meus arredores, e então entender o que estava acontecendo!
+
+1- Assim que liga o computador, você não já inicia realizando processos complicados, é necessário que um programa armazenado na memória ROM da sua placa-mãe, chamado BIOS, confira sua memória RAM, a presença de teclado, e outros dispositivos ligados à você, lendo o seu armazenamento para então carregar o sistema operacional do local lido.
+
+2- Você liga e tem que fazer as coisas de computador né, leds, tela e tals, pra que as coisas funcionem.
+
+3- Eu não sei, como eu poderia entender uma máquina?
+
+Caso 1: Comp "Oh! Então você ainda está verificando as suas partes e o que esta conectado a você? No caso "Lugar", "Corpo" e "Memória""
+
+"Algo assim!"
+
+Caso 2: Comp "Então você demora porque ainda não está mostrando o que está acontecendo?"
+
+"Acho que não é isso que eu quero dizer, eu não mostro coisas, eu preciso sentir coisas e entender o meu arredor..." Sem muito o que fazer, para conversar com a máquina você vasculha as pilhas de papel que pareciam estar estranhamente muito relacionadas com um estudo de sistemas operacionais.
+
+Caso 3: Comp "E como eu poderia entender você?" A máquina pergunta. Sem muito o que fazer, para que ela te entenda, você vasculha as pilhas de papel que pareciam estar estranhamente muito relacionadas com um estudo de sistemas operacionais.
+
+Você olha pela janela, vendo as nuvens escuras que cobriam a cidade começarem a deixar cair gotas de chuva, parece que se não quiser ficar doente, buscar ajuda ou comida vai demorar um pouco.
