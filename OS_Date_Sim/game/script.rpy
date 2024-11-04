@@ -41,14 +41,17 @@ label character_creation:
     $ playerName = renpy.input(prompt="Qual o seu nome?", length=10);
     menu player_name:
         "[playerName] é seu nome?"
+        "Sim":
+            jump gender_choice
+            
         "Não":
             jump character_creation
-        "Sim"
 
+label gender_choice:
     show female at right, half_size
     show male at left, half_size
 
-    menu gender_choice:
+    menu gender_choice_menu:
         "Como você se parece?"
         "Esquerda":
             $ playerImage = "male.png"
@@ -84,7 +87,7 @@ label fase_1:
 
     player "D.AI.TE... é o sistema operacional desse computador velho?"
 
-    menu localizacao_SO:
+    menu localizacao_SO_menu:
         player "Hmm... Se eu fosse um computador, onde ficaria meu sistema operacional?"
 
         "Na minha memória de longo prazo!":
@@ -101,7 +104,7 @@ label fase_1:
             "Você vasculha as pilhas de papel que pareciam estar estranhamente muito 
             relacionadas com um estudo de sistemas operacionais."
 
-            jump localizacao_SO
+            jump localizacao_SO_menu
 
         "Eu não sei dizer...":
             player "Bem, se eu não sei, eu tenho que estudar..."
@@ -109,7 +112,7 @@ label fase_1:
             "Você vasculha as pilhas de papel que pareciam estar estranhamente muito 
             relacionadas com um estudo de sistemas operacionais."
 
-            jump localizacao_SO
+            jump localizacao_SO_menu
 
     label continue_local:
     "Você boceja, o cansaço de vasculhar por comida na área parecia que já estava te 
@@ -167,7 +170,7 @@ label fase_2:
     computer "Desculpe, mas minhas bases de conhecimento humana são faltosas por conta 
     da última atualização, poderia explicar usando de analogias de sistema operacional?"
 
-    menu acordar_SO:
+    menu acordar_SO_menu:
         player "Como eu respondo isso? Você reflete."
 
         "Eu não sei, como eu poderia entender uma máquina?":
@@ -177,10 +180,10 @@ label fase_2:
             vasculha as pilhas de papel que pareciam estar estranhamente muito relacionadas 
             com um estudo de sistemas operacionais."
     
-            jump acordar_SO
+            jump acordar_SO_menu
 
         "Você liga e tem que fazer as coisas de computador né, leds, tela e tals, pra 
-        que as coisas funcionem."
+        que as coisas funcionem.":
 
             computer "Então você demora porque ainda não está mostrando o que está 
             acontecendo?"
@@ -192,13 +195,13 @@ label fase_2:
             de papel que pareciam estar estranhamente muito relacionadas com um estudo 
             de sistemas operacionais."
 
-            jump acordar_SO
+            jump acordar_SO_menu
         
         "Assim que liga o computador, você não já inicia realizando processos complicados, 
         é necessário que um programa armazenado na memória ROM da sua placa-mãe, chamado 
         BIOS, confira sua memória RAM, a presença de teclado, e outros dispositivos ligados 
         à você, lendo o seu armazenamento para então carregar o sistema operacional do local 
-        lido."
+        lido.":
 
             computer "Oh! Então você ainda está verificando as suas partes e o que esta conectado a você? No caso \"Lugar\", \"Corpo\" e \"Memória\""
             player "Algo assim!"
