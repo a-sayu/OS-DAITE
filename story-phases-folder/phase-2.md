@@ -30,11 +30,7 @@ C "Certo, já que nos introduzimos SeuNome, por que você não me atendeu quando
 
 "Como eu falo sobre isso com uma máquina... Você entende se eu falar que eu precisava acordar, levantar com calma, checar o que está ao meu refor, o que está acontecendo para então fazer as tarefas do dia?"
 
-C "Desculpe, mas minhas bases de conhecimento humana são faltosas por conta da última atualização, poderia explicar usando de analogias de sistema operacional?"
-
-Como eu respondo isso? Você reflete.
-
-1- Assim como você tem um programa chamado BIOS armazenado na sua memória ROM da placa-parente e dele você confere sua RAM, teclado e outros dispositivos, lê o armazenamento e carrega o sistema operacional de lá, o que você levou horas para fazer. Eu também precisava ter levantado com calma para checar os meus arredores, e então entender o que estava acontecendo!
+C "Desculpe, mas minhas bases de conhecimento humana são faltosas por conta da última atualização."
 
 1- Assim que liga o computador, você não já inicia realizando processos complicados, é necessário que um programa armazenado na memória ROM da sua placa-mãe, chamado BIOS, confira sua memória RAM, a presença de teclado, e outros dispositivos ligados à você, lendo o seu armazenamento para então carregar o sistema operacional do local lido.
 
