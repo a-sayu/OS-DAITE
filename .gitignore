@@ -3,3 +3,10 @@ OS_Date_Sim/errors.txt
 OS_Date_Sim/log.txt
 OS_Date_Sim/traceback.txt
 OS_Date_Sim/game/cache/shaders.txt
+OS_Date_Sim/game/gui.rpyc
+OS_Date_Sim/game/options.rpyc
+OS_Date_Sim/game/script.rpyc
+OS_Date_Sim/game/cache/bytecode-39.rpyb
+OS_Date_Sim/game/cache/py3analysis.rpyb
+OS_Date_Sim/game/cache/screens.rpyb
+OS_Date_Sim/game/cache/shaders.txt
