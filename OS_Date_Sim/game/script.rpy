@@ -39,8 +39,10 @@ label start:
 label character_creation:
 
     $ playerName = renpy.input(prompt="Qual o seu nome?", length=10);
+    
     menu player_name:
         "[playerName] é seu nome?"
+        
         "Sim":
             jump gender_choice
             
@@ -53,6 +55,7 @@ label gender_choice:
 
     menu gender_choice_menu:
         "Como você se parece?"
+        
         "Esquerda":
             $ playerImage = "male.png"
             jump intro
@@ -64,20 +67,20 @@ label intro:
 
     scene bg-desolatedCity
 
-    "O silêncio das ruas era predominante, o vento frio passava em sentido contrário, e 
-    você caminhava discretamente até o prédio que fica sua atual 'casa', retirando suas 
-    chaves do bolso, você destranca a porta."
+    "O silêncio das ruas era predominante, o vento frio batia em seu rosto enquanto você 
+    caminhava discretamente até o prédio que fica sua atual 'casa', retirando suas chaves
+    do bolso, você destranca a porta."
 
 label fase_1:
 
     scene bg-computerRoom-night-off
 
-    "Você se depara com o escritório de mesas empilhadas ao fundo, mas com uma mesa 
+    "Você chega em um escritório, com mesas empilhadas ao fundo, e uma mesa 
     próxima a janela com um computador desligado, onde você já estava a mais de uma 
     semana."
 
     "Colocando sua mochila sobre a mesa, você se senta em frente ao computador, para 
-    afastar a fome você começa a pensar sobre esse computador."
+    afastar a fome, você começa a pensar sobre esse computador."
 
     player "Eu deveria tentar ligar esse computador, apesar de o mundo ter acabado, a 
     energia e a internet ainda não acabou..."
@@ -88,7 +91,7 @@ label fase_1:
     player "D.AI.TE... é o sistema operacional desse computador velho?"
 
     menu localizacao_SO_menu:
-        player "Hmm... Se eu fosse um computador, onde ficaria meu sistema operacional?"
+        player "Hmm... Se eu fosse um computador, meu sistema operacional ficaria..."
 
         "Na minha memória de longo prazo!":
             player "É... Um computador tem um disco rígido certo? Onde o sistema 
@@ -100,11 +103,6 @@ label fase_1:
         "No meu... Estômago?":
             player "Parece que eu estou com muita fome, haha, achando a resposta talvez eu 
             me distraia da fome..."
-
-            "Você vasculha as pilhas de papel que pareciam estar estranhamente muito 
-            relacionadas com um estudo de sistemas operacionais."
-
-            jump localizacao_SO_menu
 
         "Eu não sei dizer...":
             player "Bem, se eu não sei, eu tenho que estudar..."
@@ -138,7 +136,7 @@ label fase_2:
     teclado e também um alerta de emergência mundial sobre um assunto que você já estava 
     bem familiarizado."
 
-    player "Para que avisar sobre o eminente fim do mundo, se ele já aconteceu?"
+    player "Para que avisar sobre o iminente fim do mundo, se ele já aconteceu?"
 
     "Você conecta o teclado de fio próximo no computador e reinicia ele, e rapidamente 
     ele liga. Carregando uma tela escrita D.AI.TE, com um simbolo similar a uma flor que 
@@ -151,12 +149,21 @@ label fase_2:
     Intelligence Technologies Enterprise, como um computador de auxílio adoraria que me 
     desse um nome para sermos mais amigos!"
 
+label naming_computer:
     $ computerName = renpy.input(prompt="Como deseja me chamar?", length=10);
 
     "Você digita \'[computerName]\' na caixa de entrada de texto."
 
-    computer "[computerName]! Esse mesmo?"
+    menu computer_name:
+        computer "[computerName]! Esse mesmo?"
 
+        "Sim":
+            jump continue_computer_name
+
+        "Não":
+            jump naming_computer
+
+label continue_computer_name:
     "Você clica no botão que confirma a sua escolha. Logo depois ele pede o seu nome, 
     digitando \'[playerName]\' na caixa de entrada de texto."
 
@@ -164,7 +171,7 @@ label fase_2:
     quando eu acordei!? Eu fiquei esperando por cerca de uma hora!"
 
     player "Como eu falo sobre isso com uma máquina... Você entende se eu falar que eu 
-    precisava acordar, levantar com calma, checar o que está ao meu refor, o que está 
+    precisava acordar, levantar com calma, checar o que está ao meu redor, o que está 
     acontecendo para então fazer as tarefas do dia?"
 
     computer "Desculpe, mas minhas bases de conhecimento humana são faltosas por conta 
@@ -176,6 +183,7 @@ label fase_2:
         "Eu não sei, como eu poderia entender uma máquina?":
             
             computer "E como eu poderia entender você?" 
+
             "A máquina pergunta. Sem muito o que fazer, para que ela te entenda, você 
             vasculha as pilhas de papel que pareciam estar estranhamente muito relacionadas 
             com um estudo de sistemas operacionais."
@@ -206,4 +214,45 @@ label fase_2:
             computer "Oh! Então você ainda está verificando as suas partes e o que esta conectado a você? No caso \"Lugar\", \"Corpo\" e \"Memória\""
             player "Algo assim!"
 
+label fase_3:
+
+    "Enquanto a chuva caia, você se acomoda na cadeira, ficando em silêncio ouvindo apenas a forte chuva cair, restando a você quebrar o silêncio."
+
+    player "[computerName]... Você é um computador de auxílio certo? Eu preciso de ajuda, um guia e tals"
+
+    computer "Qual seria o problema [playerName]?"
+
+    player "Eu estou aqui nesse prédio, mas eu moro meio longe daqui, minha irmã(o) foi levado pelo ônibus da escola quando tudo isso começou, e eu preciso de um ponto de começo"
+
+    computer "Ponto de começo?"
+
+    menu endereco_memoria_menu:
+        player "Sim tipo..."
+
+        "Quando seu sistema operacional é carregado da memória secundária e você tem que colocar o endereço da primeira instrução do seu Escalonador de Processos no Contador de Instruções e no registrador do Escalonador de Processos.":
+            computer """Entendo, então significa que você precisa do primeiro passo essencial para encontrar sua irmã(o)
+            
+                Você pode tentar primeiramente checar as possíveis rotas que eles podem ter pego, para planejar em volta disso, apesar das bases defeituosas de conhecimento humano, sou ótimo com cálculos e previsões"""
+        
+            jump fase_4
+
+        "Eu não sei se consigo te explicar isso, sabe a primeira coisa, que antecede tudo...":
+            computer "Como isso se relaciona? Eu também não sei dizer sobre o que é a primeira coisa, que antecede tudo"
+
+            player "Huh... Você tem uma base bem defeituosa de conhecimento..."
+            
+            "Para tentar respondê-lo melhor você vasculha as pilhas de papel que pareciam estar estranhamente muito relacionadas com um estudo de sistemas operacionais."
+
+            jump endereco_memoria_menu
+
+        "É tipo o oposto do fim!":
+            computer "Interessante! Mas não acho que é uma resposta que explique o que é um ponto de começo!"
+            
+            player "Okay, fazer piada não vai ajudar... " 
+            
+            "Você vasculha as pilhas de papel que pareciam estar estranhamente muito relacionadas com um estudo de sistemas operacionais."
+
+            jump endereco_memoria_menu
+
+label fase_4:
 return
