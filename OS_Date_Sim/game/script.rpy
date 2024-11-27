@@ -67,7 +67,7 @@ label intro:
 
     scene bg-desolatedCity
 
-    "O silêncio das ruas era predominante, o vento frio batia em seu rosto enqunto você 
+    "O silêncio das ruas era predominante, o vento frio batia em seu rosto enquanto você 
     caminhava discretamente até o prédio que fica sua atual 'casa', retirando suas chaves
     do bolso, você destranca a porta."
 
@@ -136,7 +136,7 @@ label fase_2:
     teclado e também um alerta de emergência mundial sobre um assunto que você já estava 
     bem familiarizado."
 
-    player "Para que avisar sobre o eminente fim do mundo, se ele já aconteceu?"
+    player "Para que avisar sobre o iminente fim do mundo, se ele já aconteceu?"
 
     "Você conecta o teclado de fio próximo no computador e reinicia ele, e rapidamente 
     ele liga. Carregando uma tela escrita D.AI.TE, com um simbolo similar a uma flor que 
