@@ -58,10 +58,10 @@ define gui.interface_text_color = '#404040'
 ## Fonts and Font Sizes ########################################################
 
 ## The font used for in-game text.
-define gui.text_font = "DejaVuSans.ttf"
+define gui.text_font = "fonts/Type_Machine.ttf"
 
 ## The font used for character names.
-define gui.name_text_font = "DejaVuSans.ttf"
+define gui.name_text_font = "fonts/Type_Machine.ttf"
 
 ## The font used for out-of-game text.
 define gui.interface_text_font = "fonts/Type_Machine.ttf"
@@ -249,7 +249,7 @@ define gui.file_slot_rows = 2
 
 ## The position of the left side of the navigation buttons, relative to the left
 ## side of the screen.
-define gui.navigation_xpos = 300
+define gui.navigation_xpos = 60
 
 ## The vertical position of the skip indicator.
 define gui.skip_ypos = 15
