@@ -6,8 +6,8 @@
 # Variáveis
 default computerInterest = 0
 default playerImage = "computer.png"
-default playerName = "?"
-default computerName = "Computador"
+default playerName = ""
+default computerName = ""
 define computer = Character("[computerName]", image="computer")
 define player = Character("[playerName]", image="player")
 define thoughts = Character("[playerName]", what_suffix='"', what_prefix='"')
@@ -27,7 +27,7 @@ image bg-computerRoom-night-on = "computerRoom_night_on.png"
 
 #transform
 transform half_size:
-    zoom 0.5
+    zoom 1.2
 
 transform profile_picture:
     zoom 0.9
@@ -36,10 +36,47 @@ transform profile_picture:
 
 label start:
 
+# Teach Player how to do things!
+
+label ask_new_player:
+    scene bg-whiteScreen
+
+    "Jogo feito por Abigail e Miguel para Sistemas Operacionais.
+    Clique para prosseguir."
+
+    menu leave_tutorial:
+        "Você conhece os comandos?"
+
+        "Sim":
+            jump character_creation
+        
+        "Não":
+            jump new_player
+
+label new_player:
+    "Aqui vai um tutorial simples, então!
+    Para avançar no diálogo, clique com o botão esquedo do mouse"
+
+    "Ou aperte espaço/enter no teclado."
+
+    "Para acessar o menu de configurações aperte esc no teclado
+    Ou no botão abaixo."
+
+    "Rolar o botão do meio do mouse avança ou volta na conversa,
+    use quando tiver esquecido algo."
+
+    "Caso precise de assistência, o Ren'Py possui um menu de
+    acessibilidade apertanto o Shift + A"
+
 label character_creation:
 
     $ playerName = renpy.input(prompt="Qual o seu nome?", length=10);
-    
+    $ playerName = playerName.strip()
+
+    if not playerName:
+        "Nome Inválido"
+        jump character_creation
+
     menu player_name:
         "[playerName] é seu nome?"
         
@@ -104,6 +141,8 @@ label fase_1:
             player "Parece que eu estou com muita fome, haha, achando a resposta talvez eu 
             me distraia da fome..."
 
+            jump localizacao_SO_menu
+
         "Eu não sei dizer...":
             player "Bem, se eu não sei, eu tenho que estudar..."
 
@@ -152,7 +191,12 @@ label fase_2:
 label naming_computer:
     $ computerName = renpy.input(prompt="Como deseja me chamar?", length=10);
 
+    $ computerName = computerName.strip()
+
     "Você digita \'[computerName]\' na caixa de entrada de texto."
+    if not computerName:
+        computer "Esse Nome é Inválido :C"
+        jump naming_computer
 
     menu computer_name:
         computer "[computerName]! Esse mesmo?"
