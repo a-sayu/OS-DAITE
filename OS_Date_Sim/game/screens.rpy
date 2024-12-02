@@ -175,13 +175,18 @@ style say_dialogue:
 screen input(prompt):
     style_prefix "input"
 
-    window:
+    frame:
+        xalign 0.5
+        yalign 0.5
+        xpadding 30
+        ypadding 30
 
         vbox:
-            xanchor gui.dialogue_text_xalign
-            xpos gui.dialogue_xpos
-            xsize gui.dialogue_width
-            ypos gui.dialogue_ypos
+            spacing 10
+            # xanchor gui.dialogue_text_xalign
+            # xpos gui.dialogue_xpos
+            # xsize gui.dialogue_width
+            # ypos gui.dialogue_ypos
 
             text prompt style "input_prompt"
             input id "input"
@@ -290,7 +295,11 @@ screen navigation():
     vbox:
         style_prefix "navigation"
 
-        xpos gui.navigation_xpos
+        if main_menu:
+            xpos gui.navigation_xpos
+        else:
+            xoffset 60
+        
         yalign 0.5
 
         spacing gui.navigation_spacing
@@ -340,6 +349,7 @@ style navigation_button:
 
 style navigation_button_text:
     properties gui.text_properties("navigation_button")
+    selected_color "#ef7121"
 
 
 ## Main Menu screen ############################################################
@@ -385,7 +395,7 @@ style main_menu_frame:
     xsize 420
     yfill True
 
-    background "gui/overlay/main_menu.png"
+    # background "gui/overlay/main_menu.png"
 
 style main_menu_vbox:
     xalign 1.0

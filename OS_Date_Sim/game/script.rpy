@@ -6,8 +6,8 @@
 # Variáveis
 default computerInterest = 0
 default playerImage = "computer.png"
-default playerName = "?"
-default computerName = "Computador"
+default playerName = ""
+default computerName = ""
 define computer = Character("[computerName]", image="computer")
 define player = Character("[playerName]", image="player")
 define thoughts = Character("[playerName]", what_suffix='"', what_prefix='"')
@@ -27,7 +27,7 @@ image bg-computerRoom-night-on = "computerRoom_night_on.png"
 
 #transform
 transform half_size:
-    zoom 0.5
+    zoom 1.2
 
 transform profile_picture:
     zoom 0.9
@@ -36,10 +36,34 @@ transform profile_picture:
 
 label start:
 
+# Teach Player how to do things!
+
+label ask_new_player:
+    scene bg-whiteScreen
+
+    "Jogo feito por Abigail e Miguel para Sistemas Operacionais. Clique para prosseguir."
+
+    menu leave_tutorial:
+        "Você conhece os comandos?"
+
+        "Sim":
+            jump character_creation
+        
+        "Não":
+            jump new_player
+
+label new_player:
+    "Aqui vai um tutorial simples, entào!"
+
 label character_creation:
 
     $ playerName = renpy.input(prompt="Qual o seu nome?", length=10);
-    
+    $ playerName = playerName.strip()
+
+    if not playerName:
+        "Nome Inválido"
+        jump character_creation
+
     menu player_name:
         "[playerName] é seu nome?"
         
@@ -103,6 +127,8 @@ label fase_1:
         "No meu... Estômago?":
             player "Parece que eu estou com muita fome, haha, achando a resposta talvez eu 
             me distraia da fome..."
+
+            jump localizacao_SO_menu
 
         "Eu não sei dizer...":
             player "Bem, se eu não sei, eu tenho que estudar..."
