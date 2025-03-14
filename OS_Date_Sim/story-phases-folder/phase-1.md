@@ -1,6 +1,6 @@
 # Fase 1
 
-**Tema:** O ato de ligar o computador e ter o sistema operacional armazenado na memória secundária.
+## **Tema:** O ato de ligar o computador e ter o sistema operacional armazenado na memória secundária
 
 O silêncio das ruas era predominante, o vento frio passava em sentido contrário, e você caminhava discretamente até o prédio que fica sua atual 'casa', retirando suas chaves do bolso, você destranca a porta.
 

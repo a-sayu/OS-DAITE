@@ -10,13 +10,10 @@ Mundo Pós Apocaliptico, em que humanos foram dizimados por máquinas.
 Computador
 Nome: Escolhível
 
-Pessoa
+Protagonista
 Nome: Escolhível
 
-Um Pet
-Tipo: Escolhível
-
-## Fase 1
+## Fase 1 : Implementada, mas merece reboot
 
 Computador: Beep Beep Beep Beep (* Um bípe contínuo toca)
 
@@ -107,3 +104,29 @@ Computador: Apesar de não haver conexão à internet ainda posso acessar a rede
 * ROM
 
 ## Fase 3: As duas últimas tarefas executadas pela BIOS
+
+## Fase 4: O que é Escalonamento
+
+## Fase 5: Qual a relação entre Sistema Operacional e Escalonamento
+
+## Fase 6.1: Qual as classificação do Sistema Operacional
+
+## Fase 6.2: Classificação Multiprogramado
+
+## Fase 7: O que é um processo?
+
+## Fase 8: Qual a relação entre Sistema Operacional e Processos
+
+## Fase 9: Qual a relação entre Sistema Operacional e Memória RAM
+
+## Fase 10: Qual a importância do armazenamento do Sistema Operacional
+
+## Fase 11: Método de organização na memória RAM
+
+## Fase 12: Partições de Tamanhos Fixo, Partições de Tamanho Variável. Fragmentação Interna e Fragmentação Externa
+
+## Fase 13: Quando a memória RAM deve ser particionada?
+
+## Fase 14: QUem o sistema também particiona e como ele particiona?
+
+## Fase 15: Como funciona um algotirmo de escalonamento e quanto tempo há para a realização de cada um dos trabalhos
