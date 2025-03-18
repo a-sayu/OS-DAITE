@@ -1,6 +1,6 @@
 # Fase 2
 
-**Tema:** As atividades que ocorrem no computador, o responsável e onde ele fica.
+## **Tema:** As atividades que ocorrem no computador, o responsável e onde ele fica
 
 ALERTA! ALERTA! ALERTA!
 

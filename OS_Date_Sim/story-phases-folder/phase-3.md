@@ -1,6 +1,6 @@
 # Fase 3
 
-**Tema:** As duas últimas tarefas realizadas pelo BIOS (Carregar o Kernel, Colocar Endereço da 1ª Instrução no CI e no Registrador do Escalonador de Processos)
+## **Tema:** As duas últimas tarefas realizadas pelo BIOS (Carregar o Kernel, Colocar Endereço da 1ª Instrução no CI e no Registrador do Escalonador de Processos)
 
 Enquanto a chuva caia, você se acomoda na cadeira, ficando em silêncio ouvindo apenas a forte chuva cair, restando a você quebrar o silêncio.
 
