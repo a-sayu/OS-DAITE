@@ -12,6 +12,7 @@ define computer = Character("[computerName]", image="computer")
 define player = Character("[playerName]", image="player")
 define thoughts = Character("[playerName]", what_suffix='"', what_prefix='"')
 define confirmation = 1
+define correct = [False, False, False] #False == erro && True == acerto
 
 # Imagens
 image side computer = "computer.png"
@@ -353,4 +354,106 @@ label fase_4:
             jump escalonamento_menu
 
 label fase_5:
+
+    player "Okay, então como eu deveria escalonar me alimentar, me proteger e procurar por minha irmã?"
+
+    player "Tipo, eu posso comer enquanto procuro minha irmã e fico atento para qualquer perigo a minha volta..."
+
+    computer "Bem, você não precisa estar fazendo tudo ao mesmo tempo, isso não é escalonar!"
+
+    computer "Devemos pensar sobre isso com muito cuidado."
+
+    player "Realmente... Já que estamos pensando em conceitos de Sistemas Operacionais, que tal relacionar essas coisas como programas?"
+    
+    
+    menu relacao_1_menu:
+
+        computer "Então... Quando você precisa se alimentar?"
+        
+        
+        python: 
+            if correct[0]:
+                jump relacao_2_menu
+
+        "Eu posso comer quando eu puder, não é tão necessário...": // FDP
+
+            $ correct[0] = False
+            jump relacao_2_menu
+
+        "Eu tenho que separar pelo menos algum tempo para encontrar mais alimentos e comer.": // VDD
+
+            $ correct[0] = True
+            jump relacao_2_menu 
+            
+
+    menu relacao_2_menu:
+
+        python:
+            if correct[1]:
+                jump relacao_3_menu
+
+        computer "Então... Quando você precisa se proteger?"
+
+        "Está muito perigoso, eu deveria colocar toda minha atenção para isso...": // FDP
+
+            $ correct[1] = False
+            jump relacao_3_menu
+
+        "É importante estar atento... Mas descansar também, eu posso sempre procurar abrigos": //VDD
+
+            $ correct[1] = True
+            jump relacao_3_menu
+
+    menu relacao_3_menu:
+
+        python:
+            if correct[2]:
+                jump f5_verificacao
+
+        computer "Então... Quando você precisa buscar sua irmã?"
+
+        "Eu deveria focar nessa busca totalmente... Se eu demorar como vou ter certeza que ela estará a salvo...":
+
+            $ correct[2] = False
+            jump f5_verificacao
+
+        "Mesmo que eu não saiba onde minha irmã está, eu também não posso deixar de me cuidar...":
+
+            $ correct[2] = True
+            jump f5_verificacao
+
+    label f5_primeira_verificacao:
+        
+        if not (correct[0] and correct[1] and correct[2]):
+            jump f5_erradas
+        else:
+            jump f5_corretas
+    
+#Caso: Todas as respostas corretas.
+    label f5_corretas:
+        
+        computer "Exatamente, uma divisão de tempo para cada ação é importante, não foque demais em algo e agende seus programas, isso é escalonar os programas!"
+        jump fase_6
+    
+    label f5_erradas:
+        
+        label f5_primeira_errada:
+            if correct[0]:
+                jump f5_segunda_errada
+            computer "Comida é importante, mas não se deve ficar comendo também não é tão bom..."
+        
+        label f5_segunda_errada:
+            if correct[1]:
+                jump f5_terceira_errada
+            computer "Segurança é importante, mas não se deve viver paranóico..."
+        
+        label f5_terceira_errada:
+            if correct[2]:
+                jump relacao_1_menu
+            computer "Buscar sua irmã é importante, mas não se deve ignorar suas necessidades..."
+        
+        jump relacao_1_menu
+
+
+label fase_6:
 return
