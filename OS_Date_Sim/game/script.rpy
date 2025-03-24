@@ -45,16 +45,16 @@ label ask_new_player:
     "Jogo feito por Abigail e Miguel para Sistemas Operacionais.
     Clique para prosseguir."
 
-    menu leave_tutorial:
+    menu confirm_tutorial:
         "Você conhece os comandos?"
 
         "Sim":
             jump character_creation
         
         "Não":
-            jump new_player
+            jump tutorial
 
-label new_player:
+label tutorial:
     "Aqui vai um tutorial simples, então!
     Para avançar no diálogo, clique com o botão esquedo do mouse"
 
