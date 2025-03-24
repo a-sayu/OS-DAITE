@@ -13,7 +13,7 @@ label fase_5:
     
     label fase_5_1:
             if correct[0]:
-                jump menu_fase_5_2
+                jump fase_5_2
 
     menu menu_fase_5_1:
 
@@ -22,16 +22,16 @@ label fase_5:
         "Eu posso comer quando eu puder, não é tão necessário...": #FDP
 
             $ correct[0] = False
-            jump menu_fase_5_2
+            jump fase_5_2
 
         "Eu tenho que separar pelo menos algum tempo para encontrar mais alimentos e comer.": #VDD
 
             $ correct[0] = True
-            jump menu_fase_5_2 
+            jump fase_5_2 
 
     label fase_5_2:
             if correct[1]:
-                jump menu_fase_5_3
+                jump fase_5_3
 
     menu menu_fase_5_2:
 
@@ -40,12 +40,12 @@ label fase_5:
         "Está muito perigoso, eu deveria colocar toda minha atenção para isso...": #FDP
 
             $ correct[1] = False
-            jump menu_fase_5_3
+            jump fase_5_3
 
         "É importante estar atento... Mas descansar também, eu posso sempre procurar abrigos": #VDD
 
             $ correct[1] = True
-            jump menu_fase_5_3
+            jump fase_5_3
 
     label fase_5_3:
             if correct[2]:
@@ -74,7 +74,7 @@ label fase_5:
     
     #Caso: Todas as respostas corretas.
     label fase_5_correta:
-
+        
         computer "Exatamente, uma divisão de tempo para cada ação é importante, não foque demais em algo e agende seus programas, isso é escalonar os programas!"
         jump final_fase_5
 
@@ -99,7 +99,7 @@ label fase_5:
             computer "Buscar sua irmã é importante, mas não se deve ignorar suas necessidades..."
         
         label fase_5_tentar_denovo:
-            jump menu_fase_5_1
+            jump fase_5_1
 
 label final_fase_5:
     return
