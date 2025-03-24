@@ -17,7 +17,7 @@ label fase_1:
 
     player "D.AI.TE... é o sistema operacional desse computador velho?"
 
-    menu menu_fase_1:
+    menu f1_menu:
         player "Hmm... Se eu fosse um computador, meu sistema operacional ficaria..."
 
         "Na minha memória de longo prazo!":
@@ -29,13 +29,13 @@ label fase_1:
             atingindo, você come uma barra de cereal, e vai se deitar no sofá, cobrindo-se com um 
             fino lençol."
             
-            jump final_fase_1
+            jump f1_final
 
         "No meu... Estômago?":
             player "Parece que eu estou com muita fome, haha, achando a resposta talvez eu 
             me distraia da fome..."
 
-            jump menu_fase_1
+            jump f1_menu
 
         "Eu não sei dizer...":
             player "Bem, se eu não sei, eu tenho que estudar..."
@@ -43,7 +43,7 @@ label fase_1:
             "Você vasculha as pilhas de papel que pareciam estar estranhamente muito 
             relacionadas com um estudo de sistemas operacionais."
 
-            jump menu_fase_1
+            jump f1_menu
 
-label final_fase_1:
+label f1_final:
     return

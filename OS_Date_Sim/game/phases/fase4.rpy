@@ -25,14 +25,14 @@ label fase_4:
     computer "Ele utiliza um algoritmo de escalonamento para decidir!"
 
     #escalonamento
-    menu menu_fase_4:
+    menu f4_menu:
         player "Certo..."
 
         "Você quer dizer para eu definir um meio de agendar as tarefas que eu preciso fazer?":
 
             computer "Correto, podemos fazer cada coisa um pouco de cada vez!"
 
-            jump final_fase_4
+            jump f4_final
 
         "Eu tenho apenas um cérebro, não tem como processar mais de uma coisa ao mesmo tempo...":
 
@@ -42,7 +42,7 @@ label fase_4:
 
             computer "Bem, essa é minha suposição"
 
-            jump menu_fase_4
+            jump f4_menu
 
         "Você quer que eu reduza meu escopo para um processo por vez? Algo como fazer até terminar?":
 
@@ -52,7 +52,7 @@ label fase_4:
 
             "Okay, faz mais sentido, talvez eu tenha perdido algo na explicação anterior..."
 
-            jump menu_fase_4
+            jump f4_menu
 
-label final_fase_4:
+label f4_final:
     return

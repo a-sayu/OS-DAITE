@@ -30,26 +30,8 @@ label fase_2:
     Intelligence Technologies Enterprise, como um computador de auxílio adoraria que me 
     desse um nome para sermos mais amigos!"
 
-label nomear_computador:
-    $ computerName = renpy.input(prompt="Como deseja me chamar?", length=10);
+    call nomear_computador
 
-    $ computerName = computerName.strip()
-
-    "Você digita \'[computerName]\' na caixa de entrada de texto."
-    if not computerName:
-        computer "Esse Nome é Inválido :C"
-        jump nomear_computador
-
-    menu menu_confirmar_nome_computador:
-        computer "[computerName]! Esse mesmo?"
-
-        "Sim":
-            jump pergunta_fase_2
-
-        "Não":
-            jump nomear_computador
-
-label pergunta_fase_2:
     "Você clica no botão que confirma a sua escolha. Logo depois ele pede o seu nome, 
     digitando \'[playerName]\' na caixa de entrada de texto."
 
@@ -63,7 +45,7 @@ label pergunta_fase_2:
     computer "Desculpe, mas minhas bases de conhecimento humana são faltosas por conta 
     da última atualização, poderia explicar usando de analogias de sistema operacional?"
 
-    menu menu_fase_2:
+    menu f2_menu:
         player "Como eu respondo isso? Você reflete."
 
         "Eu não sei, como eu poderia entender uma máquina?":
@@ -74,7 +56,7 @@ label pergunta_fase_2:
             vasculha as pilhas de papel que pareciam estar estranhamente muito relacionadas 
             com um estudo de sistemas operacionais."
     
-            jump menu_fase_2
+            jump f2_menu
 
         "Você liga e tem que fazer as coisas de computador né, leds, tela e tals, pra 
         que as coisas funcionem.":
@@ -89,7 +71,7 @@ label pergunta_fase_2:
             de papel que pareciam estar estranhamente muito relacionadas com um estudo 
             de sistemas operacionais."
 
-            jump menu_fase_2
+            jump f2_menu
         
         "Assim que liga o computador, você não já inicia realizando processos complicados, 
         é necessário que um programa armazenado na memória ROM da sua placa-mãe, chamado 
@@ -101,7 +83,25 @@ label pergunta_fase_2:
             
             player "Algo assim!"
 
-            jump final_fase_2
+            jump f2_final
 
-label final_fase_2:
+label f2_final:
     return
+
+label f2_nomear_computador:
+    $ computerName = renpy.input(prompt="Como deseja me chamar?", length=10);
+    $ computerName = computerName.strip()
+
+    "Você digita \'[computerName]\' na caixa de entrada de texto."
+    if not computerName:
+        computer "Esse Nome é Inválido :C"
+        jump f2_nomear_computador
+
+    menu menu_confirmar_nome_computador:
+        computer "[computerName]! Esse mesmo?"
+
+        "Sim":
+            return
+
+        "Não":
+            jump f2_nomear_computador
