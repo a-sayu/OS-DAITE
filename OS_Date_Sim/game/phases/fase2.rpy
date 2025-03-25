@@ -30,7 +30,7 @@ label fase_2:
     Intelligence Technologies Enterprise, como um computador de auxílio adoraria que me 
     desse um nome para sermos mais amigos!"
 
-    call nomear_computador
+    call f2_nomear_computador
 
     "Você clica no botão que confirma a sua escolha. Logo depois ele pede o seu nome, 
     digitando \'[playerName]\' na caixa de entrada de texto."
@@ -97,7 +97,7 @@ label f2_nomear_computador:
         computer "Esse Nome é Inválido :C"
         jump f2_nomear_computador
 
-    menu menu_confirmar_nome_computador:
+    menu f2_menu_confirmacao:
         computer "[computerName]! Esse mesmo?"
 
         "Sim":
