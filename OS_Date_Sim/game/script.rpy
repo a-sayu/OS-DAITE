@@ -11,8 +11,8 @@ default computerName = ""
 define computer = Character("[computerName]", image="computer")
 define player = Character("[playerName]", image="player")
 define thoughts = Character("[playerName]", what_suffix='"', what_prefix='"')
-define confirmation = 1
-define correct = [False, False, False] #False == erro && True == acerto
+default confirmation = 1
+default correct = [False, False, False] #False == erro && True == acerto
 
 # Imagens
 image side computer = "computer.png"

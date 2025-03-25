@@ -11,9 +11,6 @@ label fase_5:
 
     player "Realmente... Já que estamos pensando em conceitos de Sistemas Operacionais, que tal relacionar essas coisas como programas?"
 
-    $ correct[0] = False
-    $ correct[1] = False
-    $ correct[2] = False
     
     label f5_1:
             if correct[0]:
