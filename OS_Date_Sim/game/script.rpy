@@ -4,21 +4,23 @@
 # name of the character.
 
 # Variáveis
-default computerInterest = 0
 default playerImage = "computer.png"
 default playerName = ""
 default computerName = ""
+default correct = [False, False, False] #False == erro && True == acerto
+
+# Personagens
 define computer = Character("[computerName]", image="computer")
 define player = Character("[playerName]", image="player")
 define thoughts = Character("[playerName]", what_suffix='"', what_prefix='"')
-default confirmation = 1
-default correct = [False, False, False] #False == erro && True == acerto
 
 # Imagens
 image side computer = "computer.png"
 image side player = "[playerImage]"
 image female = "female.png"
 image male = "male.png"
+
+# Backgrounds
 image bg-blackScreen = "#000"
 image bg-desolatedCity = "desolatedCity.png"
 image bg-computerRoom-day-off = "computerRoom_day_off.png"
@@ -37,9 +39,8 @@ transform profile_picture:
 
 label start:
 
-# Teach Player how to do things!
-
-label ask_new_player:
+# Introduction
+label beginning:
     scene bg-whiteScreen
 
     "Jogo feito por Abigail e Miguel para Sistemas Operacionais.
@@ -54,6 +55,7 @@ label ask_new_player:
         "Não":
             jump tutorial
 
+# Tutorial
 label tutorial:
     "Aqui vai um tutorial simples, então!
     Para avançar no diálogo, clique com o botão esquedo do mouse"
@@ -69,13 +71,15 @@ label tutorial:
     "Caso precise de assistência, o Ren'Py possui um menu de
     acessibilidade apertanto o Shift + A"
 
+
+# Character creation 
 label character_creation:
 
     $ playerName = renpy.input(prompt="Qual o seu nome?", length=10);
     $ playerName = playerName.strip()
 
     if not playerName:
-        "Nome Inválido"
+        "Nome Inválido!"
         jump character_creation
 
     menu player_name:
@@ -87,19 +91,19 @@ label character_creation:
         "Não":
             jump character_creation
 
-label gender_choice:
-    show female at right, half_size
-    show male at left, half_size
+    label gender_choice:
+        show female at right, half_size
+        show male at left, half_size
 
-    menu gender_choice_menu:
-        "Como você se parece?"
+        menu gender_choice_menu:
+            "Como você se parece?"
         
-        "Esquerda":
-            $ playerImage = "male.png"
-            jump intro
-        "Direita":
-            $ playerImage = "female.png"
-            jump intro
+            "Esquerda":
+                $ playerImage = "male.png"
+                jump intro
+            "Direita":
+                $ playerImage = "female.png"
+                jump intro
 
 label intro:
 
