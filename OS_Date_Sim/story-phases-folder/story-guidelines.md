@@ -109,9 +109,7 @@ Computador: Apesar de não haver conexão à internet ainda posso acessar a rede
 
 ## Fase 5: Qual a relação entre Sistema Operacional e Escalonamento
 
-## Fase 6.1: Qual as classificação do Sistema Operacional
-
-## Fase 6.2: Classificação Multiprogramado
+## Fase 6: Classificação Multiprogramado
 
 ## Fase 7: O que é um processo?
 
@@ -130,3 +128,7 @@ Computador: Apesar de não haver conexão à internet ainda posso acessar a rede
 ## Fase 14: QUem o sistema também particiona e como ele particiona?
 
 ## Fase 15: Como funciona um algotirmo de escalonamento e quanto tempo há para a realização de cada um dos trabalhos
+
+## Fase 16: Como definir onde ele deve alterar?
+
+## Fase 17 : O contexto, um conjunto de informações armazenados nos registradores a cada instante
