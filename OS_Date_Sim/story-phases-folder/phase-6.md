@@ -6,13 +6,13 @@
 
 "Minhas reservas já estão bem baixas, e pra uma viagem longa como essa..."
 
-Você olha para o computador, os dois pontos feitos de pixeis na tela do computador parecem te encarar.
+Você olha para o computador, os dois pontos feitos de pixels na tela do computador parecem te encarar.
 
 "Vai ser uma viagem longa..."
 
 computer "Correto. Uma longa viagem presumindo que sua irmã esteja na capital"
 
-Você olha para a janela, e o horizonte, e novamente para o computador.
+Você olha em direção à janela, encarando o horizonte por alguns instantes e volta seu olhar para o computador.
 
 "Você é um computador, eu não vou poder te levar"
 
