@@ -1,4 +1,4 @@
-label fase_2:
+label phase_2:
     #TODO: cena de alerta
     "ALERTA! ALERTA! ALERTA!"
     
@@ -30,7 +30,7 @@ label fase_2:
     Intelligence Technologies Enterprise, como um computador de auxílio adoraria que me 
     desse um nome para sermos mais amigos!"
 
-    call f2_nomear_computador
+    call p2_computer_naming
 
     "Você clica no botão que confirma a sua escolha. Logo depois ele pede o seu nome, 
     digitando \'[playerName]\' na caixa de entrada de texto."
@@ -45,7 +45,7 @@ label fase_2:
     computer "Desculpe, mas minhas bases de conhecimento humana são faltosas por conta 
     da última atualização, poderia explicar usando de analogias de sistema operacional?"
 
-    menu f2_menu:
+    menu p2_menu:
         player "Como eu respondo isso? Você reflete."
 
         "Eu não sei, como eu poderia entender uma máquina?":
@@ -56,7 +56,7 @@ label fase_2:
             vasculha as pilhas de papel que pareciam estar estranhamente muito relacionadas 
             com um estudo de sistemas operacionais."
     
-            jump f2_menu
+            jump p2_menu
 
         "Você liga e tem que fazer as coisas de computador né, leds, tela e tals, pra 
         que as coisas funcionem.":
@@ -71,7 +71,7 @@ label fase_2:
             de papel que pareciam estar estranhamente muito relacionadas com um estudo 
             de sistemas operacionais."
 
-            jump f2_menu
+            jump p2_menu
         
         "Assim que liga o computador, você não já inicia realizando processos complicados, 
         é necessário que um programa armazenado na memória ROM da sua placa-mãe, chamado 
@@ -83,25 +83,26 @@ label fase_2:
             
             player "Algo assim!"
 
-            jump f2_final
+            jump p2_end
 
-label f2_final:
-    return
-
-label f2_nomear_computador:
+#naming computer or computer naming?
+label p2_computer_naming:
     $ computerName = renpy.input(prompt="Como deseja me chamar?", length=10);
     $ computerName = computerName.strip()
 
     "Você digita \'[computerName]\' na caixa de entrada de texto."
     if not computerName:
         computer "Esse Nome é Inválido :C"
-        jump f2_nomear_computador
+        jump p2_computer_naming
 
-    menu f2_menu_confirmacao:
+    menu p2_computer_naming_menu:
         computer "[computerName]! Esse mesmo?"
 
         "Sim":
             return
 
         "Não":
-            jump f2_nomear_computador
+            jump p2_computer_naming
+
+label p2_end:
+    return

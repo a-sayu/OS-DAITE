@@ -1,5 +1,5 @@
 ## Tema: Fazer coisas ao "mesmo tempo"/ser multiprogramado
-label fase_6:
+label phase_6:
 
 
     player "Certo, já que acertei, vamos começar com comida."
@@ -26,12 +26,12 @@ label fase_6:
 
     computer "Pelo meu entendimento, não."
 
-label f6_question:
+label p6_question:
     player "Ahm... Vamos pensar nas classificações de sistemas operacionais"
 
     player "Você como um computador seria o sistema operacional"
 
-    menu f6_menu:
+    menu p6_menu:
         player "E programas como se fossem lugares"
 
         "Você é multiprogramado, porque você pode estar sendo usado em um lugar A, B e C ao decorrer do tempo": # fdp
@@ -40,7 +40,7 @@ label f6_question:
             
             player "Não, não posso! Deixa eu explicar de novo, talvez eu tenha confundido algo..."
 
-            jump f6_question
+            jump p6_question
 
         "Você é monoprogramado, porquê você pode estar em apenas um lugar A por uso, que seria a mesa.": # vdd
             computer "Ah... Entendo..."
@@ -53,6 +53,6 @@ label f6_question:
 
             computer "Mas existem tablets com o sistema D.AI.T.E!"
 
-            jump f6_final
-label f6_final:
+            jump p6_final
+label p6_end:
     return
