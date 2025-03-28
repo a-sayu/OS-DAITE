@@ -132,3 +132,5 @@ Computador: Apesar de não haver conexão à internet ainda posso acessar a rede
 ## Fase 16: Como definir onde ele deve alterar?
 
 ## Fase 17 : O contexto, um conjunto de informações armazenados nos registradores a cada instante
+
+## Fase 18 : --
