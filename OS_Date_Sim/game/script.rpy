@@ -118,3 +118,4 @@ label intro:
     call fase_3
     call fase_4
     call fase_5
+    call fase_6
