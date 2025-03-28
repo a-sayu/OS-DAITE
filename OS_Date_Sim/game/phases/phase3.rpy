@@ -1,4 +1,4 @@
-label fase_3:
+label phase_3:
 
     "Enquanto a chuva caia, você se acomoda na cadeira, ficando em silêncio ouvindo apenas a forte chuva cair, restando a você quebrar o silêncio."
 
@@ -11,7 +11,7 @@ label fase_3:
     computer "Ponto de começo?"
 
     #endereco memoria menu
-    menu f3_menu:
+    menu p3_menu:
         player "Sim tipo..."
 
         "Quando seu sistema operacional é carregado da memória secundária e você tem que colocar o endereço da primeira instrução do seu Escalonador de Processos no Contador de Instruções e no registrador do Escalonador de Processos.":
@@ -20,7 +20,7 @@ label fase_3:
             
                 Você pode tentar primeiramente checar as possíveis rotas que eles podem ter pego, para planejar em volta disso, apesar das bases defeituosas de conhecimento humano, sou ótimo com cálculos e previsões"""
         
-            jump f3_final
+            jump p3_end
 
         "Eu não sei se consigo te explicar isso, sabe a primeira coisa, que antecede tudo...":
             computer "Como isso se relaciona? Eu também não sei dizer sobre o que é a primeira coisa, que antecede tudo"
@@ -29,7 +29,7 @@ label fase_3:
             
             "Para tentar respondê-lo melhor você vasculha as pilhas de papel que pareciam estar estranhamente muito relacionadas com um estudo de sistemas operacionais."
 
-            jump f3_menu
+            jump p3_menu
 
         "É tipo o oposto do fim!":
             computer "Interessante! Mas não acho que é uma resposta que explique o que é um ponto de começo!"
@@ -38,7 +38,7 @@ label fase_3:
             
             "Você vasculha as pilhas de papel que pareciam estar estranhamente muito relacionadas com um estudo de sistemas operacionais."
 
-            jump f3_menu
+            jump p3_menu
 
-label f3_final:
+label p3_end:
     return

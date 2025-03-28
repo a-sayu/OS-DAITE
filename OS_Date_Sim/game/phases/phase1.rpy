@@ -1,4 +1,4 @@
-label fase_1:
+label phase_1:
     
     scene bg-computerRoom-night-off
 
@@ -17,7 +17,7 @@ label fase_1:
 
     player "D.AI.TE... é o sistema operacional desse computador velho?"
 
-    menu f1_menu:
+    menu p1_menu:
         player "Hmm... Se eu fosse um computador, meu sistema operacional ficaria..."
 
         "Na minha memória de longo prazo!":
@@ -29,13 +29,13 @@ label fase_1:
             atingindo, você come uma barra de cereal, e vai se deitar no sofá, cobrindo-se com um 
             fino lençol."
             
-            jump f1_final
+            jump p1_end
 
         "No meu... Estômago?":
             player "Parece que eu estou com muita fome, haha, achando a resposta talvez eu 
             me distraia da fome..."
 
-            jump f1_menu
+            jump p1_menu
 
         "Eu não sei dizer...":
             player "Bem, se eu não sei, eu tenho que estudar..."
@@ -43,7 +43,7 @@ label fase_1:
             "Você vasculha as pilhas de papel que pareciam estar estranhamente muito 
             relacionadas com um estudo de sistemas operacionais."
 
-            jump f1_menu
+            jump p1_menu
 
-label f1_final:
+label p1_end:
     return
