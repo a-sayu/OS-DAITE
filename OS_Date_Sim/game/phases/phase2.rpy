@@ -46,7 +46,7 @@ label phase_2:
     da última atualização, poderia explicar usando de analogias de sistema operacional?"
 
     menu p2_menu:
-        player "Como eu respondo isso? Você reflete."
+        "Como eu respondo isso? Você reflete."
 
         "Eu não sei, como eu poderia entender uma máquina?":
             
