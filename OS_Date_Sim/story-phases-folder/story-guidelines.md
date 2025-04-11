@@ -134,3 +134,5 @@ Computador: Apesar de não haver conexão à internet ainda posso acessar a rede
 ## Fase 17 : O contexto, um conjunto de informações armazenados nos registradores a cada instante
 
 ## Fase 18 : --
+
+## Fase 19 : --
