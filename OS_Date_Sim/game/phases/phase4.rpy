@@ -1,5 +1,5 @@
 
-label fase_4:
+label phase_4:
     computer "Pelas minhas previsões, os sensores estão indicando uma menor chance de chuva depois das 19h. Você precisa de uma ordem para fazer as coisas, certo?"
 
     player "Esse horário não é bom, tem chance de eu ser atacada por uma daquelas... Máquinas. Eu não conseguiria chegar a tempo nem mesmo na cidade mais próxima!"
@@ -25,14 +25,14 @@ label fase_4:
     computer "Ele utiliza um algoritmo de escalonamento para decidir!"
 
     #escalonamento
-    menu f4_menu:
+    menu p4_menu:
         player "Certo..."
 
         "Você quer dizer para eu definir um meio de agendar as tarefas que eu preciso fazer?":
 
             computer "Correto, podemos fazer cada coisa um pouco de cada vez!"
 
-            jump f4_final
+            jump p4_end
 
         "Eu tenho apenas um cérebro, não tem como processar mais de uma coisa ao mesmo tempo...":
 
@@ -42,7 +42,7 @@ label fase_4:
 
             computer "Bem, essa é minha suposição"
 
-            jump f4_menu
+            jump p4_menu
 
         "Você quer que eu reduza meu escopo para um processo por vez? Algo como fazer até terminar?":
 
@@ -52,7 +52,7 @@ label fase_4:
 
             "Okay, faz mais sentido, talvez eu tenha perdido algo na explicação anterior..."
 
-            jump f4_menu
+            jump p4_menu
 
-label f4_final:
+label p4_end:
     return

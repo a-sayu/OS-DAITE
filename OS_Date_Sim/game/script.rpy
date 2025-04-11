@@ -113,8 +113,9 @@ label intro:
     caminhava discretamente até o prédio que fica sua atual 'casa', retirando suas chaves
     do bolso, você destranca a porta."
 
-    call fase_1
-    call fase_2
-    call fase_3
-    call fase_4
-    call fase_5
+    call phase_1
+    call phase_2
+    call phase_3
+    call phase_4
+    call phase_5
+    call phase_6
