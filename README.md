@@ -2,10 +2,20 @@
 
 Realizado por Abigail Sayury Nakashima e Miguel de Campos Rodrigues Moret.
 
-## TODO LIST
+## Conteúdo
 
 [ ] - Fase 1: Ligar o Computador;
 
-[ ] - Fase 2: to come...
+[ ] - Fase 2: ;
 
-[ ] - Fase -: to come...
+[ ] - Fase 3: ;
+
+[ ] - Fase 4: ;
+
+[ ] - Fase 5: ;
+
+[ ] - Fase 6: ;
+
+[ ] - Fase 7: ;
+
+[ ] - Fase 8: to come...
