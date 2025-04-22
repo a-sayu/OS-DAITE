@@ -136,3 +136,21 @@ Computador: Apesar de não haver conexão à internet ainda posso acessar a rede
 ## Fase 18 : --
 
 ## Fase 19 : --
+
+## Fase 20 : --
+
+## Fase 21 : --
+
+## Fase 22 : --
+
+## Fase 23 : --
+
+## Fase 24 : --
+
+## Fase 25 : --
+
+## Fase 26 : --
+
+## Fase 27 : --
+
+## Fase 28 : --
