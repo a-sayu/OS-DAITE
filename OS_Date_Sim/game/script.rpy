@@ -4,12 +4,19 @@
 # name of the character.
 
 # Variáveis
-default playerImage = "computer.png"
-default playerName = ""
-default computerName = ""
-default correct = [False, False, False] #False == erro && True == acerto
+# scrpt
+default playerImage = "computer.png"    # String
+default playerName = ""                 # String
+default computerName = ""               # String
+#phase 3
+default correct = [False, False, False] # False == erro / True == acerto
+#phase 7
+default have_notebook = False           # True or False
+default seen_safe = False               # True or False
+default password = ""                   # String
+default wrong_input = 0                 # Integers
 
-# Personagens
+# Characters or types of dialogue
 define computer = Character("[computerName]", image="computer")
 define player = Character("[playerName]", image="player")
 define thoughts = Character("[playerName]", what_suffix='"', what_prefix='"')
@@ -28,7 +35,7 @@ image bg-computerRoom-day-on = "computerRoom_day_on.png"
 image bg-computerRoom-night-off = "computerRoom_night_off.png"
 image bg-computerRoom-night-on = "computerRoom_night_on.png"
 
-#transform
+# Adjusting images
 transform half_size:
     zoom 1.2
 
@@ -43,11 +50,11 @@ label start:
 label beginning:
     scene bg-whiteScreen
 
-    "Jogo feito por Abigail e Miguel para Sistemas Operacionais.
+    "Jogo feito por Abigail e Miguel para a matéria de Sistemas Operacionais 1 & 2.
     Clique para prosseguir."
 
     menu confirm_tutorial:
-        "Você conhece os comandos?"
+        "Você gostaria de conhecer os comandos?"
 
         "Sim":
             jump character_creation
@@ -86,24 +93,29 @@ label character_creation:
         "[playerName] é seu nome?"
         
         "Sim":
+
             jump gender_choice
             
         "Não":
+
             jump character_creation
 
-    label gender_choice:
-        show female at right, half_size
-        show male at left, half_size
+label gender_choice:
+    show female at right, half_size
+    show male at left, half_size
 
-        menu gender_choice_menu:
-            "Como você se parece?"
+    menu gender_choice_menu:
+        "Como você se parece?"
         
-            "Esquerda":
-                $ playerImage = "male.png"
-                jump intro
-            "Direita":
-                $ playerImage = "female.png"
-                jump intro
+        "Esquerda":
+            
+            $ playerImage = "male.png"
+            jump intro
+
+        "Direita":
+            
+            $ playerImage = "female.png"
+            jump intro
 
 label intro:
 
@@ -119,3 +131,4 @@ label intro:
     call phase_4
     call phase_5
     call phase_6
+    call phase_7
