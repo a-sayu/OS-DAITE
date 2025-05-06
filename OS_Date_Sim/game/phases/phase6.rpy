@@ -53,6 +53,6 @@ label p6_question:
 
             computer "Mas existem tablets com o sistema D.AI.T.E!"
 
-            jump p6_final
+            jump p6_end
 label p6_end:
     return
