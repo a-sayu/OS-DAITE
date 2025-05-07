@@ -42,7 +42,7 @@ Realizado por Abigail Sayury Nakashima e Miguel de Campos Rodrigues Moret.
 
 [ ] - Fase 8;
 
-# Implementado
+## Implementado
 
 [X] - Fase 1;
 
