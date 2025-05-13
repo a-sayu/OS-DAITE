@@ -26,6 +26,7 @@ Depois encontrar a senha...
 
 Caso 1:
     "E isso é um processo"
+    "Porque um processo é um programa e o conjunto de informações necessárias para que ele seja executado"
     "To ficando craque em Sistemas Operacionais ein..."
 
 Caso 2:
