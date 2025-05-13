@@ -2,20 +2,60 @@
 
 Realizado por Abigail Sayury Nakashima e Miguel de Campos Rodrigues Moret.
 
-## Conteúdo
 
-[ ] - Fase 1: Ligar o Computador;
 
-[ ] - Fase 2: ;
+# TODO:
 
-[ ] - Fase 3: ;
+## Planejamento
 
-[ ] - Fase 4: ;
+[X] - Fase 1: Ligar o Computador;
 
-[ ] - Fase 5: ;
+[X] - Fase 2: ;
 
-[ ] - Fase 6: ;
+[X] - Fase 3: ;
 
-[ ] - Fase 7: ;
+[X] - Fase 4: ;
+
+[X] - Fase 5: ;
+
+[X] - Fase 6: ;
+
+[X] - Fase 7: ;
 
 [ ] - Fase 8: to come...
+
+## História
+
+[X] - Fase 1;
+
+[X] - Fase 2;
+
+[X] - Fase 3;
+
+[X] - Fase 4;
+
+[X] - Fase 5;
+
+[X] - Fase 6;
+
+[X] - Fase 7;
+
+[ ] - Fase 8;
+
+## Implementado
+
+[X] - Fase 1;
+
+[X] - Fase 2;
+
+[X] - Fase 3;
+
+[X] - Fase 4;
+
+[X] - Fase 5;
+
+[X] - Fase 6;
+
+[X] - Fase 7;
+
+[ ] - Fase 8;
