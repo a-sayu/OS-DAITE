@@ -9,9 +9,9 @@ label phase_8:
 
     player "Por quê? Por que tanta segurança pra algo tão simples?"
 
-    # TODO: Mostrar computador 95%
+    # TODO: Mostrar computador 95
 
-    "Você olha para o computador, que marcava pouco mais de 95%."
+    "Você olha para o computador, que marcava pouco mais de 95\%."
 
     thoughts 'Qual a relação entre tudo que eu fiz com a necessidade de tantas etapas?'
 
@@ -27,7 +27,7 @@ label phase_8:
         
             thoughts 'Espera, a senha era sobre sistemas operacionais, sobre processos, talvez o que eu fiz tenha a ver com isso pois...'
 
-            "Em um sistema operacional, assim como esse escritório, ele contém informações necessárias para que um programa, no caso abrir um cofre sejam executados com sucesso":  //vdd
+            "Em um sistema operacional, assim como esse escritório, ele contém informações necessárias para que um programa, no caso abrir um cofre sejam executados com sucesso":  #vdd
         
                 player "E isso é um processo"
                 player "Porque um processo é um programa e o conjunto de informações necessárias para que ele seja executado"
@@ -35,7 +35,7 @@ label phase_8:
             
                 jump p8_end
         
-            "Em um sistema operacional, cada programa é como uma pista, só quando se tem todas se abre o cofre, no caso o processo se inicia.": //fdp
+            "Em um sistema operacional, cada programa é como uma pista, só quando se tem todas se abre o cofre, no caso o processo se inicia.": #fdp
 
                 player "Não... Não é bem isso"
                 player "As pistas são informações necessárias para o programa"
@@ -44,7 +44,7 @@ label phase_8:
             
                 jump p8_menu
 
-            "Em um sistema operacional, um processo é um conjunto de instruções, e para abrir esse cofre foi seguido um conjunto de intruções.": //fdp
+            "Em um sistema operacional, um processo é um conjunto de instruções, e para abrir esse cofre foi seguido um conjunto de intruções.": #fdp
     
                 player "Não... Não é bem isso"
                 player "Um conjunto de instruções pode ser a definição de programa"

@@ -198,7 +198,7 @@ label phase_7:
 
                                 if not (password == "040$343071"):
                                     $ wrong_input = wrong_input + 1
-                                    jump open_safe
+                                    jump password_input
                         
                             "Quando inserido troca para: Reconhecendo..."
                             "Ao aceitar troca para: Pronto!"
