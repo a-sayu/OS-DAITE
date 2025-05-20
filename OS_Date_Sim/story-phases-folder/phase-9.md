@@ -2,22 +2,6 @@
 
 ## Qual a relação entre Memória RAM, Sistema Operacional e Programas de Usuário?
 
-Resposta do Formulário: "A RAM armazena o sistema operacional e os programas de usuário enquanto o computador está ligado."
-
-Quando chega no supermercado abandonado das proximidades, percebe que o supermercado está bem bagunçado e enquanto o protagonista e o tablet selecionavam os alimentos.
-
-O protagonista percebe que é meio incômodo usar a mochila para carregar o tablet e que o protagonista precisa de uma bolsa (que irá representar a memória RAM) para armazenar a comida e o tablet, ele associa para o tablet que a bolsa de acesso rápido é similar à memória RAM, e o tablet e comida são os programas que o protagonista (que representa o sistema operacional) usa.
-
-1 - Em um sistema operacional, assim como esse escritório, ele contém informações necessárias para que um programa, no caso abrir um cofre sejam executados com sucesso
-
-"E isso é um processo"
-
-"Porque um processo é um programa e o conjunto de informações necessárias para que ele seja executado"
-
-"To ficando craque em Sistemas Operacionais ein..."
-
----
-
 Quando termina de se perguntar sobre a relação de processos, é possível observar que o número na tela do computador estava concluído.
 
 computer "Completo! {player}, você encontrou o tablet?"
