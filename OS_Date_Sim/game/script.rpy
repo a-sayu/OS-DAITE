@@ -133,4 +133,3 @@ label intro:
     call phase_6
     call phase_7
     call phase_8
-    call phase_9
