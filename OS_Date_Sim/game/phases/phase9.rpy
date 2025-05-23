@@ -80,7 +80,7 @@ label phase_9:
             computer "Mais do que o tempo de retirar da mochila"
             jump p9_menu
 
-        "Se for assim, minha mochila é uma memória secundária, e eu deveria ter uma primária para armazenar você, {computer} o sistema operacional de decisões e os programas como a lanterna e lanchinhos rápidos": # vdd
+        "Se for assim, minha mochila é uma memória secundária, e eu deveria ter uma primária para armazenar você, [computerName] o sistema operacional de decisões e os programas como a lanterna e lanchinhos rápidos": # vdd
             computer "Nem precisei te ajudar"
             jump p9_end
 
