@@ -82,8 +82,6 @@ computer "Mais do que o tempo de retirar da mochila"
 
 computer "Nem precisei te ajudar"
 
-O tablet então mostra algumas ideias de memória primária.
-
 3 - "Ah! Já sei! Posso fazer uma lista de tudo que está na mochila. Aí, mesmo se estiver bagunçada, eu sei o que pegar." # fdp
 
 computer "A lista ajuda, mas não acelera o acesso... é como ter um índice sem memória — ainda leva tempo para encontrar as coisas."

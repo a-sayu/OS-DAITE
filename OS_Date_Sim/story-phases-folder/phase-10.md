@@ -1,15 +1,31 @@
 # Fase 10
 
-Tema: A Importancia do armazenamento do SO e Programas na memória do usuário
+## Qual a importância de armazenar o sistema operacional na memória RAM
 
-tablet: "Por que você não coloca essa comida direto na mochila grande?"
+Na tela de {computer} aparece um símbolo de carregamento.
 
-"Porque aí eu teria que tirar ela toda vez que quisesse comer alguma coisa."
+"Você está pensando? Pensando em quê?"
 
-tablet: "Mas cabe mais nela..."
+computer "Pensando em por que você precisaria me colocar em uma memória primária"
 
-"Sim, mas demora mais pra acessar. É como o sistema operacional ficar só no HD, sabe? Precisa ir pra RAM pra funcionar mais rápido."
+computer "Mesmo que seja mais rápido, você estaria carregando mais peso, e seria mais prático só ter uma unica mochila"
 
-tablet: "Ah... então você deixa ele na bolsa porque você usa ele com frequência."
+1 - "Sim, mas conveniencia, sei lá?"
 
-"Exatamente! É acesso rápido, armazenamento temporário, mas muito eficiente."
+2 - "Sim, demora mais para acessar a mochila, mas minha busca é mais rápida se estiver ao alcance das minhas mãos"
+
+Caso 1:
+
+computer "Se for só por isso, não é melhor manter o que estava antes?"
+
+"Mas, demoraria para buscar"
+
+computer "Então explique melhor como isso importa"
+
+Caso 2:
+
+computer "Realmente, a busca é uma operação principal"
+
+ "Se ela for lenta, como que eu poderia responder imediatamente?"
+
+computer "Agora só falta qual vai ser a sua memória primária, então"
