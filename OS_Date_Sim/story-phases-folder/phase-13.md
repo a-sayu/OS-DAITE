@@ -38,7 +38,7 @@ computer "Não, isso é algo que um particionamento fixo faria"
 
 "Sim, mas seria durante as atividades do Sistema Operacional para mim"
 
-1 - Ou seja, quando eu tiver os itens em mãos e eu precisar guardá-los.
+1 - Ou seja, quando eu tiver os itens em mãos e eu precisar guardá-los. # vdd
 
 2 - Ou seja, Agora. Eu só preciso tirar os itens da mochila agora, e começar a particionar já planejando o que vem.
 
@@ -65,15 +65,3 @@ computer "Mas para isso você tem que ter os compartimentos montados"
 computer "Você tem que fazer isso em algum momento, quando?"
 
 "Ah faz sentido"
-
----
-
-Fase 13 – Quando particionar a RAM
-
-"Será que vale a pena dividir tudo agora ou deixar tudo misturado e ir arrumando depois?"
-
-tablet: "Você sabe o que vai encontrar?"
-
-"Não. Por isso estou em dúvida... mas talvez seja melhor me preparar agora e evitar confusão depois."
-
-tablet: "Decisões de tempo real. Um clássico de SO."
