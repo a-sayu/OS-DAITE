@@ -2,24 +2,34 @@
 
 ## Quem o sistema também particiona e como ele particiona?
 
-computer "Não, isso é algo que um particionamento fixo faria"
+computer "Como a gente tem tempo, quer particionar a mochila também?"
 
-"Sim, mas seria durante as atividades do Sistema Operacional para mim"
+"Como assim? Achei que só a RAM fosse particionada assim..."
 
-1 - Ou seja, quando eu tiver os itens em mãos e eu precisar guardá-los. # vdd
+computer "Claro que não"
 
-computer "Exatamente, conforme você tem programas a sua disposição"
+computer "A mochila também deve ficar organizada"
 
-computer "Você adiciona partições para cada programa"
+1 - Ah, sim, no SO o núcleo organiza em setor
 
----
+2 - Ah, sim, no SO o núcleo organiza em blocos # vdd
 
-Fase 14 – Particionar também a mochila (memória secundária)
+Caso 1:
 
-"Tem coisas que eu nem vou usar agora... Acho que vão pra mochila."
+computer "Não exatamente, não podemos confundir setor com bloco"
 
-tablet: "Você também vai particionar ela?"
+computer "Setor é um termo mais de hardware, e é o menor tamanho de uma unidade de armazenamento"
 
-"Sim. Comida de hoje na bolsa. Comida de depois, na mochila."
+"Ah... minha mochila tem espaços grandes demais pra serem chamados de setores, né?"
 
-tablet: "Memória primária e secundária bem gerenciadas!"
+Caso 2:
+
+"Cada compartimento e separação são blocos, certo?"
+
+computer "Isso, pois facilitam a transferência de dados entre o sistema operacional e a memória secundária."
+
+"E blocos são vários setores, seria como se cada setor fosse uma parte do compartimento"
+
+"Todos do mesmo tamanho e que juntos formam o compartimento"
+
+Enquanto vocês conversavam sobre esses assuntos, você termina de arrumar sua mochila.
