@@ -1,6 +1,51 @@
-OS_Date_Sim/game/saves/*
-OS_Date_Sim/game/cache/*
-OS_Date_Sim/errors.txt
-OS_Date_Sim/log.txt
-OS_Date_Sim/traceback.txt
-OS_Date_Sim/game/*.rpyc
+
+# Created by https://www.toptal.com/developers/gitignore/api/visualstudiocode,renpy
+# Edit at https://www.toptal.com/developers/gitignore?templates=visualstudiocode,renpy
+
+### Renpy ###
+# Don't track content of these folders #
+########################################
+OS_Date_Sim/game/saves/
+OS_Date_Sim/game/cache/
+
+
+# Compiled source #
+###################
+*.com
+*.class
+*.dll
+*.exe
+*.o
+*.so
+
+*.rpyc
+*.rpymc
+
+
+# The log file and other misc things #
+######################################
+log.txt
+errors.txt
+traceback.txt
+files.txt
+
+### VisualStudioCode ###
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+!.vscode/*.code-snippets
+
+# Local History for Visual Studio Code
+.history/
+
+# Built Visual Studio Code Extensions
+*.vsix
+
+### VisualStudioCode Patch ###
+# Ignore all local history of files
+.history
+.ionide
+
+# End of https://www.toptal.com/developers/gitignore/api/visualstudiocode,renpy
