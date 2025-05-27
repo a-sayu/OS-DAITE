@@ -2,7 +2,7 @@
 
 ## Como funciona um algoritmo de escalonamento e quanto tempo há para a realização de cada um dos trabalhos
 
-Pela tela do tablet, era percebível que já estava a um bom tempo nesse supermercado, ao ler a tela do tablet.
+Pela tela do tablet, percebia que já estava há um bom tempo no supermercado.
 
 'Já é quase meia noite, faz um bom tempo que eu não sabia a exatidão das horas'
 
@@ -16,9 +16,9 @@ Olhando a tela, você percebe um aviso, e suas mãos começam a soar.
 
 computer "{player}, inteligência artificial de versão maliciosa identificada nas proximidades"
 
-Estava escrita na tela, e ao olhar ao redor, percebe que logo na saída do supermercado um ser aparecentemente humanóide.
+Essa mensagem aparecia na tela. Ao olhar ao redor, você percebe um ser de aparência humanóide próximo à saída do supermercado.
 
-Ele parece caminhar sem rumo.
+Ele vaga sem rumo, como se estivesse patrulhando.
 
 Você cancela o alarme, o anúncio do tablet e o silencia.
 
@@ -52,13 +52,13 @@ Ele pergunta guardando o cano de metal na mochila.
 
 jorge "Meu nome é Jorge, e você?"
 
-"Ah é {player}"
+"Ah, é {player}"
 
 jorge "Desculpa a pergunta, mas você tem comida sobrando?"
 
 "Tenho apenas para mim, se você precisa, você pode procurar lá dentro, eu não peguei tudo..."
 
-jorge "Ah claro, valeu!"
+jorge "Ah, claro, valeu!"
 
 Jorge diz indo em direção ao mercado, porém ele para e olha para você com uma voz tímida
 
@@ -74,7 +74,7 @@ jorge "Um robô pode não parecer muita coisa, mas perto da capital está bem pi
 
 Você diz, achando que foi muita informação e decisão de uma vez só.
 
-'No meu plano de escalonamento eu só contabilizei o meu tempo'
+'No meu plano de escalonamento, eu só considerei o meu tempo de execução...'
 
 'Eu poderia delegar algumas das funções pra ele não?'
 
@@ -128,7 +128,7 @@ Caso 3:
 
 'Quando se escalona, devemos dar à um programa tempos iguais e que ele pudessem completar todas as suas atividades, sem controlar todo o tempo'
 
-'O escalonamento deve ser justo e igualitário'
+'O escalonamento deve ser justo e igualitário, se formos pensar como um sistema operacional, dois processos precisam de tempo de CPU equilibrado. Se um monopolizar o tempo, o outro falha.'
 
 jorge "Claro, valeu, eu estou de acordo em dividir"
 
@@ -137,17 +137,3 @@ jorge "Achei que fosse pedir algo absurdo"
 "É sempre importante ser justo nessas horas, estamos igualmente buscando coisas importantes na capital, certo?"
 
 jorge "Certo, valeu"
-
----
-
-Fase 15 – Algoritmo de escalonamento e divisão de tempo
-
-O robô ataca. Jorge salva o protagonista.
-
-jorge: "Me deixa ir com você! Eu te ajudo!"
-
-"Se quiser vir, tem que ajudar de verdade. Nada de ficar parado."
-
-jorge: "Fechado! Revezamos tarefas?"
-
-"Sim, como um escalonador justo: cada processo tem seu tempo."
