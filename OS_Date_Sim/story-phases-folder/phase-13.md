@@ -26,6 +26,12 @@ computer "Não, isso é algo que um particionamento fixo faria"
 
 3 - Não entendi...
 
+Caso 1:
+
+computer "Exatamente, conforme você tem programas a sua disposição"
+
+computer "Você adiciona partições para cada programa"
+
 Caso 2:
 
 computer "Não... Isso é particionamento fixo"
