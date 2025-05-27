@@ -5,7 +5,7 @@
 
 # Variáveis
 # scrpt
-default playerImage = "computer.png"    # String
+default playerImage = "female.png"    # String
 default computerImage = "computer.png"    # String
 default playerName = ""                 # String
 default computerName = ""               # String
