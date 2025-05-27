@@ -2,16 +2,6 @@
 
 ## Partições de Tamanho Fixo, Partições de Tamanho Variável. Fragmentação Interna e Fragmentação Externa
 
-2 - Bolsas com compartimentos, similar à uma memória RAM com particionamento
-
-computer "Bem, isso é organizado, com compartimentos você vai poder separar cada necessidade"
-
-"Bem, esse era o plano inicial mesmo, além de ficar mais fácil de acessar"
-
-computer "Então está decidido!"
-
----
-
 computer "Agora... Qual tipo de bolsa você vai pegar?"
 
 "A mais simples? Não tem porquê pensar muito sobre isso, não?"
@@ -76,4 +66,4 @@ computer "Essa é a descrição de uma fragmentação externa"
 
 "Mas nesse caso é fácil de lidar, o meu funcionamento pode ser similar a de um sistema operacional"
 
-"Mas diferente dele eu posso mudar o tamanho das partições quando eu quiser"
+"Mas diferente dele eu posso mudar a posição das partições quando eu quiser"
