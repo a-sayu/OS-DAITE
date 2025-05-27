@@ -2,6 +2,10 @@
 
 ## Como definir para onde ele deve alternar?
 
+Vocês dois
+
+---
+
 Fase 16 – Definir quem priorizar
 
 Jorge desaba de fome.

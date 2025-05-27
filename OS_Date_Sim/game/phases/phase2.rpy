@@ -1,7 +1,7 @@
 label phase_2:
     #TODO: cena de alerta
 
-    scene computerRoom_day_on
+    scene bg-computer-day-on
 
     "ALERTA! ALERTA! ALERTA!"
     "O som te assusta, seu corpo ainda está lento, por causa do cansaço do dia anterior, 

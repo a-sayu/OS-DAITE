@@ -14,13 +14,15 @@ label phase_9:
 
     "Olhando para o número se movendo lentamente, você se pergunta quanto tempo levaria."
 
-    scene bg-computerRoom-night-off
+    scene bg-computerRoom-night-on
 
     "A resposta veio depois de algumas horas, ao fim da tarde, ou o começo da noite."
 
     player "Bem, não posso desperdiçar o dia agora né?"
 
     "A chuva que parava próximo as 19h parecia diminuir agora, e você começa a se preparar para sair."
+
+    scene bg-computerRoom-night-off
 
     player "Vamos [computerName]?"
 
@@ -33,6 +35,8 @@ label phase_9:
     "Coloca-o na mochila, o que te incomoda um pouco, já que ele não iria realmente poder estar contigo constantemente."
 
     "Saindo do local, você tranca a porta, colocando o molho de chaves no bolso da calça."
+    
+    scene bg-desolatedCity
 
     player "Primeiro, passar no mercado, pegar comida"
 
@@ -42,17 +46,25 @@ label phase_9:
 
     "Você caminha pelas ruas iluminadas pelo luar e em pouco tempo estava diante de um supermercado com as portas abertas."
 
+    scene bg-supermarketFront
+
     "O interior estava visivelmente destruído."
 
     "Entrando no local, você tira sua bolsa para retirar uma lanterna e pega uma cestinha largada, colocando a bolsa nas costas de volta."
 
     "Até estar em um local com um cheiro um tanto putrido."
 
+    scene bg-supermarketFruitSection
+
     "Cobrindo suas narinas, você olha para a seção ao lado, de comidas com uma data de válidade longa."
+
+    scene bg-supermarketFoodSection
 
     "Colocando elas na cesta: bolacha, sopas prontas, macarrão e aproveita para pegar um conjunto de talheres para cozinhar e comer."
 
     "Saindo do local até uma seção com roupas e sapatos, você se senta, observando suas compras."
+
+    scene bg-supermarketClothSection
 
     thoughts 'Se eu colocar na minha mochila, vai ficar cada vez mais dificil de tirar as coisas dela...'
 

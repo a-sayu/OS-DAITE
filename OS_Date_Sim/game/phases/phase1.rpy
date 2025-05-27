@@ -12,6 +12,8 @@ label phase_1:
     player "Eu deveria tentar ligar esse computador, apesar de o mundo ter acabado, a 
     energia e a internet ainda não acabou..."
 
+    scene bg-computerRoom-night-on
+
     "Apertando o botão de ligar o computador, você apoia sua mão na mesa, vendo as leds 
     ligarem, e ficar na tela de carregamento."
 
