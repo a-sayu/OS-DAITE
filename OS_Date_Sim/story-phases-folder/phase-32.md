@@ -1,3 +1,29 @@
+# Fase 32
+
+## Modo Nucleo vs Modo Usuário
+
+O grupo acampa em uma estação abandonada com acesso a um terminal antigo.
+
+jorge: "Você já percebeu que não temos acesso a tudo o que o tablet faz?"
+
+tablet: "Isso é proposital. Algumas funções são executadas apenas em modo núcleo."
+
+"Ou seja, só o sistema operacional tem acesso a essas funções críticas."
+
+jorge: "E o que a gente acessa?"
+
+tablet: "Vocês operam no modo usuário. Seguro, limitado, sem riscos ao sistema."
+
+"Faz sentido. Se qualquer processo pudesse mexer com os comandos críticos, o sistema quebrava."
+
+tablet: "Por isso há dois modos: modo protegido e modo comum. Segurança total."
+
+personagem_estrangeiro: “Modo... protegido. Seguro!”
+
+jorge: "Ele aprendeu antes de mim…"
+
+---
+
 Fase 32 – Quando ocorre uma chamada de sistema
 
 O personagem estrangeiro aponta para o rádio e fala algo estridente.

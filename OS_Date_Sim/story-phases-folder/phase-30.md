@@ -1,3 +1,7 @@
+# Fase 30
+
+## Ciclo de Vida dos Processos
+
 Fase 30 – Problema: processos controlarem os recursos
 
 personagem_estrangeiro: “Nax falderm kru!”

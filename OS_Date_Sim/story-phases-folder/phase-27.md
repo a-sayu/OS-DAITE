@@ -1,3 +1,7 @@
+# Fase 27
+
+## Um sistema operacional já é comercializado pronto para lidar com periféricos diversos? É necessário instalar algo?
+
 Fase 27 – SOs já vêm preparados para periféricos?
 
 Durante a limpeza da estrada, um novo personagem se aproxima. Ele fala... algo incompreensível.

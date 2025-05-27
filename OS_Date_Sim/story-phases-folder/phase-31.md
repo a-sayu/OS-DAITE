@@ -1,3 +1,7 @@
+# Fase 31
+
+## Programas executando ao mesmo tempo
+
 Fase 31 – Como controlar o compartilhamento de recursos (sem deixar pros usuários)
 
 "Precisamos centralizar esse controle. Nada de deixar os processos decidirem."

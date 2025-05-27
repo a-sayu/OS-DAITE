@@ -2,7 +2,15 @@
 
 ## Partições de Tamanho Fixo, Partições de Tamanho Variável. Fragmentação Interna e Fragmentação Externa
 
-Fase 12 – Partições fixas, variáveis, fragmentações
+2 - Bolsas com compartimentos, similar à uma memória RAM com particionamento
+
+computer "Bem, isso é organizado, com compartimentos você vai poder separar cada necessidade"
+
+"Bem, esse era o plano inicial mesmo, além de ficar mais fácil de acessar"
+
+computer "Então está decidido!"
+
+---
 
 tablet: "Essa sua bolsa parece uma partição fixa... Tudo do mesmo tamanho."
 
