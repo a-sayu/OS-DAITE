@@ -14,9 +14,9 @@ label phase_10:
 
     menu p10_menu:
 
-        computer "Mesmo que seja mais rápido, você estaria carregando mais peso, e seria mais prático só ter uma unica mochila"
+        computer "Mesmo que seja mais rápido, você estaria carregando mais peso, e seria mais prático só ter uma única mochila"
     
-        "Sim, mas conveniencia, sei lá?":
+        "Sim, mas conveniência, sei lá?":
             computer "Se for só por isso, não é melhor manter o que estava antes?"
             player "Mas, demoraria para buscar"
             computer "Então explique melhor como isso importa"

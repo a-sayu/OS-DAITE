@@ -14,6 +14,8 @@ label phase_9:
 
     "Olhando para o número se movendo lentamente, você se pergunta quanto tempo levaria."
 
+    scene bg-computerRoom-night-off
+
     "A resposta veio depois de algumas horas, ao fim da tarde, ou o começo da noite."
 
     player "Bem, não posso desperdiçar o dia agora né?"
