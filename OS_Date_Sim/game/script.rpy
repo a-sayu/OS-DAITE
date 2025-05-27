@@ -5,7 +5,8 @@
 
 # Variáveis
 # scrpt
-default playerImage = "computer.png"    # String
+default playerImage = "female.png"    # String
+default computerImage = "computer.png"    # String
 default playerName = ""                 # String
 default computerName = ""               # String
 #phase 3
@@ -22,7 +23,7 @@ define player = Character("[playerName]", image="player")
 define thoughts = Character("[playerName]", what_suffix='"', what_prefix='"')
 
 # Imagens
-image side computer = "computer.png"
+image side computer = "[computerImage]"
 image side player = "[playerImage]"
 image female = "female.png"
 image male = "male.png"
@@ -136,3 +137,6 @@ label intro:
     call phase_9
     call phase_10
     call phase_11
+    call phase_12
+    call phase_13
+    call phase_14
