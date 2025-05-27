@@ -22,6 +22,8 @@ label phase_9:
 
     player "Vamos [computerName]?"
 
+    $ computerImage = "tablet.png"
+
     computer "Claro!"
 
     "A interface e o sistema podia ser diferente, mas a presença dele traz um pouco de tranquilidade com a longa viagem que você vai ter."
