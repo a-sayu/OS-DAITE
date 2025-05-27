@@ -1,13 +1,35 @@
 # Fase 11
 
-Tema: Método de organização da memória RAM
+## Como organizar o armazenamento na memória RAM?
 
-"Ok, agora preciso organizar tudo isso... Fruta com bolacha? Péssima ideia."
+"É... Aqui que complica, bem vamos aproveitar que a gente está na seção de moda da loja"
 
-tablet: "Você vai organizar conforme o quê?"
+computer "Bem, analisando o ambiente..."
 
-"Talvez por tipo... Ou por localização... Ou separar bem certinho em compartimentos."
+O tablet fica por alguns segundos carregando.
 
-tablet: "Tipo a RAM organizando os dados dos programas?"
+computer "Eu posso te ajudar, mas você tem que me dizer, como você pretende organizar tudo?"
 
-"Isso! Assim eu acesso o que eu preciso sem bagunçar tudo."
+"Não cheguei a pensar tão longe... Então..."
+
+computer "Que tal eu dou ideias de armazenamentos e você diz o que acha?"
+
+1 - Bolsos da roupa.
+
+2 - Bolsas com compartimentos
+
+3 - Mochila.
+
+Caso 1:
+
+computer "É uma escolha simples, não iria ser necessário ficar procurando, e vai estar tudo facilmente equipado"
+
+"Mas não iria ser possível armazenar muita coisa..."
+
+computer "Acho que é melhor outra ideia então."
+
+Caso 2:
+
+computer ""
+
+Caso 3:

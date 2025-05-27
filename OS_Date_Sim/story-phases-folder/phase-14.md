@@ -1,3 +1,7 @@
+# Fase 14
+
+## Quem o sistema também particiona e como ele particiona?
+
 Fase 14 – Particionar também a mochila (memória secundária)
 
 "Tem coisas que eu nem vou usar agora... Acho que vão pra mochila."

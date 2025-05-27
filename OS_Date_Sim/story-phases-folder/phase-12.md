@@ -1,3 +1,7 @@
+# Fase 12
+
+## Partições de Tamanho Fixo, Partições de Tamanho Variável. Fragmentação Interna e Fragmentação Externa
+
 Fase 12 – Partições fixas, variáveis, fragmentações
 
 tablet: "Essa sua bolsa parece uma partição fixa... Tudo do mesmo tamanho."

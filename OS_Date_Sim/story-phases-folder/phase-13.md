@@ -1,3 +1,7 @@
+# Fase 13
+
+## Quando a memória RAM deve ser particionada?
+
 Fase 13 – Quando particionar a RAM
 
 "Será que vale a pena dividir tudo agora ou deixar tudo misturado e ir arrumando depois?"
