@@ -2,24 +2,6 @@
 
 ## Quando a memória RAM deve ser particionada?
 
-"Com fragmentação interna você está querendo dizer que..."
-
-1 - Vai sobrar espaço dentro de cada compartimento da bolsa, um espaço desperdiçado. # vdd
-
-computer "Exatamente!"
-
-"Bem isso é ruim, particionamentos fixos não são o ideal"
-
-"Iria sobrar muito espaço a não ser que eu queira manter tudo uma bagunça, o que não é ideal..."
-
-"Então o ideal vai ser..."
-
-1.2 - Bolsa com compartimentos variáveis # vdd
-
-computer "Agora podemos ir buscar a bolsa"
-
----
-
 Por alguns minutos era buscado a bolsa, deixando o tablet sobre o banco que antes estava.
 
 'Não é como se fosse roubar ele nessas ruas vazias'
