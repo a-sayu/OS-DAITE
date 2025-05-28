@@ -136,4 +136,4 @@ jorge "Achei que fosse pedir algo absurdo"
 
 "É sempre importante ser justo nessas horas, estamos igualmente buscando coisas importantes na capital, certo?"
 
-jorge "Certo, valeu"
+jorge "Certo, valeu demais"
