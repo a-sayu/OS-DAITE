@@ -7,10 +7,14 @@ label phase_2:
 
     scene bg-computerRoom-day-on
     
-    "O som te assusta, seu corpo ainda está lento, por causa do cansaço do dia anterior, 
-    observando os seus arredores, você estranha, mas relembra dos eventos dos últimos 
-    meses, e como o mundo que você conhecia se foi, indo em direção ao computador, você 
-    se senta em frente a ele."
+    "O som te assusta!" 
+    
+    "Seu corpo ainda está lento, por causa do cansaço do dia anterior." 
+    
+    "Observando os seus arredores, você estranha, mas relembra dos eventos dos últimos 
+    meses e de como o mundo que você conhecia se foi." 
+    
+    "indo em direção ao computador, você se senta em frente a ele."
     
     player "O que você quer?"
     "Você pergunta, colocando a mão sobre a sua testa."
