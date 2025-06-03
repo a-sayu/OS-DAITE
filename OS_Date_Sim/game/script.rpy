@@ -7,6 +7,7 @@
 # scrpt
 default playerImage = "female.png"    # String
 default computerImage = "computer.png"    # String
+default jorgeImage = "jorge-placeholder.png"    # String
 default playerName = ""                 # String
 default computerName = ""               # String
 #phase 3
@@ -20,11 +21,13 @@ default wrong_input = 0                 # Integers
 # Characters or types of dialogue
 define computer = Character("[computerName]", image="computer")
 define player = Character("[playerName]", image="player")
+define jorge = Character("[jorgeName]", image="jorge")
 define thoughts = Character("[playerName]", what_suffix='"', what_prefix='"')
 
 # Imagens
 image side computer = "[computerImage]"
 image side player = "[playerImage]"
+image side jorge = "[jorgeImage]"
 image female = "female.png"
 image male = "male.png"
 
@@ -43,6 +46,9 @@ transform half_size:
 transform profile_picture:
     zoom 0.9
 
+transform alert:
+    matrixcolor TintMatrix("#F27E7E")
+
 # The game starts here.
 
 label start:
@@ -57,10 +63,10 @@ label beginning:
     menu confirm_tutorial:
         "Você gostaria de conhecer os comandos?"
 
-        "Sim":
+        "Não":
             jump character_creation
         
-        "Não":
+        "Sim":
             jump tutorial
 
 # Tutorial
