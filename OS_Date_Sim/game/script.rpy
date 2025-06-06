@@ -27,6 +27,7 @@ define thoughts = Character("[playerName]", what_suffix='"', what_prefix='"')
 # Imagens
 image side computer = "[computerImage]"
 image side player = "[playerImage]"
+image side thoughts = "[playerImage]"
 image side jorge = "[jorgeImage]"
 image female = "female.png"
 image male = "male.png"

@@ -6,9 +6,9 @@ label phase_15:
 
     "Pela tela do tablet, percebia que já estava há um bom tempo no supermercado."
 
-    thought 'Já é quase meia noite, faz um bom tempo que eu não sabia a exatidão das horas'
+    thoughts 'Já é quase meia noite, faz um bom tempo que eu não sabia a exatidão das horas'
 
-    thought 'Eu precisaria ir dormir agora, para ter um pouco de descanso'
+    thoughts 'Eu precisaria ir dormir agora, para ter um pouco de descanso'
 
     "Você diz, e logo deixa um alarme no tablet para acordar pouco antes do sol nascer."
 
@@ -24,7 +24,7 @@ label phase_15:
 
     "Você cancela o alarme, o anúncio do tablet e o silencia."
 
-    thought 'Eu tenho que sair daqui'
+    thoughts 'Eu tenho que sair daqui'
 
     "Você guarda as coisas que teria colocado para fora da bolsa, e se prepara para sair."
 
@@ -76,13 +76,13 @@ label phase_15:
 
     "Você diz, achando que foi muita informação e decisão de uma vez só."
 
-    thought 'No meu plano de escalonamento, eu só considerei o meu tempo de execução...'
+    thoughts 'No meu plano de escalonamento, eu só considerei o meu tempo de execução...'
 
-    thought 'Eu poderia delegar algumas das funções pra ele não?'
+    thoughts 'Eu poderia delegar algumas das funções pra ele não?'
 
-    thought 'Ele pode ficar com toda a parte de segurança e nós vamos juntos para lá...'
+    thoughts 'Ele pode ficar com toda a parte de segurança e nós vamos juntos para lá...'
 
-    thought 'Não isso não parece certo em escalonamento'
+    thoughts 'Não isso não parece certo em escalonamento'
 
     "Lembrando do [computerName], você pensa um pouco sobre o escalonamento. Você se vira para Jorge, pronto para respondê-lo."
 
@@ -99,7 +99,7 @@ label phase_15:
             jump p15_menu
 
         "Se você aceitar ser responsável por toda a segurança e deixar a gerência de toda a sua comida comigo, eu ajudo.":            
-            thought 'Eu vou estar mais seguro, a gente é dois programas separados, então a gente lida conforme nossas habilidades'
+            thoughts 'Eu vou estar mais seguro, a gente é dois programas separados, então a gente lida conforme nossas habilidades'
             jorge "Eu entendo..."
             jorge "Desculpa, mas não posso fazer assim"
             jorge "Valeu por falar sobre a comida apesar disso"
@@ -109,8 +109,8 @@ label phase_15:
             jump p15_menu
 
         "Se você aceitar dividir a segurança e a comida igualmente, a gente reveza e tudo mais e qualquer coisa a gente cuida um do outro, eu ajudo":
-            thought 'Quando se escalona, devemos dar à um programa tempos iguais e que ele pudessem completar todas as suas atividades, sem controlar todo o tempo'
-            thought 'O escalonamento deve ser justo e igualitário, se formos pensar como um sistema operacional, dois processos precisam de tempo de CPU equilibrado. Se um monopolizar o tempo, o outro falha.'
+            thoughts 'Quando se escalona, devemos dar à um programa tempos iguais e que ele pudessem completar todas as suas atividades, sem controlar todo o tempo'
+            thoughts 'O escalonamento deve ser justo e igualitário, se formos pensar como um sistema operacional, dois processos precisam de tempo de CPU equilibrado. Se um monopolizar o tempo, o outro falha.'
             jorge "Claro, valeu, eu estou de acordo em dividir"
             jorge "Achei que fosse pedir algo absurdo"
             player "É sempre importante ser justo nessas horas, estamos igualmente buscando coisas importantes na capital, certo?"

@@ -170,6 +170,17 @@ label phase_7:
                     thoughts "O primeiro é mais provável"
                     "Você abre o caderninho vermelho, e folheia ele, procurando a charada que combinava com o questionamento do bilhete."
     
+                    label password_input:
+
+                        if wrong_input == 1:
+                            thoughts "Não funcionou?"
+                            thoughts "Será que a senha tem algo haver com os caracteres estrnhos nas anotações?"
+                            
+                        elif wrong_input >= 2:
+                            thoughts "Não funcionou de novo?!?!"
+                            thoughts "Será que eu digitei algo errado?"
+                            thoughts "0-4-0-$-3-4-3-0-7-1"
+
                     menu open_safe:
     
                         thoughts "Abrir um cofre é um processo... Abrir um cofre é um processo... Abrir um cofre é um processo... Qual a frase que melhor combina?"
@@ -180,25 +191,12 @@ label phase_7:
                             jump open_safe
 
                         "Processos são os dados de entrada, que precisam ser inseridos no programa do cofre, enquanto você lê o caderno, o programa espera em um estado 'Bl0que4d0', e quando você insere a '$3NH4' ele sai do estado bloqueado e entra em '3xecuçã0' ficando 'p7onto' abrindo e 'conclu1ndo' o processo.":
-
                             "Aparece um texto escrito: Esperando..."
-                        
-                            label password_input:
 
-                                if wrong_input == 1:
-                                    thoughts "Não funcionou?"
-                                    thoughts "Será que a senha tem algo haver com os caracteres estrnhos nas anotações?"
-                            
-                                elif wrong_input == 2:
-                                    thoughts "Não funcionou de novo?!?!"
-                                    thoughts "Será que eu digitei algo errado?"
-                                    thoughts "0-4-0-$-3-4-3-0-7-1"
-
-                                $ password = renpy.input(prompt="Digite a senha: ", length=10);
-
-                                if not (password == "040$343071"):
-                                    $ wrong_input = wrong_input + 1
-                                    jump open_safe
+                            $ password = renpy.input(prompt="Digite a senha: ", length=10);
+                            if not (password == "040$343071"):
+                                $ wrong_input = wrong_input + 1
+                                jump open_safe
                         
                             "Quando inserido troca para: Reconhecendo..."
                             "Ao aceitar troca para: Pronto!"
