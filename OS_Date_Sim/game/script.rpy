@@ -10,6 +10,7 @@ default computerImage = "computer.png"    # String
 default jorgeImage = "jorge-placeholder.png"    # String
 default playerName = ""                 # String
 default computerName = ""               # String
+default jorgeName = ""               # String
 #phase 3
 default correct = [False, False, False] # False == erro / True == acerto
 #phase 7
@@ -149,3 +150,6 @@ label intro:
     call phase_14
     call phase_14
     call phase_15
+    call phase_16
+    call phase_17
+    call phase_18
