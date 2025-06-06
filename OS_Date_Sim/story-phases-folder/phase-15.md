@@ -10,9 +10,9 @@ Pela tela do tablet, percebia que já estava há um bom tempo no supermercado.
 
 Você diz, e logo deixa um alarme no tablet para acordar pouco antes do sol nascer.
 
-Quando acorda... Um alarme que não era o seu está tocando.
+Quando acorda... Um alarme que não era o seu estava sendo exibido.
 
-Olhando a tela, você percebe um aviso, e suas mãos começam a soar.
+Olhando a tela, você percebe um aviso, e suas mãos começam a suar.
 
 computer "{player}, inteligência artificial de versão maliciosa identificada nas proximidades"
 

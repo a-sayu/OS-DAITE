@@ -92,6 +92,8 @@ computer "O escalonamento round robin é quando se tem uma fila, e cada processo
 
 "Basicamente a gente faz uma sequencia de tarefas e a gente vai separando algo como 5 minutos para cada, e vai revezando entre elas"
 
+"Resultando em um ciclo"
+
 jorge "Ah sim, realmente isso não tem prioridade nenhuma."
 
 Casp 2:
@@ -126,6 +128,8 @@ computer "O escalonamento round robin é quando se tem uma fila, e cada processo
 
 "Basicamente a gente faz uma sequencia de tarefas e a gente vai separando algo como 5 minutos para cada, e vai revezando entre elas"
 
+"Resultando em um ciclo"
+
 jorge "Mas isso... Não é prioritária?"
 
 Caso 3:
@@ -143,15 +147,3 @@ computer "O escalonamento filas múltiplas tem várias filas separadas por prior
 "O que eu quis dizer foi executarmos as tarefas mais importantes por completo e ir gradualmente alocando tempo para atividades de menor prioridade"
 
 jorge "Ah sim, faz sentido fazer algo assim"
-
----
-
-Fase 16 – Definir quem priorizar
-
-Jorge desaba de fome.
-
-"Ok... ele claramente está em estado crítico. Vamos priorizar isso."
-
-tablet: "Uma troca de prioridades?"
-
-"Sim. Ele precisa comer agora. Depois a gente volta pro turno justo."
