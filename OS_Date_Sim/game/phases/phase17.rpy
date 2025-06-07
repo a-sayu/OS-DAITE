@@ -51,7 +51,7 @@ label phase_17:
             player "Eu queria falar só que um processo estava acontecendo e por algum motivo ele trocou de processo"
             computer "Desculpe, mas a definição de motivo não foi bem definida"
             player "Vamos tentar de novo..."
-            jump p_17_menu
+            jump p17_menu
 
         "O motivo seria basicamente que deve ser a sequencia dos passos do programa que ele estava executando?":
             computer "Ah, então o motivo seria como uma linha contínua de código, sem interrupções, que ele está seguindo para completar o que quer fazer aqui"
