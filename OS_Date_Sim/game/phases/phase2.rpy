@@ -82,24 +82,5 @@ label phase_2:
             player "Algo assim!"
             jump p2_end
 
-#naming computer or computer naming?
-label p2_computer_naming:
-    $ computerName = renpy.input(prompt="Como deseja me chamar?", length=10);
-    $ computerName = computerName.strip()
-
-    "Você digita \'[computerName]\' na caixa de entrada de texto."
-    if not computerName:
-        computer "Esse Nome é Inválido :C"
-        jump p2_computer_naming
-
-    menu p2_computer_naming_menu:
-        computer "[computerName]! Esse mesmo?"
-
-        "Sim":
-            return
-
-        "Não":
-            jump p2_computer_naming
-
 label p2_end:
     return

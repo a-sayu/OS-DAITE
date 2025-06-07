@@ -10,7 +10,7 @@ default computerImage = "computer.png"    # String
 default jorgeImage = "jorge-placeholder.png"    # String
 default playerName = ""                 # String
 default computerName = ""               # String
-default jorgeName = ""               # String
+default jorgeName = "Jorge"               # String
 #phase 3
 default correct = [False, False, False] # False == erro / True == acerto
 #phase 7
@@ -22,7 +22,7 @@ default wrong_input = 0                 # Integers
 # Characters or types of dialogue
 define computer = Character("[computerName]", image="computer")
 define player = Character("[playerName]", image="player")
-define jorge = Character("[jorgeName]", image="jorge")
+define jorge = Character("Jorge", image="jorge")
 define thoughts = Character("[playerName]", what_suffix='"', what_prefix='"')
 
 # Imagens
@@ -70,6 +70,25 @@ label beginning:
         
         "Sim":
             jump tutorial
+
+label p2_computer_naming:
+    $ computerName = renpy.input(prompt="Como deseja me chamar?", length=10);
+    $ computerName = computerName.strip()
+
+    "Você digita \'[computerName]\' na caixa de entrada de texto."
+    if not computerName:
+        computer "Esse Nome é Inválido :C"
+        jump p2_computer_naming
+
+    menu p2_computer_naming_menu:
+        computer "[computerName]! Esse mesmo?"
+
+        "Sim":
+            return
+
+        "Não":
+            jump p2_computer_naming
+
 
 # Tutorial
 label tutorial:

@@ -30,7 +30,7 @@ label phase_12:
 
     player "Ta, você novamente está falando muitos termos de computação"
 
-    menu p12_menu:
+    menu p12_menu_1:
 
         player "Com fragmentação interna você está querendo dizer que..."
 
@@ -38,25 +38,28 @@ label phase_12:
             computer "Exatamente!"
             player "Bem isso é ruim, particionamentos fixos não são o ideal"
             player "Iria sobrar muito espaço a não ser que eu queira manter tudo uma bagunça, o que não é ideal..."
+            jump p12_menu_2
 
-            menu p12_menu_2:
-
-                player "Então o ideal vai ser..."
-                "Bolsa com compartimentos fixos":
-                    computer "Não foi esse que você falou que não daria certo"
-                    player "Verdade, foi mal"
-                    jump p12_menu_2
-
-                "Bolsa com compartimentos variáveis": # vdd
-                    computer "Agora podemos ir buscar a bolsa"
-                    jump p12_end
 
         "Vai ficar espaço entre cada compartimento que não vai caber outros programas.":
             computer "Essa é a descrição de uma fragmentação externa"
             player "Verdade, esse é o problema da partição variável..."
             player "Mas nesse caso é fácil de lidar, o meu funcionamento pode ser similar a de um sistema operacional"
             player "Mas diferente dele eu posso mudar a posição das partições quando eu quiser"
-            jump p12_menu
+            jump p12_menu_1
+
+    menu p12_menu_2:
+
+        player "Então o ideal vai ser..."
+        
+        "Bolsa com compartimentos fixos":
+            computer "Não foi esse que você falou que não daria certo"
+            player "Verdade, foi mal"
+            jump p12_menu_2
+
+        "Bolsa com compartimentos variáveis": # vdd
+            computer "Agora podemos ir buscar a bolsa"
+            jump p12_end
 
 label p12_end:
     return
