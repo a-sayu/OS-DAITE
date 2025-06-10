@@ -40,6 +40,10 @@ image bg-computerRoom-day-off = "computerRoom_day_off.png"
 image bg-computerRoom-day-on = "computerRoom_day_on.png"
 image bg-computerRoom-night-off = "computerRoom_night_off.png"
 image bg-computerRoom-night-on = "computerRoom_night_on.png"
+image bg-keyEnterSpace = "keyEnterSpace.png"
+image bg-keyEsc = "keyEsc.png"
+
+image bg-mouseClick = Movie(play="images/mouseClick.ogv", size=(1920, 1080))
 
 # Adjusting images
 transform half_size:
@@ -64,12 +68,14 @@ label beginning:
 
     menu confirm_tutorial:
         "Você gostaria de conhecer os comandos?"
+        
+        "Sim":
+            jump tutorial
 
         "Não":
             jump character_creation
         
-        "Sim":
-            jump tutorial
+        
 
 label p2_computer_naming:
     $ computerName = renpy.input(prompt="Como deseja me chamar?", length=10);
@@ -92,19 +98,22 @@ label p2_computer_naming:
 
 # Tutorial
 label tutorial:
+    scene bg-mouseClick
     "Aqui vai um tutorial simples, então!
-    Para avançar no diálogo, clique com o botão esquedo do mouse"
+    Para avançar no diálogo, clique com o botão esquedo do mouse."
 
-    "Ou aperte espaço/enter no teclado."
+    scene bg-keyEnterSpace
+    "Ou aperte ESPAÇO/ENTER no teclado."
 
-    "Para acessar o menu de configurações aperte esc no teclado
+    scene bg-keyEsc
+    "Para acessar o menu de configurações aperte ESC no teclado
     Ou no botão abaixo."
 
     "Rolar o botão do meio do mouse avança ou volta na conversa,
     use quando tiver esquecido algo."
 
     "Caso precise de assistência, o Ren'Py possui um menu de
-    acessibilidade apertanto o Shift + A"
+    acessibilidade apertanto o SHIFT + A."
 
 
 # Character creation 
