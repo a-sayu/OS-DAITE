@@ -1,15 +1,19 @@
 
 label phase_5:
 
-    player "Okay, então como eu deveria escalonar me alimentar, me proteger e procurar por minha irmã?"
+    player "Okay, então como eu deveria escalonar me alimentar, me proteger
+    e procurar por minha irmã?"
 
-    player "Tipo, eu posso comer enquanto procuro minha irmã e fico atento para qualquer perigo a minha volta..."
+    player "Tipo, eu posso comer enquanto procuro minha irmã e fico atento
+    para qualquer perigo a minha volta..."
 
-    computer "Bem, você não precisa estar fazendo tudo ao mesmo tempo, isso não é escalonar!"
+    computer "Bem, você não precisa estar fazendo tudo ao mesmo tempo, isso
+    não é escalonar!"
 
     computer "Devemos pensar sobre isso com muito cuidado."
 
-    player "Realmente... Já que estamos pensando em conceitos de Sistemas Operacionais, que tal relacionar essas coisas como programas?"
+    player "Realmente... Já que estamos pensando em conceitos de Sistemas
+    Operacionais, que tal relacionar essas coisas como programas?"
 
     while not (correct[0] and correct[1] and correct[2]):
         label p5_1:
@@ -30,7 +34,8 @@ label phase_5:
             if not correct[2]:
                 computer "Buscar sua irmã é importante, mas não se deve ignorar suas necessidades..."
     
-    computer "Exatamente, uma divisão de tempo para cada ação é importante, não foque demais em algo e agende seus programas, isso é escalonar os programas!"
+    computer "Exatamente, uma divisão de tempo para cada ação é importante, não
+    foque demais em algo e agende seus programas, isso é escalonar os programas!"
     jump p5_end
 
     menu p5_1_menu:

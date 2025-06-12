@@ -42,6 +42,8 @@ image bg-computerRoom-night-off = "computerRoom_night_off.png"
 image bg-computerRoom-night-on = "computerRoom_night_on.png"
 image bg-keyEnterSpace = "keyEnterSpace.png"
 image bg-keyEsc = "keyEsc.png"
+image bg-cloudy = "cloudy.png"
+image bg-computerScreen-fail = "computerScreen_fail.png"
 
 image bg-mouseClick = Movie(play="images/mouseClick.ogv", size=(1920, 1080))
 
@@ -109,16 +111,18 @@ label tutorial:
     "Para acessar o menu de configurações aperte ESC no teclado
     Ou no botão abaixo."
 
+    scene bg-mouseRoll
     "Rolar o botão do meio do mouse avança ou volta na conversa,
     use quando tiver esquecido algo."
 
+    scene bg-keyShiftA
     "Caso precise de assistência, o Ren'Py possui um menu de
     acessibilidade apertanto o SHIFT + A."
 
 
 # Character creation 
 label character_creation:
-
+    scene bg-cloudy
     $ playerName = renpy.input(prompt="Qual o seu nome?", length=10);
     $ playerName = playerName.strip()
 
@@ -144,12 +148,12 @@ label gender_choice:
     menu gender_choice_menu:
         "Como você se parece?"
         
-        "Esquerda":
+        "<-------":
             
             $ playerImage = "male.png"
             jump intro
 
-        "Direita":
+        "------->":
             
             $ playerImage = "female.png"
             jump intro

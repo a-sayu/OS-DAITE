@@ -8,11 +8,13 @@ label phase_7:
 
     player "Okay, mas onde eu vou encontrar um tablet aqui"
 
-    computer "Eu não tenho certeza da localidade, mas estamos nas proximidades de um escritório da DAITE"
+    computer "Eu não tenho certeza da localidade, mas estamos nas proximidades
+    de um escritório da DAITE"
 
     player "Sim, acredito que estamos nesse escritório..."
 
-    "Você diz, colocando a mão sobre a face, incrédulo que essa informação não era óbvia."
+    "Você diz, colocando a mão sobre a face, incrédulo que essa informação não
+    era óbvia."
 
     computer "Eu enviei um sinal para cá, tem um sinal que respondeu por aqui!"
 
@@ -24,13 +26,16 @@ label phase_7:
 
     player "Complicado, ainda assim, não da para saber os específicos né?"
 
-    computer "Talvez quem trabalhava nesse escritório pode ter deixado pistas de onde está?"
+    computer "Talvez quem trabalhava nesse escritório pode ter deixado pistas
+    de onde está?"
 
     player "Provável"
 
-    computer "Vou deixar contigo a busca enquanto faço uma limpeza para o novo dispositivo."
+    computer "Vou deixar contigo a busca enquanto faço uma limpeza para o novo
+    dispositivo."
 
-    "[computer] diz, e parece estar tentando fazer um backup de todos os dados e programas relevantes."
+    "[computer] diz, e parece estar tentando fazer um backup de todos os dados
+    e programas relevantes."
 
     #TODO: Troca de cena para a planta-baixa do escritório.
 
@@ -73,7 +78,8 @@ label p7_found_notebook:
 
     menu p7_menu_2:
         
-        "Encontrar esse tablet está sendo trabalhoso, que nem encontrar as minhas chaves quando eu saía de casa..."
+        "Encontrar esse tablet está sendo trabalhoso, que nem encontrar as minhas chaves
+        quando eu saía de casa..."
 
         "Janela":
             "Você vai até a janela."
