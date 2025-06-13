@@ -38,7 +38,7 @@ label phase_19:
             jorge "Como? Ainda não entendi tabela de processos."
             player "O bloco de notas é a tabela de processos, você veio aqui por causa de um processo."
             player "Os processos são como tarefas no bloco de notas, e você vai dedicando um pouco de tempo para cada."
-            plyer "Marcando por exemplo o quanto falta para completar aquela tarefa."
+            player "Marcando por exemplo o quanto falta para completar aquela tarefa."
             player "E você ainda tem a tarefa anterior e a tarefa atual, representando o processo anterior e o processo atual."
             jorge "Então, eu posso marcar que tenho um novo processo na minha tabela?"
             player "Que?"
