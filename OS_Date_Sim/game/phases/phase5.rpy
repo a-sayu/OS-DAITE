@@ -56,7 +56,7 @@ label phase_5:
             $ correct[1] = False
             jump p5_3
 
-        "É importante estar atento... Mas descansar também, eu posso sempre procurar abrigos": #VDD
+        "É importante estar atento... Mas descansar também, eu posso sempre procurar abrigos.": #VDD
             $ correct[1] = True
             jump p5_3
 

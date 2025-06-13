@@ -11,4 +11,4 @@ label phase_35:
     jump p35_end
 
 label p35_end:
-    $ MainMenu(confirm=False)()
+    $ renpy.call_in_new_context("_main_menu")

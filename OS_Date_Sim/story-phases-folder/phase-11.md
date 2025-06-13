@@ -24,7 +24,7 @@ Na tela do tablet aparecem três imagens com opções de armazenamento:
 
 Caso 1:
 
-computer "É uma escolha simples, não iria ser necessário ficar procurando, e vai estar tudo facilmente equipado"
+computer "É uma escolha simples, não iria ser necessário ficar procurando, e vai estar tudo facilmente equipado."
 
 "Mas não daria para armazenar muita coisa..."
 
@@ -32,9 +32,9 @@ computer "Acho que é melhor outra ideia então."
 
 Caso 2:
 
-computer "Bem, isso é organizado, com compartimentos você vai poder separar cada necessidade"
+computer "Bem, isso é organizado, com compartimentos você vai poder separar cada necessidade."
 
-"Bem, esse era o plano inicial mesmo, além de ficar mais fácil de acessar"
+"Bem, esse era o plano inicial mesmo, além de ficar mais fácil de acessar."
 
 computer "Então está decidido!"
 
@@ -44,8 +44,8 @@ computer "No fim, você desistiu então?"
 
 "Como assim?"
 
-computer "Bem, só voltamos ao começo... E não resolve muita coisa"
+computer "Bem, só voltamos ao começo... E não resolve muita coisa."
 
-"É, se for manter assim, eu ainda vou gastar muito tempo com a mochila"
+"É, se for manter assim, eu ainda vou gastar muito tempo com a mochila."
 
 computer "Acho que é melhor outra ideia então."

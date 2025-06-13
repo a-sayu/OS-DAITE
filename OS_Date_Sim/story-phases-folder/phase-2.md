@@ -24,7 +24,7 @@ Você digita "Comp" na caixa de entrada de texto.
 
 C "Comp! Esse mesmo?"
 
-Você clica no botão que confirma a sua escolha. Logo depois ele pede o seu nome, digitando "SeuNome" na caixa de entrada de texto.
+Você clica no botão que confirma a sua escolha. Logo depois ele pede o seu nome, digitando "SeuNome." na caixa de entrada de texto.
 
 C "Certo, já que nos introduzimos SeuNome, por que você não me atendeu quando eu acordei!? Eu fiquei esperando por cerca de uma hora!"
 
@@ -38,7 +38,7 @@ C "Desculpe, mas minhas bases de conhecimento humana são faltosas por conta da 
 
 3- Eu não sei, como eu poderia entender uma máquina?
 
-Caso 1: Comp "Oh! Então você ainda está verificando as suas partes e o que esta conectado a você? No caso "Lugar", "Corpo" e "Memória""
+Caso 1: Comp "Oh! Então você ainda está verificando as suas partes e o que esta conectado a você? No caso "Lugar.", "Corpo." e "Memória.""
 
 "Algo assim!"
 

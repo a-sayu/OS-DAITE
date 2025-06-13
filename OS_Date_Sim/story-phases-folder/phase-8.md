@@ -25,19 +25,19 @@ Depois encontrar a senha...
 3 - Em um sistema operacional, um processo é um conjunto de instruções, e para abrir esse cofre foi seguido um conjunto de intruções. //fdp
 
 Caso 1:
-    "E isso é um processo"
-    "Porque um processo é um programa e o conjunto de informações necessárias para que ele seja executado"
+    "E isso é um processo."
+    "Porque um processo é um programa e o conjunto de informações necessárias para que ele seja executado."
     "To ficando craque em Sistemas Operacionais ein..."
 
 Caso 2:
-    "Não... Não é bem isso"
-    "As pistas são informações necessárias para o programa"
-    "Mas elas não são o programa, elas apenas fazer parte do processo"
-    "Portanto, o processo já havia começado quando as pistas foram encontradas"
+    "Não... Não é bem isso."
+    "As pistas são informações necessárias para o programa."
+    "Mas elas não são o programa, elas apenas fazer parte do processo."
+    "Portanto, o processo já havia começado quando as pistas foram encontradas."
 
 Caso 3:
-    "Não... Não é bem isso"
-    "Um conjunto de instruções pode ser a definição de programa"
-    "Mas não de processo"
-    "Apesar de necessárias para o real programa que era abrir o cofre"
-    "Algumas informações não fazem parte do programa, mas sim do sistema operacional"
+    "Não... Não é bem isso."
+    "Um conjunto de instruções pode ser a definição de programa."
+    "Mas não de processo."
+    "Apesar de necessárias para o real programa que era abrir o cofre."
+    "Algumas informações não fazem parte do programa, mas sim do sistema operacional."

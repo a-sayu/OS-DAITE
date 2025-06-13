@@ -6,9 +6,9 @@
 
 computer "Se você sincronizar meus dados com o tablet, eu irei contigo!"
 
-"Okay, mas onde eu vou encontrar um tablet aqui"
+"Okay, mas onde eu vou encontrar um tablet aqui."
 
-computer "Eu não tenho certeza da localidade, mas estamos nas proximidades de um escritório da DAITE"
+computer "Eu não tenho certeza da localidade, mas estamos nas proximidades de um escritório da DAITE."
 
 "Sim, acredito que estamos nesse escritório..."
 
@@ -18,7 +18,7 @@ computer "Eu enviei um sinal para cá, tem um sinal que respondeu por aqui!"
 
 "Não pode ter sido você mesmo?"
 
-computer "Eu considerei isso antes de repassar a informação {player} bobinho"
+computer "Eu considerei isso antes de repassar a informação {player} bobinho."
 
 A máquina exibia uma animação de risada.
 
@@ -26,7 +26,7 @@ A máquina exibia uma animação de risada.
 
 computer "Talvez quem trabalhava nesse escritório pode ter deixado pistas de onde está?"
 
-"Provável"
+"Provável."
 
 computer "Vou deixar contigo a busca enquanto faço uma limpeza para o novo dispositivo."
 
@@ -44,7 +44,7 @@ computer "Vou deixar contigo a busca enquanto faço uma limpeza para o novo disp
 Caso 1:
     Você vai até a janela.
     // Troca a cena para uma visão melhor do cenário através da janela
-    "Ah ali fica a minha universidade"
+    "Ah ali fica a minha universidade."
     Você toca o vidro da janela posicionando seu indicador sobre uma área verde.
     "É uma bela vista..."
     "Era... Antes do apocalipse..."
@@ -53,13 +53,13 @@ Caso 1:
 Caso 2:
     Você vai até o grande armário verde no canto da parede da janela.
     // Troca a cena para uma visão melhor do armário
-    "Deve ter algo aqui, provavelmente deve estar aqui"
+    "Deve ter algo aqui, provavelmente deve estar aqui."
     Você tenta abrir as portas, sem sucesso, parecem emperradas.
     1 - Tentar de Novo?
     2 - Deixar para lá.
     Caso 1:
         Você força um pouco, e consegue abrir porta por porta.
-        "Aqui tem Documentos"
+        "Aqui tem Documentos."
         "Mais Documentos..."
         "Caramba... Só Documentos?"
         "Uh, um cofre?"
@@ -76,10 +76,10 @@ Caso 3:
     computer "Achou?"
     // caso tenha visto o cofre:
     // "Talvez"
-    // computer "Ainda falta muito pra compactar todos os arquivos infelizmente"
+    // computer "Ainda falta muito pra compactar todos os arquivos infelizmente."
     // caso não tenha visto o cofre:
     //"Não ainda..."
-    computer "Bem, boa sorte, pode levar seu tempo"
+    computer "Bem, boa sorte, pode levar seu tempo."
     pensamento "Será que vai ter algo sobre o tablet aqui, não lembro de ter visto grande coisa..."
     1 - Procurar nos documentos da mesa.
     2 - Olhar debaixo da mesa.
@@ -122,7 +122,7 @@ Encontrar esse tablet está sendo trabalhoso, que nem encontrar as minhas chaves
 Caso 1:
     Você vai até a janela.
     // Troca a cena para uma visão melhor do cenário através da janela
-    "Eu gostava daquela sorveteria"
+    "Eu gostava daquela sorveteria."
     Você toca o vidro da janela posicionando seu indicador sobre um loja azul mais ao centro da cidade perto de uma praça.
     "Realmente, é uma bela vista..."
     "Mesmo depois do apocalipse..."
@@ -132,12 +132,12 @@ Caso 2:
     Você vai até o grande armário verde no canto da parede da janela.
     // Troca a cena para uma visão melhor do armário
     // skip se cofre:
-    "Deve ter algo aqui, provavelmente deve estar aqui"
+    "Deve ter algo aqui, provavelmente deve estar aqui."
     Você tenta abrir as portas, sem sucesso, parecem emperradas.
     1 - Tentar de Novo.
     Caso 1:
         Você força um pouco, e consegue abrir porta por porta.
-        "Aqui tem Documentos"
+        "Aqui tem Documentos."
         "Mais Documentos..."
         "Caramba... Só Documentos?"
         "Uh, um cofre?"
@@ -150,7 +150,7 @@ Caso 2:
     Você abre o caderninho vermelho, e folheia ele, procurando a charada que combinava com o questionamento do bilhete.
     'Abrir um cofre é um processo... Abrir um cofre é um processo... Abrir um cofre é um processo... Qual a frase que melhor combina?'
     1 - Programas são um conjunto de instruções, se a instrução é um loop "n0v0 numer0" uma hora o programa vai resultar em "&4B3RT0!"
-    2 - Processos são os dados de entrada, que precisam ser inseridos no programa do cofre, enquanto você lê o caderno, o programa espera em um estado "Bl0que4d0", e quando você insere a "$3NH4" ele sai do estado bloqueado e entra em "3xecuçã0" ficando "p7onto" abrindo e "conclu1ndo" o processo.
+    2 - Processos são os dados de entrada, que precisam ser inseridos no programa do cofre, enquanto você lê o caderno, o programa espera em um estado "Bl0que4d0", e quando você insere a "$3NH4" ele sai do estado bloqueado e entra em "3xecuçã0" ficando "p7onto." abrindo e "conclu1ndo." o processo.
     3 - Faz cerca de "d01$" dias que estou tendo que lidar com um processo jurídico, a empresa parece ter vendido algum dado na "1nt&7n3t" e eu sou o bode espiatório.
     Caso 1:
         "Talvez?"

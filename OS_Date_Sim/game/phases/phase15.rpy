@@ -16,7 +16,7 @@ label phase_15:
 
     "Olhando a tela, você percebe um aviso, e suas mãos começam a soar."
 
-    computer "[playerName], inteligência artificial de versão maliciosa identificada nas proximidades"
+    computer "[playerName], inteligência artificial de versão maliciosa identificada nas proximidades."
 
     "Essa mensagem aparecia na tela. Ao olhar ao redor, você percebe um ser de aparência humanóide próximo à saída do supermercado."
 
@@ -62,7 +62,7 @@ label phase_15:
 
     jorge "Ah, claro, valeu!"
 
-    "Jorge diz indo em direção ao mercado, porém ele para e olha para você com uma voz tímida"
+    "Jorge diz indo em direção ao mercado, porém ele para e olha para você com uma voz tímida."
 
     jorge "Você está indo em direção a capital?"
 
@@ -72,7 +72,7 @@ label phase_15:
 
     jorge "Um robô pode não parecer muita coisa, mas perto da capital está bem pior... E eu realmente preciso ir pra lá"
 
-    player "Você pode esperar um pouco? Eu preciso pensar"
+    player "Você pode esperar um pouco? Eu preciso pensar."
 
     "Você diz, achando que foi muita informação e decisão de uma vez só."
 
@@ -92,31 +92,31 @@ label phase_15:
 
         "Não, eu prefiro ir só.":
             jorge "Ah, entendo, foi bem súbito a ideia né?"
-            jorge "Valeu de qualquer forma por ter pensado sobre isso"
+            jorge "Valeu de qualquer forma por ter pensado sobre isso."
             "Jorge agradece e acena, entrando no supermercado."
             "Você continua seu caminho, seguindo pela rodovia até a capital a sós, apenas com o tablet."
             "Quando você para para comer, você acaba sendo atacado por um grupo de robôs."
-            call phase_34
+            call phase_35
             jump p15_menu
 
         "Se você aceitar ser responsável por toda a segurança e deixar a gerência de toda a sua comida comigo, eu ajudo.":            
             thoughts 'Eu vou estar mais seguro, a gente é dois programas separados, então a gente lida conforme nossas habilidades'
             jorge "Eu entendo..."
-            jorge "Desculpa, mas não posso fazer assim"
-            jorge "Valeu por falar sobre a comida apesar disso"
+            jorge "Desculpa, mas não posso fazer assim."
+            jorge "Valeu por falar sobre a comida apesar disso."
             "Jorge agradece e acena, entrando no supermercado."
             "Você continua seu caminho, seguindo pela rodovia até a capital a sós, apenas com o tablet."
             "Quando você para para comer, você acaba sendo atacado por um grupo de robôs."
-            call phase_34
+            call phase_35
             jump p15_menu
 
-        "Se você aceitar dividir a segurança e a comida igualmente, a gente reveza e tudo mais e qualquer coisa a gente cuida um do outro, eu ajudo":
+        "Se você aceitar dividir a segurança e a comida igualmente, a gente reveza e tudo mais e qualquer coisa a gente cuida um do outro, eu ajudo.":
             thoughts 'Quando se escalona, devemos dar à um programa tempos iguais e que ele pudessem completar todas as suas atividades, sem controlar todo o tempo'
             thoughts 'O escalonamento deve ser justo e igualitário, se formos pensar como um sistema operacional, dois processos precisam de tempo de CPU equilibrado. Se um monopolizar o tempo, o outro falha.'
-            jorge "Claro, valeu, eu estou de acordo em dividir"
-            jorge "Achei que fosse pedir algo absurdo"
+            jorge "Claro, valeu, eu estou de acordo em dividir."
+            jorge "Achei que fosse pedir algo absurdo."
             player "É sempre importante ser justo nessas horas, estamos igualmente buscando coisas importantes na capital, certo?"
-            jorge "Certo, valeu demais"
+            jorge "Certo, valeu demais."
             jump p15_end
 
 label p15_end:

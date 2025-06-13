@@ -16,13 +16,13 @@ computer "Não precisa se desesperar, é só aplicar um algoritmo de escalonamen
 
 Você se senta, se perguntando se essa máquina sabe do que ela está falando quando se trata de um humano.
 
-computer "Posso não entender corretamente um ser humano, mas suas relações de termos podem tornar isso possível"
+computer "Posso não entender corretamente um ser humano, mas suas relações de termos podem tornar isso possível."
 
 "Eu nem sei o que é escalonamento..."
 
-computer "Em um dos meu arquivos de referência, quando um computador é multiprogramado, ele frequentemente tem múltiplos processos ou threads competindo pela CPU"
+computer "Em um dos meu arquivos de referência, quando um computador é multiprogramado, ele frequentemente tem múltiplos processos ou threads competindo pela CPu."
 
-computer "Se apenas uma CPU está disponível, uma escolha precisa ser feita de qual processo será executado no momento, quem faz isso é o escalonador do Sistema Operacional"
+computer "Se apenas uma CPU está disponível, uma escolha precisa ser feita de qual processo será executado no momento, quem faz isso é o escalonador do Sistema Operacional."
 
 computer "Ele utiliza um algoritmo de escalonamento para decidir!"
 
@@ -36,13 +36,13 @@ computer "Ele utiliza um algoritmo de escalonamento para decidir!"
 
 Caso 1: computer "Correto, podemos fazer cada coisa um pouco de cada vez!"
 
-Caso 2: computer "Eu entendo que você possa ter essa limitação humana, mas mesmo com um único processador, um computador consegue ser multitarefa"
+Caso 2: computer "Eu entendo que você possa ter essa limitação humana, mas mesmo com um único processador, um computador consegue ser multitarefa."
 
 "Você quer dizer que isso se aplica também a mim?"
 
-computer "Bem, essa é minha suposição"
+computer "Bem, essa é minha suposição."
 
-Caso 3: "Isso acaba sendo exatamente o que eu havia pensado... E eu falei para você que não daria certo"
+Caso 3: "Isso acaba sendo exatamente o que eu havia pensado... E eu falei para você que não daria certo."
 
 computer "Não exatamente. Escalonamento não é sobre fazer uma coisa até terminar, e sim decidir qual processo será executado primeiro, alternando entre eles."
 

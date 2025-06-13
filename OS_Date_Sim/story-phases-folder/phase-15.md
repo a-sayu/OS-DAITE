@@ -14,7 +14,7 @@ Quando acorda... Um alarme que não era o seu estava sendo exibido.
 
 Olhando a tela, você percebe um aviso, e suas mãos começam a suar.
 
-computer "{player}, inteligência artificial de versão maliciosa identificada nas proximidades"
+computer "{player}, inteligência artificial de versão maliciosa identificada nas proximidades."
 
 Essa mensagem aparecia na tela. Ao olhar ao redor, você percebe um ser de aparência humanóide próximo à saída do supermercado.
 
@@ -70,7 +70,7 @@ jorge "Ir sozinho é perigoso..."
 
 jorge "Um robô pode não parecer muita coisa, mas perto da capital está bem pior... E eu realmente preciso ir pra lá"
 
-"Você pode esperar um pouco? Eu preciso pensar"
+"Você pode esperar um pouco? Eu preciso pensar."
 
 Você diz, achando que foi muita informação e decisão de uma vez só.
 
@@ -96,7 +96,7 @@ Caso 1:
 
 jorge "Ah, entendo, foi bem súbito a ideia né?"
 
-jorge "Valeu de qualquer forma por ter pensado sobre isso"
+jorge "Valeu de qualquer forma por ter pensado sobre isso."
 
 Jorge agradece e acena, entrando no supermercado.
 
@@ -112,9 +112,9 @@ Caso 2:
 
 jorge "Eu entendo..."
 
-jorge "Desculpa, mas não posso fazer assim"
+jorge "Desculpa, mas não posso fazer assim."
 
-jorge "Valeu por falar sobre a comida apesar disso"
+jorge "Valeu por falar sobre a comida apesar disso."
 
 Jorge agradece e acena, entrando no supermercado.
 
@@ -130,10 +130,10 @@ Caso 3:
 
 'O escalonamento deve ser justo e igualitário, se formos pensar como um sistema operacional, dois processos precisam de tempo de CPU equilibrado. Se um monopolizar o tempo, o outro falha.'
 
-jorge "Claro, valeu, eu estou de acordo em dividir"
+jorge "Claro, valeu, eu estou de acordo em dividir."
 
-jorge "Achei que fosse pedir algo absurdo"
+jorge "Achei que fosse pedir algo absurdo."
 
 "É sempre importante ser justo nessas horas, estamos igualmente buscando coisas importantes na capital, certo?"
 
-jorge "Certo, valeu demais"
+jorge "Certo, valeu demais."

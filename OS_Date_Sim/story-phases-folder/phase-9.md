@@ -6,7 +6,7 @@ Quando termina de se perguntar sobre a relação de processos, é possível obse
 
 computer "Completo! {player}, você encontrou o tablet?"
 
-"Ah sim, aqui"
+"Ah sim, aqui."
 
 Você diz, conectando o tablet ao computador.
 
@@ -28,11 +28,11 @@ Coloca-o na mochila, o que te incomoda um pouco, já que ele não iria realmente
 
 Saindo do local, você tranca a porta, colocando o molho de chaves no bolso da calça.
 
-"Primeiro, passar no mercado, pegar comida"
+"Primeiro, passar no mercado, pegar comida."
 
-"Depois descansar"
+"Depois descansar."
 
-"E por fim, é hora de partir para a capital"
+"E por fim, é hora de partir para a capital."
 
 Você caminha pelas ruas iluminadas pelo luar e em pouco tempo estava diante de um supermercado com as portas abertas.
 
@@ -66,7 +66,7 @@ O tablet faz um som como se fosse de conquista.
 
 Você sorri, observando o tablet aparecer em carregamento, como se pensasse, uma animação de roda acontecia.
 
-"Espera, a tradução de RAM é memória de acesso aleatório"
+"Espera, a tradução de RAM é memória de acesso aleatório."
 
 computer "E você precisa de um armazenamento de acesso aleatório, similar à uma memória de acesso aleatório!"
 
@@ -74,16 +74,16 @@ computer "E você precisa de um armazenamento de acesso aleatório, similar à u
 
 computer "Melhor que nada, mas isso ainda não transforma sua mochila em uma memória de acesso rápido... só reorganiza o atraso."
 
-"Realmente, além de que eu provavelmente teria que reorganizar várias vezes e isso iria atrasar mais ainda"
+"Realmente, além de que eu provavelmente teria que reorganizar várias vezes e isso iria atrasar mais ainda."
 
-computer "Mais do que o tempo de retirar da mochila"
+computer "Mais do que o tempo de retirar da mochila."
 
-2 - "Se for assim, minha mochila é uma memória secundária, e eu deveria ter uma primária para armazenar você, {computer} o sistema operacional de decisões e os programas como a lanterna e lanchinhos rápidos" # vdd
+2 - "Se for assim, minha mochila é uma memória secundária, e eu deveria ter uma primária para armazenar você, {computer} o sistema operacional de decisões e os programas como a lanterna e lanchinhos rápidos." # vdd
 
-computer "Nem precisei te ajudar"
+computer "Nem precisei te ajudar."
 
 3 - "Ah! Já sei! Posso fazer uma lista de tudo que está na mochila. Aí, mesmo se estiver bagunçada, eu sei o que pegar." # fdp
 
 computer "A lista ajuda, mas não acelera o acesso... é como ter um índice sem memória — ainda leva tempo para encontrar as coisas."
 
-"Além de ainda vai levar o mesmo tempo pra tirar coisas da mochila"
+"Além de ainda vai levar o mesmo tempo pra tirar coisas da mochila."

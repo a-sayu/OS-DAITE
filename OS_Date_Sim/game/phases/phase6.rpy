@@ -1,4 +1,4 @@
-## Tema: Fazer coisas ao "mesmo tempo"/ser multiprogramado
+## Tema: Fazer coisas ao "mesmo tempo."/ser multiprogramado
 label phase_6:
 
 
@@ -13,17 +13,17 @@ label phase_6:
     player "Vai ser uma viagem longa..."
 
     computer "Correto. Uma longa viagem presumindo que sua irmã esteja
-    na capital"
+    na capital."
 
     "Você olha em direção à janela, encarando o horizonte por alguns 
     instantes e volta seu olhar para o computador."
 
-    player "Você é um computador, eu não vou poder te levar"
+    player "Você é um computador, eu não vou poder te levar."
 
     computer "Como assim?"
 
     player "Bem, você é um computador de mesa, você não pode ser usado
-    enquanto eu estou andando"
+    enquanto eu estou andando."
 
     computer "Mas eu posso ser levado a vários lugares! E você me usaria
     de vez enquando."
@@ -33,14 +33,14 @@ label phase_6:
     computer "Pelo meu entendimento, não."
 
     label p6_question:
-        player "Ahm... Vamos pensar nas classificações de sistemas operacionais"
+        player "Ahm... Vamos pensar nas classificações de sistemas operacionais."
 
-        player "Você como um computador seria o sistema operacional"
+        player "Você como um computador seria o sistema operacional."
 
         menu p6_menu:
-            player "E programas como se fossem lugares"
+            player "E programas como se fossem lugares."
 
-            "Você é multiprogramado, porque você pode estar sendo usado em um lugar A, B e C ao decorrer do tempo": # fdp
+            "Você é multiprogramado, porque você pode estar sendo usado em um lugar A, B e C ao decorrer do tempo.": # fdp
                 computer "Se eu posso estar em vários locais, você pode me levar..."
                 player "Não, não posso! Deixa eu explicar de novo, talvez eu tenha
                 confundido algo..."

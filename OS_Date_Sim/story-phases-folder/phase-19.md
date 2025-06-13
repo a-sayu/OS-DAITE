@@ -42,7 +42,7 @@ computer "Exatamente, o que seria incorreto para uma tabela de processos, a não
 
 caso 2:
 
-jorge "Mas eu não carrego um bloco de notas, e nem li um bloco de notas"
+jorge "Mas eu não carrego um bloco de notas, e nem li um bloco de notas."
 
 "Sim, mas se você anotasse essas coisas no bloco de notas faria sentido não?"
 
@@ -74,9 +74,9 @@ Você diz, dando breves tapinhas nas costas de Jorge.
 
 Você diz, sabendo que o sol já estava forte no céu.
 
-jorge "Não acho que esteja muito longe, quando encontrarmos uma placa"
+jorge "Não acho que esteja muito longe, quando encontrarmos uma placa."
 
-jorge "Falta só chegar na intercessão e pegamos para a direita para chegar, e ai mais uns 20 minutos de caminhada"
+jorge "Falta só chegar na intercessão e pegamos para a direita para chegar, e ai mais uns 20 minutos de caminhada."
 
 caso 3
 
@@ -94,4 +94,4 @@ jorge "Tipo?"
 
 jorge "Bem um diário armazena o seu dia, e um bloco de notas o que você precisa fazer..."
 
-"É realmente, acho que eu consigo pensar em uma resposta"
+"É realmente, acho que eu consigo pensar em uma resposta."

@@ -8,7 +8,7 @@ label phase_9:
 
     computer "Completo! [playerName], você encontrou o tablet?"
 
-    player "Ah sim, aqui"
+    player "Ah sim, aqui."
 
     "Você diz, conectando o tablet ao computador."
 
@@ -38,11 +38,11 @@ label phase_9:
     
     scene bg-desolatedCity
 
-    player "Primeiro, passar no mercado, pegar comida"
+    player "Primeiro, passar no mercado, pegar comida."
 
-    player "Depois descansar"
+    player "Depois descansar."
 
-    player "E por fim, é hora de partir para a capital"
+    player "E por fim, é hora de partir para a capital."
 
     "Você caminha pelas ruas iluminadas pelo luar e em pouco tempo estava diante de um supermercado com as portas abertas."
 
@@ -84,7 +84,7 @@ label phase_9:
 
     "Você sorri, observando o tablet aparecer em carregamento, como se pensasse, uma animação de roda acontecia."
 
-    player "Espera, a tradução de RAM é memória de acesso aleatório"
+    player "Espera, a tradução de RAM é memória de acesso aleatório."
     
     menu p9_menu:
 
@@ -92,17 +92,17 @@ label phase_9:
 
         "E se eu deixar sempre os itens mais usados no topo da mochila? Tipo a lanterna, os lanches... daí o acesso fica mais rápido!": # fdp
             computer "Melhor que nada, mas isso ainda não transforma sua mochila em uma memória de acesso rápido... só reorganiza o atraso."
-            player "Realmente, além de que eu provavelmente teria que reorganizar várias vezes e isso iria atrasar mais ainda"
-            computer "Mais do que o tempo de retirar da mochila"
+            player "Realmente, além de que eu provavelmente teria que reorganizar várias vezes e isso iria atrasar mais ainda."
+            computer "Mais do que o tempo de retirar da mochila."
             jump p9_menu
 
-        "Se for assim, minha mochila é uma memória secundária, e eu deveria ter uma primária para armazenar você, [computerName] o sistema operacional de decisões e os programas como a lanterna e lanchinhos rápidos": # vdd
-            computer "Nem precisei te ajudar"
+        "Se for assim, minha mochila é uma memória secundária, e eu deveria ter uma primária para armazenar você, [computerName] o sistema operacional de decisões e os programas como a lanterna e lanchinhos rápidos.": # vdd
+            computer "Nem precisei te ajudar."
             jump p9_end
 
         "Ah! Já sei! Posso fazer uma lista de tudo que está na mochila. Aí, mesmo se estiver bagunçada, eu sei o que pegar.": # fdp
             computer "A lista ajuda, mas não acelera o acesso... é como ter um índice sem memória — ainda leva tempo para encontrar as coisas."
-            "Além de ainda vai levar o mesmo tempo pra tirar coisas da mochila"
+            "Além de ainda vai levar o mesmo tempo pra tirar coisas da mochila."
             jump p9_menu
 
 label p9_end:

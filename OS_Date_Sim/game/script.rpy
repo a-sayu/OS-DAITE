@@ -74,10 +74,10 @@ label beginning:
     menu confirm_tutorial:
         "Você gostaria de conhecer os comandos?"
         
-        "Sim":
+        "Sim.":
             jump tutorial
 
-        "Não":
+        "Não.":
             jump character_creation
         
         
@@ -94,10 +94,10 @@ label p2_computer_naming:
     menu p2_computer_naming_menu:
         computer "[computerName]! Esse mesmo?"
 
-        "Sim":
+        "Sim.":
             return
 
-        "Não":
+        "Não.":
             jump p2_computer_naming
 
 
@@ -145,11 +145,11 @@ label character_creation:
     menu player_name:
         "[playerName] é seu nome?"
         
-        "Sim":
+        "Sim.":
 
             jump gender_choice
             
-        "Não":
+        "Não.":
 
             jump character_creation
 

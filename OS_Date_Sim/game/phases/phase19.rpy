@@ -33,7 +33,7 @@ label phase_19:
             jump p19_menu
 
         "Ah, é simples, é como se fosse um bloco de notas dentro da bolsa, que possui várias anotações de tarefas.":
-            jorge "Mas eu não carrego um bloco de notas, e nem li um bloco de notas"
+            jorge "Mas eu não carrego um bloco de notas, e nem li um bloco de notas."
             player "Sim, mas se você anotasse essas coisas no bloco de notas faria sentido não?"
             jorge "Como? Ainda não entendi tabela de processos."
             player "O bloco de notas é a tabela de processos, você veio aqui por causa de um processo."
@@ -49,8 +49,8 @@ label phase_19:
             "Você diz, dando breves tapinhas nas costas de Jorge."
             player "Inclusive, vai ser mais caminhada que isso?"
             "Você diz, sabendo que o sol já estava forte no céu."
-            jorge "Não acho que esteja muito longe, quando encontrarmos uma placa"
-            jorge "Falta só chegar na intercessão e pegamos para a direita para chegar, e ai mais uns 20 minutos de caminhada"
+            jorge "Não acho que esteja muito longe, quando encontrarmos uma placa."
+            jorge "Falta só chegar na intercessão e pegamos para a direita para chegar, e ai mais uns 20 minutos de caminhada."
             jump p19_end
         
         "Ah, é muito complexo, nem eu entendo, afinal essas coisas estão guardadas na mente então não sei se daria para relacionar...":
@@ -61,7 +61,7 @@ label phase_19:
             jorge "Tipo?"
             player "Eu estava precisando de um bloco de notas ou um diário pra anotar as coisas que eu preciso fazer."
             jorge "Bem um diário armazena o seu dia, e um bloco de notas o que você precisa fazer..."
-            player "É realmente, acho que eu consigo pensar em uma resposta"
+            player "É realmente, acho que eu consigo pensar em uma resposta."
 
 label p19_end:
     return

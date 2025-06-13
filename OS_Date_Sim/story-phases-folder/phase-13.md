@@ -10,15 +10,15 @@ Encontrando uma bolsa parecida com o conceito que o tablet havia mostrado.
 
 Você chega até ele mostrando a bolsa.
 
-"Achei! Aqui olha, exatamente igual"
+"Achei! Aqui olha, exatamente igual."
 
 computer "Que bom!"
 
 "Eu decido como vai ser o tamanho de toda as partições agora?"
 
-computer "Não, isso é algo que um particionamento fixo faria"
+computer "Não, isso é algo que um particionamento fixo faria."
 
-"Sim, mas seria durante as atividades do Sistema Operacional para mim"
+"Sim, mas seria durante as atividades do Sistema Operacional para mim."
 
 1 - Ou seja, quando eu tiver os itens em mãos e eu precisar guardá-los. # vdd
 
@@ -28,28 +28,28 @@ computer "Não, isso é algo que um particionamento fixo faria"
 
 Caso 1:
 
-computer "Exatamente, conforme você tem programas a sua disposição"
+computer "Exatamente, conforme você tem programas a sua disposição."
 
-computer "Você adiciona partições para cada programa"
+computer "Você adiciona partições para cada programa."
 
 Caso 2:
 
-computer "Não... Isso é particionamento fixo"
+computer "Não... Isso é particionamento fixo."
 
-computer "Agora seria o início das atividades do sistema operacional"
+computer "Agora seria o início das atividades do sistema operacional."
 
-"Ah, sim, eu basicamente acabei de iniciar o processo de gerência da memória"
+"Ah, sim, eu basicamente acabei de iniciar o processo de gerência da memória."
 
 Caso 3:
 
-computer "Recapitulando, se os itens forem como programas"
+computer "Recapitulando, se os itens forem como programas."
 
-computer "A bolsa a memória RAM, cada compartimento uma partição variável"
+computer "A bolsa a memória RAM, cada compartimento uma partição variável."
 
 computer "Colocar os programas na memória RAM é como colocar itens na bolsa separados por compartimento, certo?"
 
-computer "Mas para isso você tem que ter os compartimentos montados"
+computer "Mas para isso você tem que ter os compartimentos montados."
 
 computer "Você tem que fazer isso em algum momento, quando?"
 
-"Ah faz sentido"
+"Ah faz sentido."

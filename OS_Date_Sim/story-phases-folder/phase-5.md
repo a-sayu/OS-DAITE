@@ -22,7 +22,7 @@ computer "Então... Quando você precisa se alimentar?"
 
 1- "Está muito perigoso, eu deveria colocar toda minha atenção para isso..." // FDP
 
-2- "É importante estar atento... Mas descansar também, eu posso sempre procurar abrigos" //VDD
+2- "É importante estar atento... Mas descansar também, eu posso sempre procurar abrigos." //VDD
 
 "Então... Quando você precisa buscar sua irmã?"
 

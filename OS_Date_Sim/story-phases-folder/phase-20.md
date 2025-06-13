@@ -40,13 +40,13 @@ Jorge tira a chave do bolso e destranca o carro.
 
 jorge "Você sabe dirigir?"
 
-"Eu tenho carteira de motorista, mas não cheguei a dirigir depois de tirar"
+"Eu tenho carteira de motorista, mas não cheguei a dirigir depois de tirar."
 
-jorge "Bem, eu não consigo dirigir por todas as 7 horas até a capital"
+jorge "Bem, eu não consigo dirigir por todas as 7 horas até a capital."
 
 computer "Eu tenho uma ideia!"
 
-jorge "Diga"
+jorge "Diga."
 
 "Qual?"
 
@@ -56,7 +56,7 @@ computer "Porque vocês não compartilham os recursos?"
 
 jorge "Bem, era o que eu estava pensando, mas como a gente vai compartilhar o volante?"
 
-"Podemos usar um meio de comunicar que precisamos trocar"
+"Podemos usar um meio de comunicar que precisamos trocar."
 
 1- Como um semáforo, em que o volante vai estar ocupado ou desocupado, e há um local para parar ou não, para sinalizar a troca.
 2- Você pode só dirigir até se cansar, ai a gente troca.

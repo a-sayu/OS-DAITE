@@ -8,25 +8,25 @@ computer "Agora... Qual tipo de bolsa você vai pegar?"
 
 computer "Precisa sim!"
 
-computer "Por exemplo, a bolsa que eu te mostrei com compartimentos"
+computer "Por exemplo, a bolsa que eu te mostrei com compartimentos."
 
-computer "Ela pode ter partições de tamanhos fixos"
+computer "Ela pode ter partições de tamanhos fixos."
 
 Uma bolsa com três compartimentos aparece na tela do tablet.
 
-computer "Ela pode ter partições de tamanho variável"
+computer "Ela pode ter partições de tamanho variável."
 
 Uma bolsa com três compartimentos deslocáveis aparece na tela do tablet.
 
-computer "Qual você escolhe? Se quiser posso trazer os prós e os contras"
+computer "Qual você escolhe? Se quiser posso trazer os prós e os contras."
 
 "Hmm, mas realmente é importante?"
 
-computer "Claro! Programas, no caso itens, possuem tamanhos diferentes"
+computer "Claro! Programas, no caso itens, possuem tamanhos diferentes."
 
-computer "Se for fixo, você vai ter fragmentação interna, se for variável você vai ter fragmentação externa"
+computer "Se for fixo, você vai ter fragmentação interna, se for variável você vai ter fragmentação externa."
 
-"Ta, você novamente está falando muitos termos de computação"
+"Ta, você novamente está falando muitos termos de computação."
 
 "Com fragmentação interna você está querendo dizer que..."
 
@@ -38,7 +38,7 @@ Caso 1:
 
 computer "Exatamente!"
 
-"Bem isso é ruim, particionamentos fixos não são o ideal"
+"Bem isso é ruim, particionamentos fixos não são o ideal."
 
 "Iria sobrar muito espaço a não ser que eu queira manter tudo uma bagunça, o que não é ideal..."
 
@@ -50,20 +50,20 @@ computer "Exatamente!"
 
 Caso 1.1:
 
-computer "Não foi esse que você falou que não daria certo"
+computer "Não foi esse que você falou que não daria certo."
 
-"Verdade, foi mal"
+"Verdade, foi mal."
 
 Caso 1.2:
 
-computer "Agora podemos ir buscar a bolsa"
+computer "Agora podemos ir buscar a bolsa."
 
 Caso 2:
 
-computer "Essa é a descrição de uma fragmentação externa"
+computer "Essa é a descrição de uma fragmentação externa."
 
 "Verdade, esse é o problema da partição variável..."
 
-"Mas nesse caso é fácil de lidar, o meu funcionamento pode ser similar a de um sistema operacional"
+"Mas nesse caso é fácil de lidar, o meu funcionamento pode ser similar a de um sistema operacional."
 
-"Mas diferente dele eu posso mudar a posição das partições quando eu quiser"
+"Mas diferente dele eu posso mudar a posição das partições quando eu quiser."

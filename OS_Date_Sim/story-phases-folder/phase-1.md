@@ -8,7 +8,7 @@ Você se depara com o escritório de mesas empilhadas ao fundo, mas com uma mesa
 
 Colocando sua mochila sobre a mesa, você se senta em frente ao computador, para afastar a fome você começa a pensar sobre esse computador.
 
-"Eu deveria tentar ligar esse computador, apesar de o mundo ter acabado, a energia e a internet ainda não acabou"
+"Eu deveria tentar ligar esse computador, apesar de o mundo ter acabado, a energia e a internet ainda não acabou."
 
 Apertando o botão de ligar o computador, você apoia sua mão na mesa, vendo as leds ligarem, e ficar na tela de carregamento.
 

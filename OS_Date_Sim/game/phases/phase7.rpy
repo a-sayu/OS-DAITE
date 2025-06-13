@@ -6,10 +6,10 @@ label phase_7:
 
     computer "Se você sincronizar meus dados com o tablet, eu irei contigo!"
 
-    player "Okay, mas onde eu vou encontrar um tablet aqui"
+    player "Okay, mas onde eu vou encontrar um tablet aqui."
 
     computer "Eu não tenho certeza da localidade, mas estamos nas proximidades
-    de um escritório da DAITE"
+    de um escritório da DAITE."
 
     player "Sim, acredito que estamos nesse escritório..."
 
@@ -20,7 +20,7 @@ label phase_7:
 
     player "Não pode ter sido você mesmo?"
 
-    computer "Eu considerei isso antes de repassar a informação [player] bobinho"
+    computer "Eu considerei isso antes de repassar a informação [player] bobinho."
 
     "A máquina exibia uma animação de risada."
 
@@ -29,7 +29,7 @@ label phase_7:
     computer "Talvez quem trabalhava nesse escritório pode ter deixado pistas
     de onde está?"
 
-    player "Provável"
+    player "Provável."
 
     computer "Vou deixar contigo a busca enquanto faço uma limpeza para o novo
     dispositivo."
@@ -43,25 +43,25 @@ label phase_7:
 
         player "Olhando bem, esse lugar é bem empoirado né?"
 
-        "Janela":
+        "Janela.":
             "Você vai até a janela."
 
             #TODO: Troca a cena para uma visão melhor do cenário através da janela
 
-            player "Ah ali fica a minha universidade"
+            player "Ah ali fica a minha universidade."
             "Você toca o vidro da janela posicionando seu indicador sobre uma área verde."
             player "É uma bela vista..."
             player "Era... Antes do apocalipse..."
             "Você divaga um pouco, mas volta ao foco da busca."
             jump p7_menu_1
             
-        "Armário":
+        "Armário.":
             jump p7_search_closet
 
-        "Mesa de Escritório":
+        "Mesa de Escritório.":
             jump p7_computer_desk
 
-        "Mesas Velhas Empilhadas":
+        "Mesas Velhas Empilhadas.":
             "Você se vira para o fundo dessa sala de escritório, onde várias mesas estavam empilhadas."
             thoughts "Não parece ter nada por aqui além de poeira."
             "Você se senta um pouco sobre o sofá que tinha ido dormir na primeira noite aqui."
@@ -81,19 +81,19 @@ label p7_found_notebook:
         "Encontrar esse tablet está sendo trabalhoso, que nem encontrar as minhas chaves
         quando eu saía de casa..."
 
-        "Janela":
+        "Janela.":
             "Você vai até a janela."
             
             # TODO: Troca a cena para uma visão melhor do cenário através da janela
             
-            player "Eu gostava daquela sorveteria"
+            player "Eu gostava daquela sorveteria."
             "Você toca o vidro da janela posicionando seu indicador sobre um loja azul mais ao centro da cidade perto de uma praça."
             player "Realmente, é uma bela vista..."
             player "Mesmo depois do apocalipse..."
             "Você divaga um pouco, mas volta ao foco da busca."
             jump p7_menu_2
 
-        "Armário":    
+        "Armário.":    
             if not seen_safe:
                 jump p7_search_closet
             
@@ -103,9 +103,9 @@ label p7_found_notebook:
 
             jump p7_goto_safe
 
-        "Mesas Velhas Empilhadas":
+        "Mesas Velhas Empilhadas.":
             "Você se vira para o fundo dessa sala de escritório, onde várias mesas estavam empilhadas."
-            thoughts "É... Só há poeira"
+            thoughts "É... Só há poeira."
             "Você se senta sobre o sofá e sente a dureza dele."
             "A dureza do sofá te incomoda como sempre, e você se levanta."
             jump p7_menu_2
@@ -117,7 +117,7 @@ label p7_search_closet:
         
     #TODO: Troca a cena para uma visão melhor do armário
         
-    player "Deve ter algo aqui, provavelmente deve estar aqui"
+    player "Deve ter algo aqui, provavelmente deve estar aqui."
 
     menu p7_open_closet:
         
@@ -125,7 +125,7 @@ label p7_search_closet:
 
         "Tentar de Novo?":
             "Você força um pouco, e consegue abrir porta por porta."
-            player "Aqui tem Documentos"
+            player "Aqui tem Documentos."
             player "Mais Documentos..."
             player "Caramba... Só Documentos?"
             player "Uh, um cofre?"
@@ -156,11 +156,11 @@ label p7_computer_desk:
             
     if seen_safe:
         player "Talvez"
-        computer "Ainda falta muito pra compactar todos os arquivos infelizmente"
+        computer "Ainda falta muito pra compactar todos os arquivos infelizmente."
     else:
         player "Não ainda..."
             
-    computer "Bem, boa sorte, pode levar seu tempo"
+    computer "Bem, boa sorte, pode levar seu tempo."
             
     menu search_desk:
         
@@ -186,9 +186,9 @@ label p7_computer_desk:
             $ have_notebook = True
                     
             if seen_safe:
-                thoughts "Provavelmente a senha do cofre está aqui"
+                thoughts "Provavelmente a senha do cofre está aqui."
             else:
-                thoughts "Talvez o tablet esteja bloqueado? De qualquer forma pode ser útil"
+                thoughts "Talvez o tablet esteja bloqueado? De qualquer forma pode ser útil."
 
             "Você se levanta com o caderninho vermelho."
             jump p7_found_notebook
@@ -200,24 +200,24 @@ label p7_goto_safe:
     # TODO: Troca para cena do cofre.
                 
     thoughts "O tablet deve estar nesse cofre, ou ele pode ser totalmente não relacionado..."
-    thoughts "O primeiro é mais provável"
+    thoughts "O primeiro é mais provável."
     "Você abre o caderninho vermelho, e folheia ele, procurando a charada que combinava com o questionamento do bilhete."
 
     menu p7_open_safe:
     
         thoughts "Abrir um cofre é um processo... Abrir um cofre é um processo... Abrir um cofre é um processo... Qual a frase que melhor combina?"
 
-        "Programas são um conjunto de instruções, se a instrução é um loop 'n0v0 numer0' uma hora o programa vai resultar em '&4B3RT0!'":
+        "Programas são um conjunto de instruções, se a instrução é um loop 'n0v0 numer0' uma hora o programa vai resultar em '4b3rt0!'":
             player "Talvez?"
             thoughts "Não... Processos são mais que programas, eles incluem dados de entrada e os estados do processo..."
             jump p7_open_safe
 
-        "Processos são os dados de entrada, que precisam ser inseridos no programa do cofre, enquanto você lê o caderno, o programa espera em um estado 'Bl0que4d0', e quando você insere a '$3NH4' ele sai do estado bloqueado e entra em '3xecuçã0' ficando 'p7onto' abrindo e 'conclu1ndo' o processo.":
+        "Processos são os dados de entrada, que precisam ser inseridos no programa do cofre, enquanto você lê o caderno, o programa espera em um estado 'bl0que4do', e quando você insere a 's3nh4' ele sai do estado bloqueado e entra em '3xecuçã0' ficando 'p7onto' abrindo e 'conclu1ndo' o processo.":
             "Aparece um texto escrito: Esperando..."
 
             $ password = renpy.input(prompt="Digite a senha: ", length=10);
 
-            if not (password == "040$343071"):
+            if not (password == "04343071"):
                 "Aparece um texto escrito: Senha Errada!"
 
                 $ wrong_input = wrong_input + 1
@@ -230,7 +230,7 @@ label p7_goto_safe:
             player "Boa!" 
             jump p7_end
 
-        "Faz cerca de 'd01$' dias que estou tendo que lidar com um processo jurídico, a empresa parece ter vendido algum dado na '1nt&7n3t' e eu sou o bode espiatório.":
+        "Faz cerca de 'd01s' dias que estou tendo que lidar com um processo jurídico, a empresa parece ter vendido algum dado na '1nt3rn3t' e eu sou o bode espiatório.":
             player "Não é isso... Isso nem haver com cofre tem..."
             thoughts "Além de que estamos falando de um processo do sistema operacional..."
             jump p7_open_safe
