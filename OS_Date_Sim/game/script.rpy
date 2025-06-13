@@ -35,16 +35,19 @@ image male = "male.png"
 
 # Backgrounds
 image bg-blackScreen = "#000"
+image bg-whiteScreen = "#FFF"
 image bg-desolatedCity = "desolatedCity.png"
 image bg-computerRoom-day-off = "computerRoom_day_off.png"
 image bg-computerRoom-day-on = "computerRoom_day_on.png"
 image bg-computerRoom-night-off = "computerRoom_night_off.png"
 image bg-computerRoom-night-on = "computerRoom_night_on.png"
-image bg-keyEnterSpace = "keyEnterSpace.png"
-image bg-keyEsc = "keyEsc.png"
 image bg-cloudy = "cloudy.png"
 image bg-computerScreen-fail = "computerScreen_fail.png"
 
+image bg-keyEnterSpace = "keyEnterSpace.png"
+image bg-keyEsc = "keyEsc.png"
+image bg-mouseRoll = "mouseRoll.png"
+image bg-keyShiftA = "keyShiftA.png"
 image bg-mouseClick = Movie(play="images/mouseClick.ogv", size=(1920, 1080))
 
 # Adjusting images
@@ -108,8 +111,14 @@ label tutorial:
     "Ou aperte ESPAÇO/ENTER no teclado."
 
     scene bg-keyEsc
-    "Para acessar o menu de configurações aperte ESC no teclado
-    Ou no botão abaixo."
+    "Para acessar o menu de configurações aperte ESC no teclado ou
+    no botão Preferências abaixo."
+
+    "É possível alterar configurações, mas também permite acessar o
+    menu principal ou as suas jogatinas salvas na aba Salvos."
+
+    scene bg-whiteScreen
+    "Para salvar, aperte o botão Salvar abaixo."
 
     scene bg-mouseRoll
     "Rolar o botão do meio do mouse avança ou volta na conversa,
@@ -118,6 +127,9 @@ label tutorial:
     scene bg-keyShiftA
     "Caso precise de assistência, o Ren'Py possui um menu de
     acessibilidade apertanto o SHIFT + A."
+
+    scene bg-whiteScreen
+    "Agora, uma ótima jogatina para você!"
 
 
 # Character creation 
@@ -185,3 +197,5 @@ label intro:
     call phase_16
     call phase_17
     call phase_18
+    call phase_19
+    call phase_34
