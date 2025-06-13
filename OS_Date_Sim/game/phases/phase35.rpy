@@ -7,6 +7,8 @@ label phase_35:
     "Se você está vendo esta tela, é porque o jogo ainda não foi terminado..."
 
     "Nos desculpem pelo inconveniente!"
+
+    "Total de fases jogáveis: 20 de 34 fases. Ultima questão feita: 29."
     
     jump p35_end
 
