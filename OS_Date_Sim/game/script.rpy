@@ -43,6 +43,9 @@ image bg-computerRoom-night-off = "computerRoom_night_off.png"
 image bg-computerRoom-night-on = "computerRoom_night_on.png"
 image bg-cloudy = "cloudy.png"
 image bg-computerScreen-fail = "computerScreen_fail.png"
+image bg-supermarketFront = "storefront.png"
+image bg-supermarketFoodSection = "storefoodsection.png"
+image bg-supermarketClothSection = "storeclothsection.png"
 
 image bg-keyEnterSpace = "keyEnterSpace.png"
 image bg-keyEsc = "keyEsc.png"
@@ -178,24 +181,23 @@ label intro:
     caminhava discretamente até o prédio que fica sua atual 'casa', retirando suas chaves
     do bolso, você destranca a porta."
 
-    call phase_1 from _call_phase_1
-    call phase_2 from _call_phase_2
-    call phase_3 from _call_phase_3
-    call phase_4 from _call_phase_4
-    call phase_5 from _call_phase_5
-    call phase_6 from _call_phase_6
-    call phase_7 from _call_phase_7
-    call phase_8 from _call_phase_8
-    call phase_9 from _call_phase_9
-    call phase_10 from _call_phase_10
-    call phase_11 from _call_phase_11
-    call phase_12 from _call_phase_12
-    call phase_13 from _call_phase_13
-    call phase_14 from _call_phase_14
-    call phase_14 from _call_phase_14_1
-    call phase_15 from _call_phase_15
-    call phase_16 from _call_phase_16
-    call phase_17 from _call_phase_17
-    call phase_18 from _call_phase_18
-    call phase_19 from _call_phase_19
-    call phase_34 from _call_phase_34
+    call phase_1 
+    call phase_2 
+    call phase_3 
+    call phase_4
+    call phase_5
+    call phase_6
+    call phase_7
+    call phase_8
+    call phase_9
+    call phase_10
+    call phase_11
+    call phase_12
+    call phase_13
+    call phase_14
+    call phase_15
+    call phase_16
+    call phase_17
+    call phase_18
+    call phase_19
+    call phase_35 

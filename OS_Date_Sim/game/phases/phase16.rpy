@@ -10,6 +10,8 @@ label phase_16:
 
     player "Esse é [computerName]"
 
+    computer ":D"
+
     jorge "Hmm...? Isso é um tablet com um fundo animado nâo?"
 
     player "Não, esse é o [computerName], ele é um tablet com o sistema DAITE."

@@ -97,6 +97,6 @@ jorge "O que bulhufas é um mutex?"
 
 "Basicamente, enquanto um recurso do sistema está sendo utilizado por um processo, o mutex impede que outros processos tentem utilizar o recurso."
 
-"De maneira similar, uma placa de pare sinaliza que carros devem parar caso outros carros estejam se aproximando do cruzamento"
+"De maneira similar, uma placa de pare sinaliza que carros devem parar caso outros carros estejam se aproximando do cruzamento."
 
 "Assim, quando um de nós perceber que está cansado, a gente fala que a barra está livre, para o carro e nós trocamos de lugar."

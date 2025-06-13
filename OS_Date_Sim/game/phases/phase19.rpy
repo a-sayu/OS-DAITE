@@ -62,6 +62,7 @@ label phase_19:
             player "Eu estava precisando de um bloco de notas ou um diário pra anotar as coisas que eu preciso fazer."
             jorge "Bem um diário armazena o seu dia, e um bloco de notas o que você precisa fazer..."
             player "É realmente, acho que eu consigo pensar em uma resposta."
+            jump p19_menu
 
 label p19_end:
     return

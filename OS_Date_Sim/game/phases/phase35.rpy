@@ -1,14 +1,14 @@
 label phase_35:
     
-    scene bg-whiteScreen
+    scene bg-cloudy
 
     "Oi!"
 
-    "Se você está vendo esta tela, é porque o jogo ainda não foi terminado..."
+    "Se você está vendo esta tela, é porque o jogo ainda não foi terminado... Ou você perdeu..."
 
     "Nos desculpem pelo inconveniente!"
 
-    "Total de fases jogáveis: 19 de 34 fases. Ultima questão feita: 28."
+    "Total de fases jogáveis: 20 de 34 fases. Ultima questão feita: 29."
     
     jump p35_end
 

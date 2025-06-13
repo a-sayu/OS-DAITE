@@ -54,8 +54,6 @@ label phase_9:
 
     "Até estar em um local com um cheiro um tanto putrido."
 
-    scene bg-supermarketFruitSection
-
     "Cobrindo suas narinas, você olha para a seção ao lado, de comidas com uma data de válidade longa."
 
     scene bg-supermarketFoodSection

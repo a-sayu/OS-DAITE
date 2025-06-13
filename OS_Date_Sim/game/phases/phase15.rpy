@@ -40,6 +40,10 @@ label phase_15:
 
     "Você alcança a saída ofegante e olha para trás. Você vê uma pessoa batendo com um cano de metal no robô, que está caído no chão."
 
+    scene bg-desolatedCity
+
+    jorge "..."
+
     "A pessoa olha para você, e você se esconde atrás de um carro por perto."
 
     jorge "Ei! Eu vi você, não sou inimigo!"
