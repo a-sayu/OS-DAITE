@@ -8,7 +8,7 @@ label phase_35:
 
     "Nos desculpem pelo inconveniente!"
 
-    "Total de fases jogáveis: 20 de 34 fases. Ultima questão feita: 29."
+    "Total de fases jogáveis: 19 de 34 fases. Ultima questão feita: 28."
     
     jump p35_end
 
