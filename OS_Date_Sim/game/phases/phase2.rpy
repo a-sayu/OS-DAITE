@@ -47,7 +47,7 @@ label phase_2:
     Intelligence Technologies Enterprise, como um computador de auxílio adoraria que me 
     desse um nome para sermos mais amigos!"
 
-    call p2_computer_naming
+    call p2_computer_naming from _call_p2_computer_naming
 
     "Você clica no botão que confirma a sua escolha. Logo depois ele pede o seu nome, 
     digitando \'[playerName]\' na caixa de entrada de texto."

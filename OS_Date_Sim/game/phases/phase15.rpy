@@ -96,7 +96,7 @@ label phase_15:
             "Jorge agradece e acena, entrando no supermercado."
             "Você continua seu caminho, seguindo pela rodovia até a capital a sós, apenas com o tablet."
             "Quando você para para comer, você acaba sendo atacado por um grupo de robôs."
-            call phase_35
+            call phase_35 from _call_phase_35
             jump p15_menu
 
         "Se você aceitar ser responsável por toda a segurança e deixar a gerência de toda a sua comida comigo, eu ajudo.":            
@@ -107,7 +107,7 @@ label phase_15:
             "Jorge agradece e acena, entrando no supermercado."
             "Você continua seu caminho, seguindo pela rodovia até a capital a sós, apenas com o tablet."
             "Quando você para para comer, você acaba sendo atacado por um grupo de robôs."
-            call phase_35
+            call phase_35 from _call_phase_35_1
             jump p15_menu
 
         "Se você aceitar dividir a segurança e a comida igualmente, a gente reveza e tudo mais e qualquer coisa a gente cuida um do outro, eu ajudo.":
